@@ -5,6 +5,8 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  color:cadetblue;
+  background-color: azure;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,10 +22,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: rgb(23,100,23);
 }
 
 .App-link {
-  color: rgb(112, 76, 182);
+  color: rgb(63, 159, 172);
 }
 
 @keyframes App-logo-float {
