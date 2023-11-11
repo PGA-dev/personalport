@@ -45,7 +45,7 @@ const NavHeader = () => {
                     <animated.div style={animatedStyle2}>
                         <NavItem>
                             <NavLink className='nav-link' to='/' >
-                                <i className='fa fa-h-square fa-lg' /><span>Home</span>
+                                <i/><span>Home</span>
                             </NavLink>
                         </NavItem>
                     </animated.div>
@@ -68,30 +68,30 @@ const NavHeader = () => {
                     <animated.div style={animatedStyle2}>
                         <NavItem>
                             <NavLink className='nav-link' to='/guideaboutpage'>
-                                <i className='fa fa-gear fa-sm' /> <span>About the Guide</span>
+                                <i /> <span></span>
                             </NavLink>
                         </NavItem>
                     </animated.div>
                     <animated.div style={animatedStyle}>
                         <NavItem>
                             <NavLink className='nav-link' to='/about'>
-                                <i className='fa fa-gg fa-lg' /> <span>Your Guide</span>
+                                <i /> <span>History</span>
                             </NavLink>
                         </NavItem>
                     </animated.div>
                     <animated.div style={animatedStyle2}>
                         <NavItem>
                             <NavLink className='nav-link' to='/contact'>
-                                <i className='fa fa-thumbs-up fa-lg' /> <span>Contact</span>
+                                <i /> <span>Contact</span>
                             </NavLink>
                         </NavItem>
                     </animated.div>
                     <animated.div style={animatedStyle}>
                         <UncontrolledDropdown nav inNavbar >
                             <DropdownToggle nav caret>
-                                <div className='fa fa-cogs fa-sm '><span>Site</span></div>
+                                <div><span>Site</span></div>
                             </DropdownToggle>
-                            <DropdownMenu dark='true' style={{backgroundColor: '#111115'}}>
+                            <DropdownMenu dark="true">
                                 <DropdownItem href='/guidesitemap'>Site Map</DropdownItem>
                                 <DropdownItem   href='/guidesiteref'>Site References</DropdownItem>
                             </DropdownMenu>
