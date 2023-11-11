@@ -15,9 +15,9 @@
   --fw--bright: 700;
   --fw--bright-wow: 900;
 
-  --fs--heading: 65px;
-  --fs--subhead: 45px;
-  --fs--pagehead: 40px;
+  --fs-heading: 65px;
+  --fs-subhead: 45px;
+  --fs-pagehead: 40px;
 
 
 }
@@ -54,11 +54,27 @@
   color: rgb(63, 159, 172);
 }
 
-.headstyle, h1 {
-  z-index: 5;
-  background-color: rgb(27, 95, 184);
-  color: aqua;
-  font-Family: var(--font-main)
+.headstyle {
+  color: var(--clr-4);
+  padding: 8px;
+  font-size: var(--fs-heading);
+  font-family: var(--font-main)
+}
+
+.site-footer {
+  background-image: radial-gradient(var(--clr-1), var(--clr-2));
+  padding: 20px 0;
+  margin-top: var(--clr-1) 4rem;
+  border-top: var(--clr-4) solid;
+  font-family: var(--font-main);
+}
+
+.site-header {
+  background-image: radial-gradient(var(--clr-1), var(--clr-2));
+  padding: 20px 0;
+  margin-top: var(--clr-1) 4rem;
+  border-top: var(--clr-4) solid;
+  font-family: var(--font-main);
 }
 
 @keyframes App-logo-float {
