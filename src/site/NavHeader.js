@@ -52,7 +52,7 @@ const NavHeader = () => {
                     <animated.div style={animatedStyle}>
                         <UncontrolledDropdown nav inNavbar >
                             <DropdownToggle nav caret>
-                                <div  className='fa fa-cogs fa-sm '><span>Guide Directory</span></div>
+                                <div><span>Guide Directory</span></div>
                             </DropdownToggle>
                             <DropdownMenu dark='true' style={{backgroundColor: '#111115'}}>
                                 <DropdownItem href='/guidedirectory/0'>Guitar Body</DropdownItem>

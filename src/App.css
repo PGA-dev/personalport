@@ -1,3 +1,27 @@
+:root {
+--clr-1: aqua;
+  --clr-2: magenta;
+  --clr-3: #a424ff;
+  --clr-4: #cffbff;
+  --clr-5: slateblue;
+  --clr-6: aqua;
+
+
+  --font-main: Georgia;
+  --font-sec: papyrus;
+
+  --fw-norm: 300;
+  --fw--normbr: 500;
+  --fw--bright: 700;
+  --fw--bright-wow: 900;
+
+  --fs--heading: 65px;
+  --fs--subhead: 45px;
+  --fs--pagehead: 40px;
+
+
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +56,9 @@
 
 .headstyle, h1 {
   z-index: 5;
-  background-color: rgb(46, 26, 1);
+  background-color: rgb(27, 95, 184);
+  color: aqua;
+  font-Family: var(--font-main)
 }
 
 @keyframes App-logo-float {
@@ -45,5 +71,66 @@
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+/* Used in SubHead */
+h3 {
+  padding: 2px;
+  font-family: var(--font-sec);
+  font-size: var(--fs--subhead);
+  color: var(--clr-1);
+  font-weight: var(--fw--bright)
+}
+
+
+h3:hover {
+  color: var(--clr-4)
+}
+
+h3::before {
+  background: var(--clr-5);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 950ms ease-in-out;
+  z-index: -1;
+
+}
+
+h3:hover::before {
+  transform: scaley(1);
+  animation: colorback 7500ms infinite;
+}
+
+@keyframes colorback {
+  0% {
+      background-color: var(--clr-2);
+  }
+
+  10% {
+      background-color: var(--clr-3);
+  }
+
+  25% {
+      background-color: var(--clr-1);
+  }
+
+  50% {
+      background-color: var(--clr-5);
+  }
+
+  75% {
+      background-color: var(--clr-1);
+  }
+
+  90% {
+      background-color: var(--clr-3);
+  }
+
+  100% {
+      background-color: var(--clr-2);
   }
 }
