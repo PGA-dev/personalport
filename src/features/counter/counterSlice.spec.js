@@ -4,6 +4,9 @@ import counterReducer, {
   incrementByAmount,
 } from './counterSlice';
 
+
+//test cases
+
 describe('counter reducer', () => {
   const initialState = {
     value: 3,
