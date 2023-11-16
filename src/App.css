@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
   color:cadetblue;
@@ -39,9 +39,9 @@
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,9 @@
 
 .App-link {
   color: rgb(63, 159, 172);
-}
+} */
+
+
 
 .headstyle {
   color: var(--clr-7);

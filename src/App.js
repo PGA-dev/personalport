@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+//import { Routes, Route } from 'react-router-dom';
 import Header from './site/Header';
 import { Counter } from './features/counter/Counter';
 import './App.css';
@@ -7,9 +7,7 @@ import Footer from './site/Footer';
 
 function App() {
   return (
-    <div className="App">
-    
-        
+    <div className="App">  
 
         <Header />
 

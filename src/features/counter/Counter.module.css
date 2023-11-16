@@ -28,10 +28,11 @@
   padding-right: 12px;
   outline: none;
   border: 2px solid transparent;
-  color: rgb(112, 76, 182);
+  border-radius: 15px;
+  color: var(--clr-4);
   padding-bottom: 4px;
   cursor: pointer;
-  background-color: rgba(112, 76, 182, 0.1);
+  background-color: rgba(42, 154, 105, 0.1);
   border-radius: 2px;
   transition: all 0.15s;
 }
