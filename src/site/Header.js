@@ -15,7 +15,7 @@ import { NavLink } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
 
 
-const NavHeader = () => {
+const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [toggle, setToggle] = useState(false);
 
@@ -104,4 +104,4 @@ const NavHeader = () => {
 };
 
 
-export default NavHeader;
+export default Header;
