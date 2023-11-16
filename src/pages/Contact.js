@@ -16,7 +16,7 @@ const Contact = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-
+//must re-write css in module that doesn't use bs or reactstrap inline
     return (
 
         <Row className='text-left site-header'>
@@ -25,6 +25,7 @@ const Contact = () => {
             
             </Col>
             <Col >
+            
                 <animated.div style={animatedStyle}>
                     <h1 m='12' id='title' className='headstyle' >Contact for now</h1>
                 </animated.div>

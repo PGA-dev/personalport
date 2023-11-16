@@ -11,19 +11,7 @@
     font-family: var(--font-main);
   }
   
-  
-  @keyframes App-logo-float {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(100px);
-  
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
+
   
   /* Used in SubHead */
   .footer>h3 {
