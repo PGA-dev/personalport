@@ -2,8 +2,8 @@
 
   .footer {
     background-image: radial-gradient(var(--clr-2), var(--clr-6));
-    padding: 20px 0;
-    height: 20vmax;
+    padding: 2px 0;
+    height: 15vmax;
     width: auto;
     text-align: center;
     margin-top: var(--clr-1) 4rem;

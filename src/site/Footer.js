@@ -2,6 +2,7 @@ import { Row, Col } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Footer.module.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -21,10 +22,9 @@ const Footer = () => {
             <Row>
                 <Col >
                     <animated.div style={animatedStyle}>
-                        <h1 m='12' id='title'>PGA is king</h1>
-                    </animated.div>
-                    <animated.div style={animatedStyle}>
-                        <h3 ><i>Spring example for now</i></h3>
+                        <h1 >Links</h1>
+                        <h3 ><Link to='/'><i>Go Home</i></Link></h3>
+                        <h3 ><Link to='/Contact'><i>Go to Contacts</i></Link></h3>
                     </animated.div>
                 </Col>
             </Row>
