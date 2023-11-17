@@ -6,6 +6,7 @@ import Footer from './site/Footer';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import History from './pages/History';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Projects' element={<Projects />} />
-
+        <Route path='/History' element={<History />} />
       </Routes>
 
       <Footer />

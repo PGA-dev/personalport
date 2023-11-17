@@ -29,6 +29,7 @@ const Footer = () => {
                             <h5 ><Link to='/'><i>Go Home</i></Link></h5>
                             <h5 ><Link to='/Contact'><i>Go to Contacts</i></Link></h5>
                             <h5><Link to='/Projects'><i>Go to Projects</i></Link></h5>
+                            <h5><Link to='/History'><i>Go to History</i></Link></h5>
                         </animated.div>
                     </Col>
                     <Col>

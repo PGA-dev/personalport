@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/profile.png';
+import styles from './Contact.module.css'
 
 const Contact = () => {
 
@@ -19,7 +20,7 @@ const Contact = () => {
 //must re-write css in module that doesn't use bs or reactstrap inline
     return (
 
-        <Row className='text-left site-header'>
+        <Row className={styles.row}>
 
             <Col>
             

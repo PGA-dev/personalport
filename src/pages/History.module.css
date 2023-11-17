@@ -1,7 +1,7 @@
-/* Projects CSS */
+/* History CSS */
 
 .row {
-    background-image: radial-gradient(var(--clr-7), var(--clr-5));
+    background-image: radial-gradient(var(--clr-2), var(--clr-5));
     display: grid;
     width: 100%;
     align-items: center;
