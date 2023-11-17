@@ -2,7 +2,7 @@
 
 
 .footer {
-  background-image: radial-gradient(var(--clr-1), var(--clr-5));
+  background-image: radial-gradient(var(--clr-3), var(--clr-5));
   /* background-image: url(../app/profile.png); */
   border: 5px solid var(--clr-1);
   padding: 25px;
@@ -18,4 +18,10 @@
 
 .profile {
   size: inherit;
+}
+
+.a {
+  font-size: 2em;
+  color: var(--clr-1);
+  font-family: papyrus;
 }

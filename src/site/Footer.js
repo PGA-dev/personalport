@@ -30,28 +30,29 @@ const Footer = () => {
                             <h5 ><Link to='/Contact'><i>Go to Contacts</i></Link></h5>
                             <h5><Link to='/Projects'><i>Go to Projects</i></Link></h5>
                             <h5><Link to='/History'><i>Go to History</i></Link></h5>
+                            <h5><Link to='/Resume'><i>Go to Resume</i></Link></h5>
                         </animated.div>
                     </Col>
                     <Col>
                         <animated.div style={animatedStyle}>
-                            <img src={profile} alt='profile' width="200"
+                            <img src={profile} alt='profile' width="300"
                                 height="auto" className='profile' />
                         </animated.div>
                     </Col>
                     <Col>
                         <animated.div style={animatedStyle}>
-                            <h1 >PGA Links</h1>
                         </animated.div>
                         <animated.div style={animatedStyle}>
                         <ul className='list-unstyled'>
                             <li >
-                                <a href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer">Author LI</a>
+                                <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer">Author LI</a>
                             </li>
                             <li>
-                                <a href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer">Author's YouTube</a>
+                                <a className={styles.a}  href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer">Author's YouTube</a>
                             </li>
                             <li>
                                 <a
+                                    className={styles.a} 
                                     role='button'
                                     href='mailto:paulgadam@gmail.com'
                                 >
