@@ -34,7 +34,9 @@ const Contact = () => {
                 </animated.div>
             </Col>
             <Col>
-            <img src={profile} alt='profile picture' className='profile'  />
+            <div>
+            <img src={profile} alt='profile' className='profile'  />
+            </div>
             </Col>
         </Row>
 

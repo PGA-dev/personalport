@@ -1,7 +1,7 @@
 import { Row, Col } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import styles from './Footer.module.css';
+// import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
 
 
@@ -18,7 +18,7 @@ const Footer = () => {
         setToggle(true);
     }, []);
     return (
-        <footer className={styles.footer}>
+        <footer >
             <Row>
                 <Col >
                     <animated.div style={animatedStyle}>

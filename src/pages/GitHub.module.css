@@ -1,4 +1,4 @@
-:root {
+Body {
     --clr-1: aqua;
     --clr-2: magenta;
     --clr-3: #a424ff;
@@ -24,7 +24,7 @@
   }
 
 
-.github {
+Body {
     background-color: var(--clr-2);
     color: var(--clr-4);
     display: grid;

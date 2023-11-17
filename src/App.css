@@ -27,73 +27,7 @@
   text-align: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  color:cadetblue;
-  background-color: azure;
-  z-index: 1;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-} */
-
-/* .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(121, 136, 121);
-}
-
-.App-link {
-  color: rgb(63, 159, 172);
-} */
-
-
-
-.headstyle {
-  color: var(--clr-7);
-  padding: 8px;
-  font-size: var(--fs-heading);
-  font-family: var(--font-main)
-}
-
-.site-footer {
-  background-image: radial-gradient(var(--clr-1), var(--clr-7));
-  padding: 20px 0;
-  height: 20vmax;
-  width: auto;
-  margin-top: var(--clr-1) 4rem;
-  border-top: grey 5px solid ridge;
-  font-family: var(--font-main);
-}
-
-.site-header {
-  background-image: radial-gradient(var(--clr-1), var(--clr-7));
-  padding: 20px 0;
-  margin-top: var(--clr-1) 4rem;
-  border-top: var(--clr-4) solid;
-  font-family: var(--font-main);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(100px);
-
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 
 /* Used in SubHead */
 h3 {
