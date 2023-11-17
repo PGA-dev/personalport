@@ -52,29 +52,28 @@ const Header = () => {
                     <animated.div style={animatedStyle}>
                         <UncontrolledDropdown nav inNavbar >
                             <DropdownToggle nav caret>
-                                <div><span>Guide Directory</span></div>
+                                <div><span>Navigation</span></div>
                             </DropdownToggle>
                             <DropdownMenu dark='true' style={{backgroundColor: '#111115'}}>
-                                <DropdownItem href='/guidedirectory/0'>Guitar Body</DropdownItem>
-                                <DropdownItem href='/guidedirectory/1'>Guitar Neck</DropdownItem>
-                                <DropdownItem href='/guidedirectory/2'>Guitar Brands</DropdownItem>
-                                <DropdownItem href='/guidedirectory/3'>Guitar Bridges</DropdownItem>
-                                <DropdownItem href='/guidedirectory/4'>Guitar Pickups</DropdownItem>
+                                <DropdownItem href='/contacts'>Contacts</DropdownItem>
+                                <DropdownItem href='/projects'>Projects</DropdownItem>
+                                <DropdownItem href='/history'>History</DropdownItem>
+                                <DropdownItem href='/resume'>Resume</DropdownItem>
                                 <DropdownItem divider />
-                                <DropdownItem href='/guidedirectory'>Guide Directory</DropdownItem>
+                                <DropdownItem href='/'>Home</DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </animated.div>
                     <animated.div style={animatedStyle2}>
                         <NavItem>
-                            <NavLink className='nav-link' to='/guideaboutpage'>
-                                <i /> <span></span>
+                            <NavLink className='nav-link' to='/'>
+                                <i /> <span>Home</span>
                             </NavLink>
                         </NavItem>
                     </animated.div>
                     <animated.div style={animatedStyle}>
                         <NavItem>
-                            <NavLink className='nav-link' to='/about'>
+                            <NavLink className='nav-link' to='/history'>
                                 <i /> <span>History</span>
                             </NavLink>
                         </NavItem>
@@ -92,8 +91,7 @@ const Header = () => {
                                 <div><span>Site</span></div>
                             </DropdownToggle>
                             <DropdownMenu dark="true">
-                                <DropdownItem href='/guidesitemap'>Site Map</DropdownItem>
-                                <DropdownItem   href='/guidesiteref'>Site References</DropdownItem>
+                                <DropdownItem href='/sitemap'>Site Map</DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </animated.div>

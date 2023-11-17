@@ -27,11 +27,11 @@ const Footer = () => {
                         </animated.div>
                         <animated.div style={animatedStyle}>
                             <h5 ><Link to='/'><i>Go Home</i></Link></h5>
-                            <h5 ><Link to='/Contact'><i>Go to Contacts</i></Link></h5>
-                            <h5><Link to='/Projects'><i>Go to Projects</i></Link></h5>
-                            <h5><Link to='/History'><i>Go to History</i></Link></h5>
-                            <h5><Link to='/Resume'><i>Go to Resume</i></Link></h5>
-                            <h5><Link to='/SiteMap'><i>Go to SiteMap</i></Link></h5>
+                            <h5 ><Link to='/contact'><i>Go to Contacts</i></Link></h5>
+                            <h5><Link to='/projects'><i>Go to Projects</i></Link></h5>
+                            <h5><Link to='/history'><i>Go to History</i></Link></h5>
+                            <h5><Link to='/resume'><i>Go to Resume</i></Link></h5>
+                            <h5><Link to='/sitemap'><i>Go to SiteMap</i></Link></h5>
                         </animated.div>
                     </Col>
                     <Col>
