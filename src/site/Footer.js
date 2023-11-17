@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
-
+import profile from '../app/profile.png';
 
 const Footer = () => {
     const [toggle, setToggle] = useState(false);
@@ -19,19 +19,32 @@ const Footer = () => {
     }, []);
     return (
         <footer className='site-footer'>
-            <Container className={styles.Footer}>
-            <Row>
-                <Col >
-                    <animated.div style={animatedStyle}>
-                        <h1 >Links</h1>
-
-                    </animated.div>
-                    <animated.div style={animatedStyle}>
-                        <h3 ><Link to='/'><i>Go Home</i></Link></h3>
-                        <h3 ><Link to='/Contact'><i>Go to Contacts</i></Link></h3>
-                    </animated.div>
-                </Col>
-            </Row>
+            <Container>
+                <Row className={styles.row}>
+                    <Col >
+                        <animated.div style={animatedStyle}>
+                            <h1 >Links</h1>
+                        </animated.div>
+                        <animated.div style={animatedStyle}>
+                            <h5 ><Link to='/'><i>Go Home</i></Link></h5>
+                            <h5 ><Link to='/Contact'><i>Go to Contacts</i></Link></h5>
+                        </animated.div>
+                    </Col>
+                    <Col>
+                        <animated.div style={animatedStyle}>
+                        <img src={profile} alt='profile' className='profile' />
+                        </animated.div>
+                    </Col>
+                    <Col>
+                        <animated.div style={animatedStyle}>
+                            <h1 >Links</h1>
+                        </animated.div>
+                        <animated.div style={animatedStyle}>
+                        <h5 ><Link to='/'><i>Go Home</i></Link></h5>
+                            <h5 ><Link to='/Contact'><i>Go to Contacts</i></Link></h5>
+                        </animated.div>
+                    </Col>
+                </Row>
             </Container>
         </footer>
 
