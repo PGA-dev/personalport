@@ -1,18 +1,18 @@
 /*Footer CSS Module*/
 
-  .header {
-    background-image: radial-gradient(var(--clr-2), var(--clr-6));
-    padding: 2px 0;
-    height: 15vmax;
-    position: auto;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    margin-top: var(--clr-1) 4rem;
-    border-top: grey 5px solid ridge;
-    font-family: var(--font-main);
+  .div {
+    background-image: radial-gradient(var(--clr-3), var(--clr-5));
+    /* background-image: url(../app/profile.png); */
+    border: 5px solid var(--clr-1);
+    padding: 25px;
+    background-repeat:repeat;
+    background-size: auto;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
 

@@ -9,11 +9,12 @@ import Projects from './pages/Projects';
 import History from './pages/History';
 import Resume from './pages/Resume';
 import SiteMap from './pages/SiteMap';
+import Header from './site/Header';
 
 function App() {
   return (
-    <div className="App">  
-
+    <div className="App"> 
+    <Header /> 
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/contact' element={<Contact />} />
