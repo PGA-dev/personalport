@@ -1,4 +1,5 @@
 import { Row, Col } from 'reactstrap';
+import styles from './GitHub.module.css';
 
 const GitHub = () => {
 
@@ -13,11 +14,11 @@ const GitHub = () => {
 
     </div> 
     
-    )
+    );
         
 
 
     
-}
+};
 
 export default GitHub;

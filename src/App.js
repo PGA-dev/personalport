@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './site/Footer';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
+import GitHub from './pages/GitHub';
 
 function App() {
   return (
@@ -13,9 +14,11 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/GitHub' element={<GitHub />} />
+
       </Routes>
 
-        <Footer />
+      <Footer />
     </div>
   );
 }

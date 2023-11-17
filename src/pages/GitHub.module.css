@@ -1,0 +1,42 @@
+:root {
+    --clr-1: aqua;
+    --clr-2: magenta;
+    --clr-3: #a424ff;
+    --clr-4: #cffbff;
+    --clr-5: slateblue;
+    --clr-6: aqua;
+    --clr-7: rgb(50, 50, 108);
+  
+  
+    --font-main: Georgia;
+    --font-sec: papyrus;
+  
+    --fw-norm: 300;
+    --fw--normbr: 500;
+    --fw--bright: 700;
+    --fw--bright-wow: 900;
+  
+    --fs-heading: 65px;
+    --fs-subhead: 45px;
+    --fs-pagehead: 40px;
+  
+  
+  }
+
+
+.github {
+    background-color: var(--clr-2);
+    color: var(--clr-4);
+    display: grid;
+    position: relative;
+    left: 0;
+    width: auto;
+    padding: 1em 2vw;
+    margin: 1em 2vw;
+}
+
+
+
+Body>:nth-child(even){
+    color:var(--clr-1)
+}
