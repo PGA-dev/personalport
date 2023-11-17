@@ -23,10 +23,10 @@ const HomePage = () => {
                 <Row className={styles.row}>
                     <Col >
                         <animated.div style={animatedStyle}>
-                            <h1>PGA</h1>
+                            <h1>Home</h1>
                         </animated.div>
                         <animated.div style={animatedStyle}>
-                            <h3 ><i>Full Stack Dev</i></h3>
+                            <h3 ><i>HomeWard Bound</i></h3>
                         </animated.div>
                     </Col>
                     <Col>
