@@ -1,91 +1,15 @@
 /*Homepage CSS Module*/
 
-  Body {
-    background-image: radial-gradient(var(--clr-2), var(--clr-6));
-    padding: 20px 0;
-    height: 20vmax;
-    width: auto;
-    text-align: center;
-    margin-top: var(--clr-1) 4rem;
-    border-top: grey 5px solid ridge;
-    font-family: var(--font-main);
+  .row {
+      background-image: radial-gradient(var(--clr-1), var(--clr-4));
+      display: grid;
+      width: 100%;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
   }
+
   
-  h1{
-    color: var(--clr-1);
-  }
-  
-  @keyframes App-logo-float {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(100px);
-  
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
-  
-  /* Used in SubHead */
-h3 {
-    padding: 2px;
-    font-family: var(--font-sec);
-    font-size: var(--fs--subhead);
-    color: var(--clr-1);
-    font-weight: var(--fw--bright)
-  }
-  
-  
-h3:hover {
-    color: var(--clr-4)
-  }
-  
-h3::before {
-    background: var(--clr-5);
-    content: "";
-    inset: 0;
-    position: absolute;
-    transform: scaleY(0);
-    transform-origin: center;
-    transition: transform 950ms ease-in-out;
-    z-index: -1;
-  
-  }
-  
-h3:hover::before {
-    transform: scaley(1);
-    animation: colorback 7500ms infinite;
-  }
-  
-  @keyframes colorback {
-    0% {
-        background-color: var(--clr-2);
-    }
-  
-    10% {
-        background-color: var(--clr-3);
-    }
-  
-    25% {
-        background-color: var(--clr-1);
-    }
-  
-    50% {
-        background-color: var(--clr-5);
-    }
-  
-    75% {
-        background-color: var(--clr-1);
-    }
-  
-    90% {
-        background-color: var(--clr-3);
-    }
-  
-    100% {
-        background-color: var(--clr-2);
-    }
-  }
-  
+
+
+ 

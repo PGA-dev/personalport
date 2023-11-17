@@ -2,14 +2,13 @@
 
 
 .footer {
-  background-image: radial-gradient(var(--clr-2), var(--clr-6));
+  background-image: radial-gradient(var(--clr-1), var(--clr-5));
   /* background-image: url(../app/profile.png); */
-  border: 2px solid black;
+  border: 5px solid var(--clr-1);
   padding: 25px;
   background-repeat:repeat;
   background-size: auto;
 }
-
 
 .row {
   display: flex;
