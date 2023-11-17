@@ -1,7 +1,7 @@
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Container } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-// import styles from './Footer.module.css';
+import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
 
 
@@ -18,7 +18,8 @@ const Footer = () => {
         setToggle(true);
     }, []);
     return (
-        <footer >
+        <footer className='site-footer'>
+            <Container className={styles.Footer}>
             <Row>
                 <Col >
                     <animated.div style={animatedStyle}>
@@ -31,6 +32,7 @@ const Footer = () => {
                     </animated.div>
                 </Col>
             </Row>
+            </Container>
         </footer>
 
     );
