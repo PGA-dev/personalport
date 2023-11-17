@@ -95,3 +95,10 @@ h3:hover::before {
       background-color: var(--clr-2);
   }
 }
+
+/*Use exclusively for footer links*/
+h5 {
+  font-size: .7em;
+  color: var(--clr-1);
+  font-family: papyrus;
+}

@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import History from './pages/History';
 import Resume from './pages/Resume';
+import SiteMap from './pages/SiteMap';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Projects' element={<Projects />} />
         <Route path='/History' element={<History />} />
         <Route path='/Resume' element={<Resume />} />
+        <Route path='/SiteMap' element={<SiteMap />} />
       </Routes>
 
       <Footer />

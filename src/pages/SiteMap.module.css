@@ -1,0 +1,10 @@
+/* SiteMap CSS */
+
+.row {
+    background-image: radial-gradient(var(--clr-2), var(--clr-1));
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
