@@ -18,12 +18,12 @@ const Footer = () => {
         setToggle(true);
     }, []);
     return (
-        <footer className='site-footer'>
+        <footer className={styles.footer}>
             <Container>
                 <Row className={styles.row}>
                     <Col >
                         <animated.div style={animatedStyle}>
-                            <h1 >Links</h1>
+                            <h1 >Site Links</h1>
                         </animated.div>
                         <animated.div style={animatedStyle}>
                             <h5 ><Link to='/'><i>Go Home</i></Link></h5>
@@ -32,16 +32,31 @@ const Footer = () => {
                     </Col>
                     <Col>
                         <animated.div style={animatedStyle}>
-                        <img src={profile} alt='profile' className='profile' />
+                            <img src={profile} alt='profile' width="200"
+                                height="auto" className='profile' />
                         </animated.div>
                     </Col>
                     <Col>
                         <animated.div style={animatedStyle}>
-                            <h1 >Links</h1>
+                            <h1 >PGA Links</h1>
                         </animated.div>
                         <animated.div style={animatedStyle}>
-                        <h5 ><Link to='/'><i>Go Home</i></Link></h5>
-                            <h5 ><Link to='/Contact'><i>Go to Contacts</i></Link></h5>
+                        <ul className='list-unstyled'>
+                            <li >
+                                <a href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer">Author LI</a>
+                            </li>
+                            <li>
+                                <a href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer">Author's YouTube</a>
+                            </li>
+                            <li>
+                                <a
+                                    role='button'
+                                    href='mailto:paulgadam@gmail.com'
+                                >
+                                    <i className='' /> Author Email
+                                </a>
+                            </li>
+                        </ul>
                         </animated.div>
                     </Col>
                 </Row>

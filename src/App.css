@@ -27,33 +27,12 @@
   text-align: auto;
 }
 
-/* 
-.headstyle {
-  color: var(--clr-7);
-  padding: 8px;
-  font-size: var(--fs-heading);
-  font-family: var(--font-main)
-}
-
-.site-footer {
-  background-image: radial-gradient(var(--clr-1), var(--clr-7));
-  padding: 20px 0;
-  height: 20vmax;
-  width: auto;
-  margin-top: var(--clr-1) 4rem;
-  border-top: grey 5px solid ridge;
-  font-family: var(--font-main);
-}
-
-.site-header {
-  background-image: radial-gradient(var(--clr-1), var(--clr-7));
-  padding: 20px 0;
-  margin-top: var(--clr-1) 4rem;
-  border-top: var(--clr-4) solid;
-  font-family: var(--font-main);
-} */
 
 h1{
+  color:var(--clr-1)
+}
+
+h2{
   color:var(--clr-1)
 }
 /* Used in SubHead */
