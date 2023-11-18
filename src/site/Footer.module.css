@@ -1,8 +1,7 @@
 /*Footer CSS Module*/
 
-
 .footer {
-  background-image: radial-gradient(var(--clr-3), var(--clr-5));
+  background-image: radial-gradient(var(--clr-1), var(--clr-5));
   /* background-image: url(../app/profile.png); */
   border: 5px solid var(--clr-1);
   padding: 25px;
@@ -10,16 +9,18 @@
   background-size: auto;
 }
 
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
 
 .flexContainer  {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.flexContainer > div {
+  background-color: var(--clr-3);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .profile {
