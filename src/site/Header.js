@@ -1,4 +1,3 @@
-import { Col, Row } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Header.module.css'
@@ -25,7 +24,6 @@ const Header = () => {
                 </animated.div>
             </div>
             <div>
-
                 <animated.div style={animatedStyle}>
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
@@ -36,7 +34,6 @@ const Header = () => {
                 </animated.div>
             </div>
             <div>
-
                 <animated.div style={animatedStyle}>
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
