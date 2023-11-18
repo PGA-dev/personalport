@@ -1,4 +1,3 @@
-import { Row, Col, Container } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Footer.module.css';
@@ -19,9 +18,8 @@ const Footer = () => {
     }, []);
     return (
         <footer className={styles.footer}>
-            <Container>
-                <Row className={styles.row}>
-                    <Col >
+                <div className={styles.flexContainer}>
+                    <div >
                         <animated.div style={animatedStyle}>
                             <h1 >Site Links</h1>
                         </animated.div>
@@ -33,14 +31,14 @@ const Footer = () => {
                             <h5><Link to='/resume'><i>Go to Resume</i></Link></h5>
                             <h5><Link to='/sitemap'><i>Go to SiteMap</i></Link></h5>
                         </animated.div>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div>
                         <animated.div style={animatedStyle}>
                             <img src={profile} alt='profile' width="300"
                                 height="auto" className='profile' />
                         </animated.div>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div>
                         <animated.div style={animatedStyle}>
                         </animated.div>
                         <animated.div style={animatedStyle}>
@@ -62,13 +60,11 @@ const Footer = () => {
                             </li>
                         </ul>
                         </animated.div>
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
         </footer>
 
     );
 };
-
 
 export default Footer;

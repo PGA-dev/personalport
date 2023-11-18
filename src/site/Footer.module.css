@@ -16,6 +16,12 @@
   justify-content: space-evenly;
 }
 
+.flexContainer  {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .profile {
   size: inherit;
 }
