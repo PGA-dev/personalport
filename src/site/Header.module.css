@@ -1,29 +1,26 @@
 /*Footer CSS Module*/
 
-  .flexContainer {
-    background-image: radial-gradient(var(--clr-3), var(--clr-5));
-    /* background-image: url(../app/profile.png); */
-    border: 5px solid var(--clr-1);
-    padding: 25px;
-    background-repeat:repeat;
-    background-size: auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+  .gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1px;
+    background-image: radial-gradient(var(--clr-1), var(--clr-5));
+    padding: 10px;
   }
   
-  .flexContainer > div {
-    /* background-image: radial-gradient(var(--clr-3), var(--clr-5)); */
-    margin: 10px;
-    padding: 20px;
+  .gridContainer > :nth-child(odd) {
+    background-image: radial-gradient(var(--clr-3), var(--clr-5));
+    text-align: center;
+    padding: 20px 20px;
     font-size: 30px;
   }
 
-  .flexContainer > div> h1{
+  .gridContainer > :nth-child(even) {
     background-image: radial-gradient(var(--clr-1), var(--clr-5));
-    margin: 5px;
-    padding: 2px;
+    text-align: center;
+    padding: 50px 0px;
     font-size: 30px;
   }
+
   
 

@@ -17,7 +17,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={styles.flexContainer}>
+        <div className={styles.gridContainer}>
             <div>
                 <animated.div style={animatedStyle}>
                     <h1>PGA</h1>

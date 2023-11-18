@@ -16,7 +16,8 @@
   --fw--bright: 700;
   --fw--bright-wow: 900;
 
-  --fs-heading: 65px;
+  --fs-heading: 75px;
+  --fs-heading-light: 50px;
   --fs-subhead: 45px;
   --fs-pagehead: 40px;
 
@@ -29,7 +30,8 @@
 
 
 h1{
-  color:var(--clr-1)
+  color:var(--clr-1);
+  font-size: var(--fs-heading);
 }
 
 h2{
@@ -39,7 +41,7 @@ h2{
 h3 {
   padding: 2px;
   font-family: var(--font-sec);
-  font-size: var(--fs--subhead);
+  font-size: var(--fs-subhead);
   color: var(--clr-4);
   font-weight: var(--fw--bright)
 }
