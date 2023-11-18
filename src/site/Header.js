@@ -18,16 +18,34 @@ const Header = () => {
     }, []);
 
     return (
-<div className={styles.div}>
-        <Row className={styles.row}>
-            <Col >
-                <h1 m='12' id='title' className='headstyle' >PGA</h1>
+        <div className={styles.flexContainer}>
+            <div>
+                <animated.div style={animatedStyle}>
+                    <h1>PGA</h1>
+
+                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
+                </animated.div>
+            </div>
+            <div>
+                <h1>PGA</h1>
                 <animated.div style={animatedStyle}>
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
-            </Col>
-        </Row>
-</div>
+            </div>
+            <div>
+                <animated.div style={animatedStyle}>
+                    <h1>PGA</h1>
+
+                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
+                </animated.div>
+            </div>
+            <div>
+                <h1>PGA</h1>
+                <animated.div style={animatedStyle}>
+                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
+                </animated.div>
+            </div>
+        </div>
     );
 };
 
