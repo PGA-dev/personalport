@@ -1,4 +1,3 @@
-import { Row, Col } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './SiteMap.module.css';
@@ -19,20 +18,29 @@ const SiteMap = () => {
     }, []);
 
     return (
+        <div>
+            <div>
+                <div className={styles.gridContainer}>
+                    <div className={styles.item1}>
+                    <animated.div style={animatedStyle}>
+                        <h1 ><i>Site Map</i></h1>
 
-                <Row className={styles.row}>
-                    <Col >
-                        <animated.div style={animatedStyle}>
-                            <h1>SiteMap</h1>
-                        </animated.div>
-                        <animated.div style={animatedStyle}>
-                            <h3 ><i>Silly Site Map</i></h3>
-                        </animated.div>
-                    </Col>
-                    <Col>
-                        <img src={profile} alt='' className='profile' />
-                    </Col>
-                </Row>
+                    </animated.div>
+                    </div>
+                </div>
+
+            </div>
+            <div className={styles.flexContainer}>
+
+                <div>
+                    <animated.div style={animatedStyle}>
+                        <h1  >Each Link will be in a simple container using a mapped jsx component for the links themselves</h1>
+                    </animated.div>
+                </div>
+            </div>
+
+        </div>
+
 
     );
 };
