@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './SiteMap.module.css';
-import profile from '../app/profile.png';
 
 const SiteMap = () => {
 
