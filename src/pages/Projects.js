@@ -1,4 +1,3 @@
-import { Row, Col } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Projects.module.css';
@@ -20,19 +19,27 @@ const Projects = () => {
 
     return (
 
-                <Row className={styles.row}>
-                    <Col >
-                        <animated.div style={animatedStyle}>
-                            <h1>Projects</h1>
-                        </animated.div>
-                        <animated.div style={animatedStyle}>
-                            <h3 ><i>Silly Man</i></h3>
-                        </animated.div>
-                    </Col>
-                    <Col>
-                        <img src={profile} alt='' className='profile' />
-                    </Col>
-                </Row>
+        <div className={styles.gridContainer}>
+            <div className={styles.item1}>
+                <animated.div style={animatedStyle}>
+                    <h1  >Projects</h1>
+                </animated.div></div>
+
+                <div className={styles.item2}>
+                    Project List
+
+            </div>
+            <div className={styles.item3}>
+                <animated.div style={animatedStyle}>
+                    <h4 ><i>Some cool text or picture</i></h4>
+                    <img src={profile} alt='profile' width={200} className={styles.profile} />
+                </animated.div></div>
+
+            <div className={styles.item4}>
+                <h5>Links to GitHub and Linked In</h5>
+            </div>
+
+        </div>
 
     );
 };
