@@ -17,7 +17,7 @@ const Resume = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-//must re-write css in module that doesn't use bs or reactstrap inline
+
     return (
 
         <div className={styles.gridContainer}>
@@ -27,11 +27,13 @@ const Resume = () => {
                 </animated.div></div>
 
                 <div className={styles.item2}>
-                <img src={profile} alt='profile' className='profile' />
+                    Mission statement
+
             </div>
             <div className={styles.item3}>
                 <animated.div style={animatedStyle}>
-                    <h3 ><i>Some cool text or picture</i></h3>
+                    <h4 ><i>Some cool text or picture</i></h4>
+                    <img src={profile} alt='profile' width={200} className={styles.profile} />
                 </animated.div></div>
 
             <div className={styles.item4}>
