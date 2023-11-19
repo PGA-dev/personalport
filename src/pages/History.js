@@ -1,4 +1,3 @@
-import { Col, Row } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/profile.png';
@@ -17,29 +16,28 @@ const History = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-//must re-write css in module that doesn't use bs or reactstrap inline
+    //must re-write css in module that doesn't use bs or reactstrap inline
     return (
 
-        <Row className={styles.row}>
+        <div className={styles.gridContainer}>
+            <div className={styles.item1}>
+                <animated.div style={animatedStyle}>
+                    <h1  >History</h1>
+                </animated.div></div>
 
-            <Col>
-            
-            </Col>
-            <Col >
-            
-                <animated.div style={animatedStyle}>
-                    <h1 m='12' id='title' className='headstyle' >History</h1>
-                </animated.div>
-                <animated.div style={animatedStyle}>
-                    <h3 className='text-center'><i>For Now</i></h3>
-                </animated.div>
-            </Col>
-            <Col>
-            <div>
-            <img src={profile} alt='profile' className='profile'  />
+                <div className={styles.item2}>
+                <img src={profile} alt='profile' className='profile' />
             </div>
-            </Col>
-        </Row>
+            <div className={styles.item3}>
+                <animated.div style={animatedStyle}>
+                    <h3 ><i>For Now</i></h3>
+                </animated.div></div>
+
+            <div className={styles.item4}>
+                <h5>Table</h5>
+            </div>
+
+        </div>
 
     );
 };

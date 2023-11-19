@@ -12,6 +12,7 @@ const Header = () => {
         config: { duration: 1500 }
     });
 
+    
     useEffect(() => {
         setToggle(true);
     }, []);

@@ -1,10 +1,31 @@
 /* History CSS */
 
-.row {
-    background-image: radial-gradient(var(--clr-2), var(--clr-5));
+.item1 { grid-area: header; }
+.item2 { grid-area: subheader;}
+.item3 { grid-area: menu; }
+.item4 { grid-area: main; }
+
+
+
+.gridContainer {
     display: grid;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
+    grid-template-areas:
+    'header header header header header header'
+    'subheader subheader subheader subheader subheader subheader'
+    'menu main main main main main';
+    /* grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto; */
+    gap: 11px;
+    background-image: radial-gradient(var(--clr-1), var(--clr-5));
+    padding: 10px;
+  }
+
+
+  .gridContainer > div {
+    background-image: radial-gradient(var(--clr-3), var(--clr-5));
     text-align: center;
-}
+    padding: 20px 20px;
+    font-size: 30px;
+  }
+
+

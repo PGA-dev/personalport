@@ -20,26 +20,25 @@ const Resume = () => {
 //must re-write css in module that doesn't use bs or reactstrap inline
     return (
 
-        <Row className={styles.row}>
+        <div className={styles.gridContainer}>
+            <div className={styles.item1}>
+                <animated.div style={animatedStyle}>
+                    <h1  >Resume and Skills Matrix</h1>
+                </animated.div></div>
 
-            <Col>
-            
-            </Col>
-            <Col >
-            
-                <animated.div style={animatedStyle}>
-                    <h1 m='12' id='title' className='headstyle' >Resume</h1>
-                </animated.div>
-                <animated.div style={animatedStyle}>
-                    <h3 className='text-center'><i>For Now</i></h3>
-                </animated.div>
-            </Col>
-            <Col>
-            <div>
-            <img src={profile} alt='profile' className='profile'  />
+                <div className={styles.item2}>
+                <img src={profile} alt='profile' className='profile' />
             </div>
-            </Col>
-        </Row>
+            <div className={styles.item3}>
+                <animated.div style={animatedStyle}>
+                    <h3 ><i>Some cool text or picture</i></h3>
+                </animated.div></div>
+
+            <div className={styles.item4}>
+                <h5>Skills table</h5>
+            </div>
+
+        </div>
 
     );
 };
