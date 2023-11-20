@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Header.module.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -31,7 +32,7 @@ const Header = () => {
             </div>
             <div>
                 <animated.div style={animatedStyle}>
-                    <h1>Links</h1>
+                    <h1>PGA</h1>
                 </animated.div>
             </div>
             <div>
@@ -39,9 +40,19 @@ const Header = () => {
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
             </div>
-            <div>
+
+            <div className={styles.dropdown}>
                 <animated.div style={animatedStyle}>
-                    <h1>PGA</h1>
+                    <span><h1>Links</h1></span>
+                    <div className={styles.dropDownContent}>
+                    <h5 ><Link to='/' className={styles.l}><i>Go Home</i></Link></h5>
+                        <h5 ><Link to='/contact' className={styles.l}><i>Go to Contacts</i></Link></h5>
+                        <h5><Link to='/projects' className={styles.l}><i>Go to Projects</i></Link></h5>
+                        <h5><Link to='/history' className={styles.l}><i>Go to History</i></Link></h5>
+                        <h5><Link to='/resume' className={styles.l}><i>Go to Resume</i></Link></h5>
+                        <h5><Link to='/sitemap' className={styles.l}><i>Go to SiteMap</i></Link></h5>
+
+                    </div>
                 </animated.div>
             </div>
         </div>
