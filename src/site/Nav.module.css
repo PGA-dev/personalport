@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-image: radial-gradient(var(--clr-3), var(--clr-1));
   }
   
   li {
@@ -16,7 +16,7 @@ ul {
   
   li .n, .dropBtn {
     display: inline-block;
-    color: var(--clr-5);
+    color: var(--clr-1);
     text-align: center;
     padding: 14px 16px;
     font: papyrus;
@@ -33,9 +33,10 @@ ul {
   
   .dropBtn{
     font: papyrus;
-    color: var(--clr-5);
+    color: var(--clr-1);
   }
   .dropDownContent {
+    color: var(--clr-1);
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -63,6 +64,6 @@ ul {
 
   .n {
     font-size: 1.4em;
-    color: var(--clr-5);
+    color: var(--clr-1);
     font-family: papyrus;
   }
