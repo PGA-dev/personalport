@@ -1,4 +1,4 @@
-import { Col, Row } from 'reactstrap';
+
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/profile.png';
@@ -20,19 +20,33 @@ const HomePage = () => {
 
     return (
 
-                <Row className={styles.row}>
-                    <Col >
-                        <animated.div style={animatedStyle}>
-                            <h1>Home</h1>
-                        </animated.div>
-                        <animated.div style={animatedStyle}>
-                            <h3 ><i>HomeWard Bound</i></h3>
-                        </animated.div>
-                    </Col>
-                    <Col>
-                        <img src={profile} alt='' className='profile' />
-                    </Col>
-                </Row>
+        <div>
+            <div>
+                <div className={styles.gridContainer}>
+                    <div className={styles.item1}>
+                    <animated.div style={animatedStyle}>
+                        <h1 ><i>HomePage</i></h1>
+
+                    </animated.div>
+
+                    </div>
+
+                    <div className={styles.item2}>
+                    <animated.div style={animatedStyle}>
+                    <img src={profile} alt='profile' width={500} className={styles.profile} />
+                </animated.div>
+                </div>
+                </div>
+
+            </div>
+            <div className={styles.flexContainer}>
+
+                <div>Favorites links Using flexbox</div>
+            </div>
+
+        </div>
+
+
 
     );
 };

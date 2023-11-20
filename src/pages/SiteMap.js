@@ -37,7 +37,7 @@ const SiteMap = () => {
             <div className={styles.flexContainer}>
 
 
-                <div>mapped item</div>
+                <div>example items</div>
                 <div>mapped item</div>
                 <div>mapped item</div>
                 <div>mapped item</div>

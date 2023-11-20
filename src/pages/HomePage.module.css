@@ -1,13 +1,38 @@
 /*Homepage CSS Module*/
 
-  .row {
-      background-image: radial-gradient(var(--clr-1), var(--clr-4));
-      display: grid;
-      width: 100%;
-      align-items: center;
-      justify-content: space-evenly;
-      text-align: center;
-  }
+.flexContainer  {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flexContainer > div {
+  background-color: var(--clr-7);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: header2; }
+.gridContainer {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'header2 header2 header2 header2 header2 header2';
+  /* grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto; */
+  gap: 1px;
+  background-image: radial-gradient(var(--clr-2), var(--clr-4));
+  padding: 3px;
+}
+
+
+.gridContainer > div {
+  text-align: center;
+  padding: 20px 200px;
+  font-size: 30px;
+}
 
   
 
