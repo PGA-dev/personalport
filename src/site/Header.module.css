@@ -16,7 +16,7 @@
   }
 
   .gridContainer > :nth-child(even) {
-    background-image: radial-gradient(var(--clr-1), var(--clr-5));
+    background-image: radial-gradient(var(--clr-2), var(--clr-5));
     text-align: center;
     padding: 50px 0px;
     font-size: 30px;

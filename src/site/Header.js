@@ -31,7 +31,7 @@ const Header = () => {
             </div>
             <div>
                 <animated.div style={animatedStyle}>
-                    <h1>PGA</h1>
+                    <h1>Links</h1>
                 </animated.div>
             </div>
             <div>

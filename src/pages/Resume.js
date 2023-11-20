@@ -1,4 +1,3 @@
-import { Col, Row } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/profile.png';

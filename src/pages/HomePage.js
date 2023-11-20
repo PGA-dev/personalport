@@ -41,7 +41,7 @@ const HomePage = () => {
             </div>
             <div className={styles.flexContainer}>
 
-                <div>Favorites links Using flexbox</div>
+                <div>Page links Using flexbox</div>
             </div>
 
         </div>
