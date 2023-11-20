@@ -9,7 +9,7 @@ const Nav = () => {
             <ul>
                 <li><Link to='/' className={styles.n}><i>Go Home</i></Link></li>
                 <li><Link to='/sitemap' className={styles.n}><i>Go to SiteMap</i></Link></li>
-                <li className={`${styles.dropDown} ${styles.dropBtn} ${styles.n}`}>Links
+                <li className={`${styles.dropDown} ${styles.dropBtn} ${styles.n}`}><i>Links</i>
                     <div className={styles.dropDownContent}>
                         <h5 ><Link to='/contact' className={styles.n}><i>Go to Contacts</i></Link></h5>
                         <h5><Link to='/projects' className={styles.n}><i>Go to Projects</i></Link></h5>

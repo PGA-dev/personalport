@@ -62,7 +62,7 @@ const Footer = () => {
                                 </a>
                             </dt>
                             <dt>
-                            <a className={styles.a} href='https://github.com/PGA-dev?tab=repositories' target="_blank" rel="noreferrer"> PGA's GitHub</a>
+                            <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer"> PGA's GitHub</a>
                             </dt>
                             <dt>
                             <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer">PGA's GitLab</a>

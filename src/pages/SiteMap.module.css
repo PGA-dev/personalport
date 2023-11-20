@@ -23,7 +23,7 @@
     /* grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto; */
     gap: 1px;
-    background-image: radial-gradient(var(--clr-2), var(--clr-4));
+    background-image: radial-gradient(var(--clr-7), var(--clr-1));
     padding: 3px;
   }
 
