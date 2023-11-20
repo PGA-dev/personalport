@@ -9,7 +9,6 @@
   background-size: auto;
 }
 
-
 .flexContainer  {
   display: flex;
   align-items: center;
@@ -23,13 +22,20 @@
   font-size: 30px;
 }
 
+
+
 .profile {
   size: inherit;
 }
 
 .a {
-  font-size: 2.5em;
-  color: var(--clr-1);
+  font-size: 1.5em;
+  color: var(--clr-5);
   font-family: papyrus;
 }
 
+.l {
+  font-size: 1.4em;
+  color: var(--clr-5);
+  font-family: papyrus;
+}
