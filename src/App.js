@@ -10,10 +10,12 @@ import History from './pages/History';
 import Resume from './pages/Resume';
 import SiteMap from './pages/SiteMap';
 import Header from './site/Header';
+import Nav from './site/Nav';
 
 function App() {
   return (
     <div className="App">
+      <Nav />
     <Header /> 
       <Routes>
         <Route path='/' element={<HomePage />} />

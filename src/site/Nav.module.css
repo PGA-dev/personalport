@@ -1,0 +1,65 @@
+/* Nav CSS Module */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    font: var(--font-sec)
+  }
+  
+  li .n, .dropBtn {
+    display: inline-block;
+    color: var(--clr-5);
+    text-align: center;
+    padding: 14px 16px;
+    font: papyrus;
+    text-decoration: none;
+  }
+  
+  li .n:hover, .dropDown:hover .dropBtn {
+    background-color: var(--clr-5);
+  }
+  
+  li.dropDown {
+    display: inline-block;
+  }
+  
+  .dropBtn{
+    font: papyrus;
+    color: var(--clr-5);
+  }
+  .dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropDownContent .n {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropDownContent a:hover {background-color: #f1f1f1;}
+  
+  .dropDown:hover .dropDownContent {
+    display: block;
+  }
+
+  .n {
+    font-size: 1.4em;
+    color: var(--clr-5);
+    font-family: papyrus;
+  }
