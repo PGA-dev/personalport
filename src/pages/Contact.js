@@ -16,7 +16,7 @@ const Contact = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-//must re-write css in module that doesn't use bs or reactstrap inline
+//Contact may not need to pull data from a db for feedback...probably will just pull the email/linked in, etc...
     return (
         <div>
             <div>
