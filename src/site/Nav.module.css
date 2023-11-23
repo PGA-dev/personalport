@@ -1,4 +1,7 @@
 /* Nav CSS Module */
+.container {
+  display: block;
+}
 
  ul {
     list-style-type: none;
