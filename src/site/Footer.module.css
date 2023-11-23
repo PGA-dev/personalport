@@ -1,28 +1,37 @@
 /*Footer CSS Module*/
 
+
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   background-image: radial-gradient(var(--clr-1), var(--clr-5));
   /* background-image: url(../app/profile.png); */
   border: 5px solid var(--clr-1);
   padding: 25px;
-  background-repeat:repeat;
-  background-size: auto;
+  background-repeat:no-repeat;
+  /* background-size: auto; */
+  max-width: --width;
+  columns: 3;
 }
 
-.flexContainer  {
+/* .flexContainer  {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
+} */
 
-.flexContainer > div {
+.footer > div {
   background-color: var(--clr-7);
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  max-width: calc(.25 * var(--width));
 }
 
-
+/* .footer>div:nth-child(:last-child){
+  max-width: max-content;
+} */
 
 .profile {
   size: inherit;
@@ -38,4 +47,10 @@
   font-size: 1.4em;
   color: var(--clr-3);
   font-family: papyrus;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
 }
