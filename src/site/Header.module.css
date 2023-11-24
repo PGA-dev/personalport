@@ -1,6 +1,6 @@
 /*Header CSS Module*/
 
-  .gridContainer {
+  /* .gridContainer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 1px;
@@ -10,18 +10,20 @@
     padding: 10px;
     max-width: auto;
 
-  }
+  } */
   
   .flexContainer {
-    background-image: radial-gradient(var(--clr-2), var(--clr-5));
+    background-image: url(../app/profile.png);
+    background-size: 5em;
+    background-repeat: repeat;
     display: flex;
     flex-flow: row wrap;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; 
     justify-content: center;
   }
 
   .flexContainer > :nth-child(odd) {
-     background-image: radial-gradient(var(--clr-3), var(--clr-5)); 
+     background-image: radial-gradient(var(--clr-5), var(--clr-2)); 
     text-align: center;
     padding: 20px 0px;
     font-size: inherit;

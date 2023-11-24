@@ -19,6 +19,7 @@ const Header = () => {
 
     return (
         <div className={styles.flexContainer}>
+
             <div>
                 <animated.div style={animatedStyle}>
                     <h1>PGA</h1>
@@ -26,20 +27,7 @@ const Header = () => {
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
             </div>
-            <div>
-                <animated.div style={animatedStyle}>
-                    <h1>PGA</h1>
 
-                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
-                </animated.div>
-            </div>
-            <div>
-                <animated.div style={animatedStyle}>
-                    <h1>PGA</h1>
-
-                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
-                </animated.div>
-            </div>
 
         </div>
     );

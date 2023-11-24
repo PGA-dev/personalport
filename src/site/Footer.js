@@ -19,16 +19,14 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div>
-                <animated.div style={animatedStyle}>
-                    <h1 >Site Links</h1>
-                </animated.div>
+            <animated.div style={animatedStyle}>
                 <h5 ><Link to='/' className={styles.l}><i>Go Home</i></Link></h5>
                 <h5 ><Link to='/contact' className={styles.l}><i>Go to Contacts</i></Link></h5>
                 <h5><Link to='/projects' className={styles.l}><i>Go to Projects</i></Link></h5>
                 <h5><Link to='/history' className={styles.l}><i>Go to History</i></Link></h5>
                 <h5><Link to='/resume' className={styles.l}><i>Go to Resume</i></Link></h5>
                 <h5><Link to='/sitemap' className={styles.l}><i>Go to SiteMap</i></Link></h5>
-
+                </animated.div>
             </div>
             <div>
                 <animated.div style={animatedStyle}>
@@ -38,8 +36,7 @@ const Footer = () => {
 
             </div>
             <div>
-                <animated.div style={animatedStyle}><h1 >Author Links</h1>
-                </animated.div>
+
                 <animated.div style={animatedStyle}>
                     <dl>
                         <dt >
