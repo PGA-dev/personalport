@@ -12,37 +12,32 @@ const Header = () => {
         config: { duration: 1500 }
     });
 
-    
+
     useEffect(() => {
         setToggle(true);
     }, []);
 
     return (
-        <div className={styles.gridContainer}>
+        <div className={styles.flexContainer}>
             <div>
                 <animated.div style={animatedStyle}>
                     <h1>PGA</h1>
-                </animated.div>
-            </div>
 
-            <div>
-                <animated.div style={animatedStyle}>
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
             </div>
             <div>
                 <animated.div style={animatedStyle}>
                     <h1>PGA</h1>
-                </animated.div>
-            </div>
-            <div>
-                <animated.div style={animatedStyle}>
+
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
             </div>
             <div>
                 <animated.div style={animatedStyle}>
                     <h1>PGA</h1>
+
+                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
             </div>
 
