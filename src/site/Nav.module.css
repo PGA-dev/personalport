@@ -15,6 +15,14 @@
     float: left;
     font: var(--font-sec)
   }
+
+  .profile {
+    float: right;
+    font: var(--font-sec);
+    color: var(--clr-1);
+    margin: 5px;
+    padding: 2px;
+  }
   
   li .n, .dropBtn {
     display: inline-block;

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Nav.module.css'
-
+import profile from '../app/profile.png';
 
 const Nav = () => {
 
@@ -18,8 +18,11 @@ const Nav = () => {
                         <h5><Link to='/resume' className={styles.n}><i>Resume</i></Link></h5>
                         <h5><Link to='/sitemap' className={styles.n}><i>SiteMap</i></Link></h5>
                     </div>
+                    
                 </li>
+                <div className={styles.profile}> <img src={profile} alt='profile' className='profile' height={75} /> </div>
             </ul>
+            
         </div>
     );
 };
