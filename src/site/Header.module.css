@@ -7,6 +7,8 @@
     background-image: radial-gradient(var(--clr-1), var(--clr-5));
     background-size: auto;
     padding: 10px;
+    max-width: auto;
+    flex-wrap: wrap;
   }
   
   .gridContainer > :nth-child(odd) {
@@ -26,6 +28,25 @@
   }
 
 
+  @media (max-width: 1000px) {
+    .gridContainer {
+      grid-template-columns: auto;
+    }
+  }
 
+  @media (max-width: 600px) {
+    .gridContainer {
+      grid-template-columns: auto;
+      max-width: auto;
+
+    
+    }
+    .gridContainer>:nth-child(odd){
+      max-width: auto;
+    }
+    .gridContainer>:nth-child(even){
+      max-width: auto;
+    }
+  }
   
 

@@ -10,9 +10,10 @@
   border: 5px solid var(--clr-1);
   padding: 25px;
   background-repeat:no-repeat;
-  /* background-size: auto; */
-  max-width: --width;
+  background-size: auto;
+  max-width: var(--width);
   columns: 3;
+
 }
 
 /* .flexContainer  {
@@ -26,7 +27,7 @@
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  max-width: calc(.25 * var(--width));
+  max-width: fit-content;
 }
 
 /* .footer>div:nth-child(:last-child){
@@ -49,7 +50,7 @@
   font-family: papyrus;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .footer {
     flex-direction: column;
   }
