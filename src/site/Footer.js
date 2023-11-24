@@ -43,10 +43,10 @@ const Footer = () => {
                 <animated.div style={animatedStyle}>
                     <dl>
                         <dt >
-                            <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer">PGA's Linked In</a>
+                            <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer">Linked In</a>
                         </dt>
                         <dt>
-                            <a className={styles.a} href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer">PGA's YouTube</a>
+                            <a className={styles.a} href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer">YouTube</a>
                         </dt>
                         <dt>
                             <a
@@ -58,10 +58,10 @@ const Footer = () => {
                             </a>
                         </dt>
                         <dt>
-                            <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer"> PGA's GitHub</a>
+                            <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer">GitHub</a>
                         </dt>
                         <dt>
-                            <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer">PGA's GitLab</a>
+                            <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer">GitLab</a>
                         </dt>
                         <br></br>
                     </dl>

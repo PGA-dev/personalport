@@ -22,8 +22,15 @@
   justify-content: space-evenly;
 } */
 
-.footer > div {
+.footer > :nth-child(even) {
   background-color: var(--clr-7);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  max-width: fit-content;
+}
+
+.footer > :nth-child(odd) {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
