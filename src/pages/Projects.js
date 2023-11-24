@@ -19,25 +19,62 @@ const Projects = () => {
 
     return (
 
-        <div className={styles.gridContainer}>
-            <div className={styles.item1}>
+        <div className={styles.flexContainer}>
+            <div>
                 <animated.div style={animatedStyle}>
                     <h1  >Projects</h1>
-                </animated.div></div>
+                </animated.div>
 
-                <div className={styles.item2}>
-                    Project List
+                <table id='projects'>
+                    <caption>
+                        Projects
+                    </caption>
+                    <tr>
+                        <th>Date</th>
+                        <th>Project Name</th>
+                        <th>Techologies Used</th>
+                        <th>Repository</th>
+                        <th>URL</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
 
-            </div>
-            <div className={styles.item3}>
-                <animated.div style={animatedStyle}>
-                    <h4 ><i>Some cool text or picture</i></h4>
-                    <img src={profile} alt='profile' width={200} className={styles.profile} />
-                </animated.div></div>
 
-            <div className={styles.item4}>
-                <h5>Links to GitHub and Linked In</h5>
-            </div>
+                </table>
+                </div>
 
         </div>
 
