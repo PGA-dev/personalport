@@ -13,19 +13,18 @@
   } */
   
   .flexContainer {
-    background-image: url(../app/profile.png);
-    background-size: 5em;
+    background-image: url(../app/guitar.png);
+    background-size: 6em;
     background-repeat: repeat;
     display: flex;
-    flex-flow: row wrap;
-    flex-wrap: nowrap; 
+    flex-flow: row nowrap;
     justify-content: center;
   }
 
   .flexContainer > :nth-child(odd) {
-     background-image: radial-gradient(var(--clr-5), var(--clr-2)); 
+     background-image: radial-gradient(var(--clr-5), var(--clr-7)); 
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 15px;
     font-size: inherit;
     max-width: max-content;
   }
@@ -39,25 +38,25 @@
   }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 75em) {
     .flexContainer {
       flex-wrap: wrap;
     }
   }
 
-  @media (max-width: 600px) {
-    .flexContainer {
-      flex-wrap: wrap;
-      max-width: auto;
+@media (max-width: 60em) {
+  .flexContainer {
+    flex-wrap: wrap;
+    max-width: auto;
 
-    
-    }
-    .flexContainer>:nth-child(odd){
-      max-width: auto;
-    }
-    .flexContainer>:nth-child(even){
-      max-width: auto;
-    }
-  } 
+  
+  }
+  .flexContainer>:nth-child(odd){
+    max-width: auto;
+  }
+  .flexContainer>:nth-child(even){
+    max-width: auto;
+  }
+} 
  
 
