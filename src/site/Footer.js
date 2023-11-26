@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div>
                 <animated.div style={animatedStyle}>
-                    <img src={profile} alt='profile' width="400"
+                    <img src={profile} alt='profile' width="200"
                         height="auto" className='profile' />
                 </animated.div>
 
