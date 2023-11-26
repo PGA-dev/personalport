@@ -33,23 +33,14 @@
     display: inline-block;
     text-decoration: none;
     color: var(--clr-5);
-    background-color: var(--clr-4);
-    border: .1em solid var(--clr-1);
+    background-color: var(--clr-1);
+    border: .1em solid var(--clr-5);
     border-radius: .2em;
-    box-shadow: .2em .3em var(--clr-7);
+    /* box-shadow: 0em .1em var(--clr-7); */
   }
 
   .gridContainer>div .button:hover{
-    background-color: var(--clr-1);
-    color: var(--clr-4)
-  }
-
-  .gridContainer>div .button:active{
-    background-color: var(--clr-1);
-    color: var(--clr-6);
-    box-shadow: 0em .1em var(--clr-7);
-    transform: translateY(.5em);
-    transition-delay: 0.4s;
+    border: .2em solid var(--clr-4);
   }
 
 
@@ -71,7 +62,7 @@
   caption {
     text-align: left;
     font-style: italic;
-    color: var(--clr-1);
+    color: var(--clr-5);
     padding: 0.25em 0.5em 0.5em 0.5em;
   }
   

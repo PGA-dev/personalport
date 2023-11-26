@@ -47,7 +47,7 @@ const Resume = () => {
                     </caption>
                     <tr>
                         <th>Skill</th>
-                        <th>Proficiency Level</th>
+                        <th>Current Proficiency</th>
                         <th>Years Used</th>
                         <th>Certificates</th>
                         <th>Projects/Companies Used</th>
@@ -70,15 +70,7 @@ const Resume = () => {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
+                        <td>SQL</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -86,14 +78,53 @@ const Resume = () => {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td>CSS</td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                     </tr>
-
+                    <tr>
+                        <td>Python</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>React Native</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                        <tr>
+                        <td>C++</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
 
                 </table>
             </div>
