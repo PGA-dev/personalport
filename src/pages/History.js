@@ -33,6 +33,7 @@ const History = () => {
                     <h3 ><i>For Now</i></h3>
                 </animated.div></div>
 
+
             <div className={styles.item4}>
                 <h5>Table</h5>
             </div>

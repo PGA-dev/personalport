@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/profile.png';
 import styles from './Resume.module.css';
+// import {time} from '../utilities/Time';
 
 const Resume = () => {
 
@@ -16,6 +17,8 @@ const Resume = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
+//set up lazy load for full resume
+
 
     return (
 
@@ -32,6 +35,7 @@ const Resume = () => {
             <div className={styles.item3}>
                 <animated.div style={animatedStyle}>
                     <h4 ><i>Some cool text or picture</i></h4>
+
                     <img src={profile} alt='profile' width={200} className={styles.profile} />
                 </animated.div></div>
 

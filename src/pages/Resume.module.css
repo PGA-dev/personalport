@@ -17,13 +17,13 @@
     /* grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto; */
     gap: 1px;
-    background-image: radial-gradient(var(--clr-2), var(--clr-4));
+    background-image: radial-gradient(var(--clr-5), var(--clr-1));
     padding: 3px;
   }
 
 
   .gridContainer > div {
-    background-image: radial-gradient(var(--clr-1), var(--clr-5));
+    background-image: radial-gradient(var(--clr-5), var(--clr-1));
     text-align: center;
     padding: 20px 20px;
     font-size: 30px;
