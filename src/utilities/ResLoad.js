@@ -1,4 +1,4 @@
-
+import { lazy } from "react"
 
 function time(time) {
     return new Promise(resolve => {
@@ -17,8 +17,8 @@ const Resload = () => {
     return (<>
         <button
             onClick={() => {
-
-            }}></button>
+                <Res/>
+            }}>Click for Resume</button>
     </>)
 
 }
