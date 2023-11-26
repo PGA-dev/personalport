@@ -3,15 +3,9 @@ import { useSpring, animated } from 'react-spring';
 import styles from './Resume.module.css';
 const Resume = () => {
 
-    const [isResume, setIsResume] = useState(false)
-
-    // const Res = lazy(() =>
-    //     import("../utilities/Res").then(module => {
-    //         return { default: module.Res }
-    //     })
-    // )
-
+    const [isResume, setIsResume] = useState(false);
     const Res = lazy(() => import('../utilities/Res'));
+
     const [toggle, setToggle] = useState(false);
 
     const animatedStyle = useSpring({
@@ -23,7 +17,6 @@ const Resume = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-    //set up lazy load for full resume
 
     return (
 
@@ -39,10 +32,10 @@ const Resume = () => {
             </div>
             <div className={styles.item3}>
                 <animated.div style={animatedStyle}>
-                    <h4 ><i>Resume Dowload</i></h4>
-                    <button
-                        onClick={() => setIsResume(prev => !prev)}>Click for Resume</button>
-                    {isResume ? <Suspense><Res /></Suspense> : <></>}
+                    <h4 ><i>Click Button to view Resume</i></h4>
+                    <button className={styles.button}
+                        onClick={() => setIsResume(prev => !prev)}>Resume</button>
+                    <Suspense fallback={<>Loading...</>}>{isResume ? <Res />: <></>}</Suspense> 
                 </animated.div></div>
 
             <div className={styles.item4}>

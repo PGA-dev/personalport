@@ -28,3 +28,26 @@
     padding: 20px 20px;
     font-size: 30px;
   }
+
+  .gridContainer>div .button{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-5);
+    background-color: var(--clr-4);
+    border: .1em solid var(--clr-6);
+    border-radius: .2em;
+    box-shadow: .2em .3em var(--clr-7);
+  }
+
+  .gridContainer>div .button:hover{
+    background-color: var(--clr-1);
+    color: var(--clr-4)
+  }
+
+  .gridContainer>div .button:active{
+    background-color: var(--clr-1);
+    color: var(--clr-4);
+    box-shadow: 0em .3em var(--clr-6);
+    transform: translateY(5px);
+    transition-delay: 0.2s;
+  }
