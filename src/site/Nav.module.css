@@ -1,81 +1,87 @@
 /* Nav CSS Module */
 .container {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 10;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: radial-gradient(var(--clr-3), var(--clr-1));
+}
+
+li {
+  float: left;
+  font: var(--font-sec)
+}
+
+.profile {
+  float: right;
+  font: var(--font-sec);
+  color: var(--clr-1);
+  margin: 5px;
+  padding: 2px;
+}
+
+li .n,
+.dropBtn {
+  display: inline-block;
+  color: var(--clr-1);
+  text-align: center;
+  padding: 14px 16px;
+  font: papyrus;
+  text-decoration: none;
+}
+
+li .n:hover,
+.dropDown:hover .dropBtn {
+  background-color: var(--clr-5);
+}
+
+li.dropDown {
+  display: inline-block;
+}
+
+.dropBtn {
+  font: papyrus;
+  color: var(--clr-1);
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-image: radial-gradient(var(--clr-7), var(--clr-1));
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropDownContent .n {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
-  z-index: 1;
+  text-align: left;
 }
 
- ul {
-  
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-image: radial-gradient(var(--clr-3), var(--clr-1));
-  }
-  
-  li {
-    float: left;
-    font: var(--font-sec)
-  }
-
-  .profile {
-    float: right;
-    font: var(--font-sec);
-    color: var(--clr-1);
-    margin: 5px;
-    padding: 2px;
-  }
-  
-  li .n, .dropBtn {
-    display: inline-block;
-    color: var(--clr-1);
-    text-align: center;
-    padding: 14px 16px;
-    font: papyrus;
-    text-decoration: none;
-  }
-  
-  li .n:hover, .dropDown:hover .dropBtn {
-    background-color: var(--clr-5);
-  }
-  
-  li.dropDown {
-    display: inline-block;
-  }
-  
-  .dropBtn{
-    font: papyrus;
-    color: var(--clr-1);
-  }
-  .dropDownContent {
-    display: none;
-    position: absolute;
-    background-image: radial-gradient(var(--clr-7), var(--clr-1));
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropDownContent .n {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropDownContent a:hover {
-    color: var(--clr-1);
-    background-color: var(--clr-7);
+.dropDownContent a:hover {
+  color: var(--clr-1);
+  background-color: var(--clr-7);
 }
-  
-  .dropDown:hover .dropDownContent {
-    display: block;
 
-  }
+.dropDown:hover .dropDownContent {
+  display: block;
 
-  .n {
-    font-size: 1.4em;
-    color: var(--clr-1);
-    font-family: papyrus;
-  }
+}
+
+.n {
+  font-size: 1.4em;
+  color: var(--clr-1);
+  font-family: papyrus;
+}

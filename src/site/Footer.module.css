@@ -17,11 +17,6 @@
 
 }
 
-/* .flexContainer  {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-} */
 
 .footer > :nth-child(even) {
   background-color: var(--clr-7);
@@ -38,9 +33,6 @@
   max-width: fit-content;
 }
 
-/* .footer>div:nth-child(:last-child){
-  max-width: max-content;
-} */
 
 .profile {
   size: inherit;
