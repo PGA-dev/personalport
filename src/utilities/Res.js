@@ -2,9 +2,9 @@
 const Res = () => {
 
     return (
-        <>
+        <p>
             Resume
-        </>
+        </p>
     )
 };
 

@@ -1,11 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { useSpring, animated } from 'react-spring';
-import profile from '../app/profile.png';
 import styles from './Resume.module.css';
-// import {time} from '../utilities/Time';
-
 const Resume = () => {
 
+    const [isResume, setIsResume] = useState(false)
+
+    // const Res = lazy(() =>
+    //     import("../utilities/Res").then(module => {
+    //         return { default: module.Res }
+    //     })
+    // )
+
+    const Res = lazy(() => import('../utilities/Res'));
     const [toggle, setToggle] = useState(false);
 
     const animatedStyle = useSpring({
@@ -17,8 +23,7 @@ const Resume = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-//set up lazy load for full resume
-
+    //set up lazy load for full resume
 
     return (
 
@@ -28,15 +33,16 @@ const Resume = () => {
                     <h1  >Resume and Skills Matrix</h1>
                 </animated.div></div>
 
-                <div className={styles.item2}>
-                    Mission statement
+            <div className={styles.item2}>
+                Mission statement
 
             </div>
             <div className={styles.item3}>
                 <animated.div style={animatedStyle}>
-                    <h4 ><i>Some cool text or picture</i></h4>
-
-                    <img src={profile} alt='profile' width={200} className={styles.profile} />
+                    <h4 ><i>Resume Dowload</i></h4>
+                    <button
+                        onClick={() => setIsResume(prev => !prev)}>Click for Resume</button>
+                    {isResume ? <Suspense><Res /></Suspense> : <></>}
                 </animated.div></div>
 
             <div className={styles.item4}>
