@@ -41,13 +41,13 @@
 
 .a {
   font-size: 1.4em;
-  color: var(--clr-3);
+  color: var( --link-clr2);
   font-family: papyrus;
 }
 
 .l {
   font-size: 1.4em;
-  color: var(--clr-3);
+  color: var(--link-clr2);
   font-family: papyrus;
 }
 

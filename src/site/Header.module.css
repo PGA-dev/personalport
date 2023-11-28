@@ -13,9 +13,10 @@
   } */
   
   .flexContainer {
-    background-image: url(../app/guitar.png);
+    background-image: url(../app/guitar.png), url(../app/profile.png);
     background-size: 6em;
     background-repeat: repeat;
+    background-blend-mode: color-burn;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;

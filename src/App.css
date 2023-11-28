@@ -24,8 +24,8 @@
 
 /*COLORS*/
 /*wHITE/BLACK/BASE*/
---_site-black: (--black, black);
---_site-white:(--white, white);
+--site-black:  black;
+--site-white: white;
 
 
   /*primary Theme Colors*/
@@ -42,7 +42,7 @@
 
   /*Link Colors*/
   --link-clr1: slateblue;
-  --link-clr2: rgb(124, 9, 186);
+  --link-clr2: #a424ff;
 
 
 
@@ -56,6 +56,7 @@
   --site-border: 2px solid var(--border-clr1);
   --site-border-rad: .3em;
   --alt-border: 2px solid var(--border-clr2);
+
 
 
 

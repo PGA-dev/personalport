@@ -1,4 +1,4 @@
-import React, {Component, lazy, Suspense} from 'react';
+import React, {lazy, Suspense} from 'react';
 import { Routes, Route } from 'react-router-dom';
 // import { Counter } from './features/counter/Counter';
 import './App.css';

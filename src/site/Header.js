@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Header.module.css'
+import profile from '../app/profile.png';
 
 const Header = () => {
 
@@ -23,7 +24,8 @@ const Header = () => {
             <div>
                 <animated.div style={animatedStyle}>
                     <h1>PGA</h1>
-
+                    <img src={profile} alt='profile' width="200"
+                        height="auto" className='profile' />
                     <h3 className='text-center'><i>Full Stack Developer</i></h3>
                 </animated.div>
             </div>
