@@ -1,13 +1,63 @@
 :root {
+  /*OLD NOMENCLATURE DEPRECATE*/
   --clr-1: aqua;
-  --clr-2: magenta;
-  --clr-3: #a424ff;
-  --clr-4: #cffbff;
-  --clr-5: slateblue;
-  --clr-6: black;
-  --clr-7: rgb(50, 50, 108);
+  /* deprecating soon */
 
-/*change to em*/
+  --clr-4: #cffbff;
+  /* deprecating soon */
+
+  --clr-2: magenta;
+  /* deprecating soon */
+
+  --clr-3: #a424ff;
+  /* deprecating soon */
+  --clr-5: slateblue;
+  /* deprecating soon */
+  --clr-6: rgb(0, 0, 0);
+  /* deprecating soon */
+  --clr-7: rgb(50, 50, 108);
+  /* deprecating soon */
+
+
+  /*COLORS*/
+/*wHITE/BLACK/BASE*/
+--_site-black: black;
+--_site-white: white;
+--_site-blue: blue;
+
+  /*primary Theme Colors*/
+  --primary-theme1: aqua;
+  --primary-theme2: rgb(121, 208, 208);
+
+
+
+  /*Secondary Theme Colors*/
+  --secondary-theme1: magenta;
+  --secondary-theme2: rgb(194, 21, 194);
+
+
+
+  /*Link Colors*/
+  --link-clr1: slateblue;
+  --link-clr2: rgb(124, 9, 186);
+
+
+
+
+
+  /*BORDERS*/
+
+  /*border clr*/
+  --border-clr1: rgb(50, 50, 108);
+  --border-clr2: rgb(25, 25, 125);
+
+  /*Borders Full def*/
+  --site-border: 2px solid var(--border-clr1);
+  --page-border: 2px solid var(--border-clr1);
+  --alt-border: 2px solid var(--border-clr2);
+
+
+  /*change to em*/
   --font-main: Georgia;
   --font-sec: papyrus;
 
@@ -29,14 +79,15 @@
 }
 
 
-h1{
-  color:var(--clr-1);
+h1 {
+  color: var(--clr-1);
   font-size: var(--fs-heading);
 }
 
-h2{
-  color:var(--clr-1)
+h2 {
+  color: var(--clr-1)
 }
+
 /* Used in SubHead */
 h3 {
   padding: 2px;
@@ -70,31 +121,31 @@ h3:hover::before {
 
 @keyframes colorback {
   0% {
-      background-color: var(--clr-2);
+    background-color: var(--clr-2);
   }
 
   10% {
-      background-color: var(--clr-3);
+    background-color: var(--clr-3);
   }
 
   25% {
-      background-color: var(--clr-1);
+    background-color: var(--clr-1);
   }
 
   50% {
-      background-color: var(--clr-5);
+    background-color: var(--clr-5);
   }
 
   75% {
-      background-color: var(--clr-1);
+    background-color: var(--clr-1);
   }
 
   90% {
-      background-color: var(--clr-3);
+    background-color: var(--clr-3);
   }
 
   100% {
-      background-color: var(--clr-2);
+    background-color: var(--clr-2);
   }
 }
 

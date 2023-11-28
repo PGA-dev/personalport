@@ -7,7 +7,7 @@
   justify-content: space-evenly;
   background-image: radial-gradient(var(--clr-2), var(--clr-1));
   /* background-image: url(../app/profile.png); */
-  border: 5px solid var(--clr-1);
+  border: 2px solid var(--clr-5);
   padding: 5px;
   background-repeat:no-repeat;
   background-size: auto;
@@ -38,8 +38,9 @@
   size: inherit;
 }
 
+
 .a {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: var(--clr-3);
   font-family: papyrus;
 }

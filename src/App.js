@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Nav />
     <Header /> 
-      <Suspense fallback={<div>Please Wait, Loading...</div>}>
+      <Suspense fallback={<div>Please Wait, Loading page...</div>}>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/contact' element={<Contact />} />
