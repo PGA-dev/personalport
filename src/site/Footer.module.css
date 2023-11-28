@@ -5,9 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-image: radial-gradient(var(--clr-2), var(--clr-1));
+  background-image: var(--background-blend-radial1);
   /* background-image: url(../app/profile.png); */
-  border: 2px solid var(--clr-5);
+  border: 2px solid var(--border-clr2);
   padding: 5px;
   background-repeat:no-repeat;
   background-size: auto;
@@ -19,7 +19,7 @@
 
 
 .footer > :nth-child(even) {
-  background-color: var(--clr-7);
+  background-color: var(--container-background);
   margin: .7em;
   padding: 1em;
   font-size: .5em;

@@ -22,10 +22,10 @@
   /* deprecating soon */
 
 
-/*COLORS*/
-/*wHITE/BLACK/BASE*/
---site-black:  black;
---site-white: white;
+  /*COLORS*/
+  /*wHITE/BLACK/BASE*/
+  --site-black: black;
+  --site-white: white;
 
 
   /*primary Theme Colors*/
@@ -38,6 +38,9 @@
   --secondary-theme1: magenta;
   --secondary-theme2: rgb(194, 21, 194);
 
+  /*Alternative schema*/
+  --alt-theme1: rgb(50, 50, 108);
+  --alt-theme2: #cffbff;
 
 
   /*Link Colors*/
@@ -57,8 +60,10 @@
   --site-border-rad: .3em;
   --alt-border: 2px solid var(--border-clr2);
 
-
-
+/*BACKGROUND*/
+--container-background: rgb(50, 50, 108);
+--background-blend-radial1: radial-gradient(var(--secondary-theme1), var( --primary-theme1));
+--background-blend-radial2: radial-gradient(var(--primary-theme1), var( --secondary-theme1));
 
   --font-main: Georgia;
   --font-sec: papyrus;
