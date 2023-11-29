@@ -48,14 +48,6 @@
 
   }
 
-  #tableDiv {
-    background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 30px;
-    justify-content: center;
-  }
-
 
   table {
     margin: 1em 0;
@@ -66,11 +58,11 @@
   caption {
     text-align: left;
     font-style: italic;
-    color: var(--table-heading);
+    color: var(--table-caption);
     background-color: var(--table-caption-back) ;
     padding: 0.25em 0.5em 0.5em 0.5em;
-    border: var(--alt-border);
-    border-radius: var(--alt-border-rad);
+    /* border: var(--alt-border);
+    border-radius: var(--alt-border-rad); */
   }
   
   th,
@@ -93,11 +85,11 @@
   }
   
   tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: var(--table-row-clr);
   }
   
   tr:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--table-row-clr-alt);
   }
   
   td:nth-of-type(2) {
@@ -140,7 +132,7 @@
     caption {
       font-style: normal;
       background-color: var(--table-caption-back);
-      color: #fff;
+      color: var(--table-caption);
       font-weight: bold;
     }
     td:nth-of-type(3) {
@@ -161,15 +153,15 @@
   @media print {
     body {
       font-size: 6pt;
-      color: #000;
-      background-color: #fff;
+      color: var(--table-clr1);
+      background-color: var(--table-clr2);
       background-image: none;
     }
     body,
     main {
       margin: 0;
       padding: 0;
-      background-color: #fff;
+      background-color: var(--table-clr2);
       border: none;
     }
     table {
@@ -179,20 +171,20 @@
       overflow: visible;
     }
     th {
-      color: #000;
-      background-color: #fff;
-      border-bottom: 1pt solid #000;
+      color: var(--table-clr1);
+      background-color: var(--table-clr2);
+      border-bottom: 1pt solid var(--table-clr1);
     }
     tr {
-      border-top: 1pt solid #000;
+      border-top: 1pt solid var(--table-clr1);
     }
   }
   
   @media print and (max-width: 5in) {
     caption {
-      color: #000;
-      background-color: #fff;
-      border-bottom: 1pt solid #000;
+      color: var(--table-caption);
+      background-color: var(--table-clr2);
+      border-bottom: 1pt solid var(--table1);
     }
     table {
       page-break-inside: auto;

@@ -1,64 +1,25 @@
 :root {
-  /*OLD NOMENCLATURE DEPRECATE*/
-  /* --clr-1: aqua; */
-  /* deprecating soon */
-
-  /* --clr-2: magenta; */
-  /* deprecating soon */
-
-  /* --clr-3: #a424ff; */
-  /* deprecating soon */
-
-  /* --clr-4: #cffbff; */
-  /* deprecating soon */
-
-  /* --clr-5: slateblue; */
-  /* deprecating soon */
-
-  /* --clr-6: rgb(0, 0, 0); */
-  /* deprecating soon */
-
-  /* --clr-7: rgb(50, 50, 108); */
-  /* deprecating soon */
-
   /*New Nomenclature*/
   /*COLORS*/
   /*wHITE/BLACK/BASE*/
   --site-black: black;
-  /*clr6*/
-  
   --site-white: white;
-  /*clr4 sort of alt*/
-
 
   /*primary Theme Colors*/
   --primary-theme1: aqua;
-  /*clr1*/
-
   --primary-theme2: rgb(121, 208, 208);
-  /*clr1alt*/
-  
   --primary-theme3: rgba(0,100,222,.7);
 
   /*Secondary Theme Colors*/
   --secondary-theme1: magenta;
-  /*clr2*/
-
   --secondary-theme2: rgb(146, 19, 146);
-  /*clr2alt*/
+
 
   /*Alternative schema -- basically, extra colors*/
   --alt-theme1: rgb(50, 50, 108);
-  /*clr7*/
-
   --alt-theme2: #cffbff;
-  /*clr4*/
-
   --alt-theme3: slateblue;
-  /*clr5*/
-
   --alt-theme4: #a424ff;
-  /*clr3*/
 
 
   /*Link Colors*/
@@ -101,7 +62,7 @@
 --table-row-clr: rgba(255, 255, 255, .25);
 --table-row-clr-alt: rgba(255, 255, 255, 0.5);
 --table-heading: aqua;
---table-caption: #a424ff;
+--table-caption: rgb(121, 208, 208);
 --table-caption-back: rgba(0,100,222,.1);
 
 
