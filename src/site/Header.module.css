@@ -13,7 +13,7 @@
   }
 
   .flexContainer > :nth-child(odd) {
-    background-image: radial-gradient(var(--clr-5), var(--clr-7)); 
+    background-image: radial-gradient(var(--alt-theme3), var(--alt-theme1)); 
     text-align: center;
     padding: 20px 15px;
     font-size: inherit;
@@ -21,7 +21,7 @@
   }
 
   .flexContainer > :nth-child(even) {
-    background-image: radial-gradient(var(--clr-2), var(--clr-5));
+    background-image: radial-gradient(var(--secondary-theme1), var(--alt-theme3));
     text-align: center;
     padding: 20px 0px;
     font-size: inherit;
