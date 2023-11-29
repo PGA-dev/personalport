@@ -22,7 +22,7 @@
   }
 
 
-  .gridContainer > div {
+  .gridContainer> div {
     background-image: radial-gradient(var(--clr-5), var(--clr-1));
     text-align: center;
     padding: 20px 20px;

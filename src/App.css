@@ -21,34 +21,73 @@
   --clr-7: rgb(50, 50, 108);
   /* deprecating soon */
 
-/*New Nomenclature*/
+  /*New Nomenclature*/
   /*COLORS*/
   /*wHITE/BLACK/BASE*/
-  --site-black: black; /*clr6*/
-  --site-white: white; /*clr4 sort of alt*/
+  --site-black: black;
+  /*clr6*/
+  --site-white: white;
+  /*clr4 sort of alt*/
 
 
   /*primary Theme Colors*/
-  --primary-theme1: aqua; /*clr1*/
-  --primary-theme2: rgb(121, 208, 208); /*clr1alt*/
-
+  --primary-theme1: aqua;
+  /*clr1*/
+  --primary-theme2: rgb(121, 208, 208);
+  /*clr1alt*/
 
 
   /*Secondary Theme Colors*/
-  --secondary-theme1: magenta; /*clr2*/
-  --secondary-theme2: rgb(194, 21, 194); /*clr2alt*/
+  --secondary-theme1: magenta;
+  /*clr2*/
+  --secondary-theme2: rgb(194, 21, 194);
+  /*clr2alt*/
 
   /*Alternative schema -- basically, extra colors*/
-  --alt-theme1: rgb(50, 50, 108); /*clr7*/
-  --alt-theme2: #cffbff; /*clr4*/
-  --alt-theme3: slateblue; /*clr5*/
-  --alt-theme4: #a424ff; /*clr3*/
-
+  --alt-theme1: rgb(50, 50, 108);
+  /*clr7*/
+  --alt-theme2: #cffbff;
+  /*clr4*/
+  --alt-theme3: slateblue;
+  /*clr5*/
+  --alt-theme4: #a424ff;
+  /*clr3*/
 
 
   /*Link Colors*/
-  --link-clr1: slateblue;
-  --link-clr2: #a424ff;
+  --link1-clr: slateblue;
+  --link1-hover: #cffbff;
+
+  --link2-clr: #a424ff;
+  --link2-hover: #cffbff;
+
+  /*Heading Colors*/
+  --heading1-clr: aqua;
+  --heading1-hover: #cffbff;
+
+  --heading2-clr: aqua;
+  --heading2-hover: #cffbff;
+
+
+  --heading3-clr: #cffbff;
+  --heading3-hover: #a424ff;
+
+
+  --heading4-clr: #cffbff;
+  --heading4-hover: #a424ff;
+
+
+  --heading5-clr: #a424ff;
+  --heading5-hover: aqua;
+
+
+  --heading6-clr: slateblue;
+  --heading6-hover: aqua;
+
+  --heading7-clr: slateblue;
+  --heading7-hover: aqua;
+
+
 
 
 
@@ -63,10 +102,10 @@
   --site-border-rad: .3em;
   --alt-border: 2px solid var(--border-clr2);
 
-/*BACKGROUNDS*/
---container-background: rgb(50, 50, 108);
---background-blend-radial1: radial-gradient(var(--secondary-theme1), var( --primary-theme1));
---background-blend-radial2: radial-gradient(var(--primary-theme1), var( --secondary-theme1));
+  /*BACKGROUNDS*/
+  --container-background: rgb(50, 50, 108);
+  --background-blend-radial1: radial-gradient(var(--secondary-theme1), var(--primary-theme1));
+  --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--secondary-theme1));
 
 
 
@@ -84,6 +123,9 @@
   --fs-subhead: 1.2em;
   --fs-pagehead: 1.2em;
   --fs-text: 1em;
+  --fs-link: 1.4em;
+  --fs-link2: 1.1em;
+  --fs-link-hover: 1.5em;
 
   --width: 85em;
 
@@ -95,17 +137,18 @@
   text-align: auto;
 }
 
-.fallback, #fallback{
+.fallback,
+#fallback {
   color: var(--alt-theme4);
 }
 
 h1 {
-  color: var(--primary-theme1);
+  color: var(--heading1-clr);
   font-size: var(--fs-heading);
 }
 
 h2 {
-  color: var(--primary-theme1)
+  color: var(--heading2-clr)
 }
 
 /* Used in SubHead */
@@ -113,7 +156,7 @@ h3 {
   padding: 2px;
   font-family: var(--font-sec);
   font-size: var(--fs-subhead);
-  color: var(--alt-theme2);
+  color: var(--heading3-clr);
   font-weight: var(--fw-bright)
 }
 

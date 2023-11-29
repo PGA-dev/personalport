@@ -40,15 +40,27 @@
 
 
 .a {
-  font-size: 1.4em;
-  color: var( --link-clr2);
+  font-size: var(--fs-link2);
+  color: var( --link2-clr);
   font-family: papyrus;
 }
 
+.a:hover {
+  font-weight: --fw-bright;
+  color: var( --link2-hover);
+
+}
+
 .l {
-  font-size: 1.4em;
-  color: var(--link-clr2);
+  font-size: var(--fs-link);
+  color: var(--link2-clr);
   font-family: papyrus;
+}
+
+.l:hover {
+  font-weight: --fw-bright-wow;
+  color: var( --link2-hover);
+
 }
 
 @media (max-width: 850px) {
