@@ -95,6 +95,9 @@
   text-align: auto;
 }
 
+.fallback, #fallback{
+  color: var(--alt-theme4);
+}
 
 h1 {
   color: var(--primary-theme1);

@@ -2,8 +2,8 @@
 
   
   .flexContainer {
-    background-image: url(../app/guitar.png), url(../app/profile.png);
-    background-size: 6em;
+    background-image: url(../app/profile.png), url(../app/guitar.png);
+    background-size: 15em;
     background-repeat: repeat;
     background-blend-mode: color-burn;
     display: flex;
