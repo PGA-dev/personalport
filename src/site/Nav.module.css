@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: radial-gradient(var(--clr-3), var(--clr-1));
+  background-image: radial-gradient(var(--alt-theme4), var(--primary-theme1));
 }
 
 li {
@@ -24,7 +24,7 @@ li {
 .profile {
   float: right;
   font: var(--font-sec);
-  color: var(--clr-1);
+  color: var(--primary-theme1);
   margin: 5px;
   padding: 2px;
 }
@@ -32,7 +32,7 @@ li {
 li .n,
 .dropBtn {
   display: inline-block;
-  color: var(--clr-1);
+  color: var(--primary-theme1);
   text-align: center;
   padding: 14px 16px;
   font: papyrus;
@@ -41,7 +41,7 @@ li .n,
 
 li .n:hover,
 .dropDown:hover .dropBtn {
-  background-color: var(--clr-5);
+  background-color: var(--alt-theme3);
 }
 
 li.dropDown {
@@ -50,13 +50,13 @@ li.dropDown {
 
 .dropBtn {
   font: papyrus;
-  color: var(--clr-1);
+  color: var(--primary-theme1);
 }
 
 .dropDownContent {
   display: none;
   position: absolute;
-  background-image: radial-gradient(var(--clr-7), var(--clr-1));
+  background-image: radial-gradient(var(--alt-theme1), var(--primary-theme1));
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 10;
@@ -71,8 +71,8 @@ li.dropDown {
 }
 
 .dropDownContent a:hover {
-  color: var(--clr-1);
-  background-color: var(--clr-7);
+  color: var(--primary-theme1);
+  background-color: var(--alt-theme1);
 }
 
 .dropDown:hover .dropDownContent {
@@ -82,6 +82,6 @@ li.dropDown {
 
 .n {
   font-size: 1.4em;
-  color: var(--clr-1);
+  color: var(--primary-theme1);
   font-family: papyrus;
 }
