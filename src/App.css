@@ -97,12 +97,12 @@
 /*Table*/
 --table-clr1: rgb(146, 19, 146);
 --table-clr2: white;
---table-back: rgba(0,0,0,.35);
+--table-back: rgba(0,100,222,.7);
 --table-row-clr: rgba(255, 255, 255, .25);
 --table-row-clr-alt: rgba(255, 255, 255, 0.5);
 --table-heading: aqua;
 --table-caption: #a424ff;
---table-caption-back: rgba(0,100,222,.7);
+--table-caption-back: rgba(0,100,222,.1);
 
 
   /*BORDERS*/
@@ -121,7 +121,11 @@
   --background-blend-radial1: radial-gradient(var(--secondary-theme1), var(--primary-theme1));
   --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--secondary-theme1));
 
-
+  /*Site Map*/
+  --sm1-clr: slateblue;
+  --sm1-hover: #cffbff;
+  --sm-border: 2px solid var(--border-clr2);
+  --sm-border-rad: .7em;
 
 
   --font-main: Georgia;
