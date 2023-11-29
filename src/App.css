@@ -26,6 +26,7 @@
   /*wHITE/BLACK/BASE*/
   --site-black: black;
   /*clr6*/
+  
   --site-white: white;
   /*clr4 sort of alt*/
 
@@ -33,23 +34,29 @@
   /*primary Theme Colors*/
   --primary-theme1: aqua;
   /*clr1*/
+
   --primary-theme2: rgb(121, 208, 208);
   /*clr1alt*/
-
+  
+  --primary-theme3: rgba(0,100,222,.7);
 
   /*Secondary Theme Colors*/
   --secondary-theme1: magenta;
   /*clr2*/
-  --secondary-theme2: rgb(194, 21, 194);
+
+  --secondary-theme2: rgb(146, 19, 146);
   /*clr2alt*/
 
   /*Alternative schema -- basically, extra colors*/
   --alt-theme1: rgb(50, 50, 108);
   /*clr7*/
+
   --alt-theme2: #cffbff;
   /*clr4*/
+
   --alt-theme3: slateblue;
   /*clr5*/
+
   --alt-theme4: #a424ff;
   /*clr3*/
 
@@ -58,7 +65,7 @@
   --link1-clr: slateblue;
   --link1-hover: #cffbff;
 
-  --link2-clr: #a424ff;
+  --link2-clr: #7720b6;
   --link2-hover: #cffbff;
 
   /*Heading Colors*/
@@ -87,8 +94,15 @@
   --heading7-clr: slateblue;
   --heading7-hover: aqua;
 
-
-
+/*Table*/
+--table-clr1: rgb(146, 19, 146);
+--table-clr2: white;
+--table-back: rgba(0,0,0,.35);
+--table-row-clr: rgba(255, 255, 255, .25);
+--table-row-clr-alt: rgba(255, 255, 255, 0.5);
+--table-heading: aqua;
+--table-caption: #a424ff;
+--table-caption-back: rgba(0,100,222,.7);
 
 
   /*BORDERS*/
@@ -101,7 +115,7 @@
   --site-border: 2px solid var(--border-clr1);
   --site-border-rad: .3em;
   --alt-border: 2px solid var(--border-clr2);
-
+  --alt-border-rad: .5em;
   /*BACKGROUNDS*/
   --container-background: rgb(50, 50, 108);
   --background-blend-radial1: radial-gradient(var(--secondary-theme1), var(--primary-theme1));

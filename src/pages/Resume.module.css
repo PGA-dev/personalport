@@ -17,13 +17,13 @@
     /* grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto; */
     gap: 1px;
-    background-image: radial-gradient(var(--clr-5), var(--clr-1));
+    background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
     padding: 3px;
   }
 
 
   .gridContainer> div {
-    background-image: radial-gradient(var(--clr-5), var(--clr-1));
+    background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
     text-align: center;
     padding: 20px 20px;
     font-size: 30px;
@@ -32,25 +32,25 @@
   .gridContainer>div .button{
     display: inline-block;
     text-decoration: none;
-    color: var(--clr-5);
-    background-color: var(--clr-1);
-    border: .1em solid var(--clr-5);
+    color: var(--alt-theme3);
+    background-color: var(--primary-theme1);
+    border: .1em solid var(--alt-theme3);
     border-radius: .2em;
     /* box-shadow: 0em .1em var(--clr-7); */
   }
 
   .gridContainer>div .button:hover{
-    border: .2em solid var(--clr-4);
+    border: .2em solid var(--alt-theme2);
   }
 
 
-  #tableDiv {
-    background-image: radial-gradient(var(--clr-1), var(--clr-5));
+  /* #tableDiv {
+    background-image: radial-gradient(var(--clr-1), var(--alt-theme3));
     text-align: center;
     padding: 20px 20px;
     font-size: 30px;
     justify-content: center;
-  }
+  } */
 
 
   table {
@@ -62,12 +62,13 @@
   caption {
     text-align: left;
     font-style: italic;
-    color: var(--clr-5);
+    color: var(--table-caption);
     padding: 0.25em 0.5em 0.5em 0.5em;
   }
   
   th,
   td {
+    color:var(--table-clr1);
     padding: 0.25em 0.5em 0.25em 1em;
     vertical-align: text-top;
     text-align: left;
@@ -76,8 +77,8 @@
   
   th {
     vertical-align: bottom;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: var(--clr-1);
+    background-color: var(--table-caption-back);
+    color: var(--table-heading);
     font-weight: bold;
   }
   
@@ -86,11 +87,11 @@
   }
   
   tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: var(--table-row-clr);
   }
   
   tr:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--table-row-clr-alt);
   }
   
   td:nth-of-type(2) {
@@ -132,8 +133,8 @@
     }
     caption {
       font-style: normal;
-      background-color: rgba(0, 0, 0, 0.35);
-      color: #fff;
+      background-color: var(--table-caption-back);
+      color: var(--table-caption);
       font-weight: bold;
     }
     td:nth-of-type(3) {
@@ -154,15 +155,15 @@
   @media print {
     body {
       font-size: 6pt;
-      color: #000;
-      background-color: #fff;
+      color: var(--table-clr1);
+      background-color: var(--table-clr2);
       background-image: none;
     }
     body,
     main {
       margin: 0;
       padding: 0;
-      background-color: #fff;
+      background-color: var(--table-clr2);
       border: none;
     }
     table {
@@ -172,20 +173,20 @@
       overflow: visible;
     }
     th {
-      color: #000;
-      background-color: #fff;
-      border-bottom: 1pt solid #000;
+      color: var(--table-clr1);
+      background-color: var(--table-clr2);
+      border-bottom: 1pt solid var(--table-clr1);
     }
     tr {
-      border-top: 1pt solid #000;
+      border-top: 1pt solid var(--table-clr1);
     }
   }
   
   @media print and (max-width: 5in) {
     caption {
-      color: #000;
-      background-color: #fff;
-      border-bottom: 1pt solid #000;
+      color: var(--table-caption);
+      background-color: var(--table-clr2);
+      border-bottom: 1pt solid var(--table1);
     }
     table {
       page-break-inside: auto;
