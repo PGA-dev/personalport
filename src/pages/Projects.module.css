@@ -1,6 +1,6 @@
 /* Projects CSS */
 
-.item1 { grid-area: header; }
+/* .item1 { grid-area: header; } */
 
 
 .flexContainer  {
@@ -22,14 +22,14 @@
   justify-content: center;
 }
 
-.gridContainer {
+/* .gridContainer {
     display: grid;
     grid-template-rows: auto; 
     gap: 1px;
     background-image: radial-gradient(var(--secondary-theme1), var(--alt-theme2));
     padding: 3px;
 
-  }
+  } */
 
 
   .flexContainer > div {

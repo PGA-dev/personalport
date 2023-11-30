@@ -107,9 +107,6 @@
   --fs-link-hover: 1.5em;
 
   --width: 85em;
-
-
-
 }
 
 .App {
@@ -161,6 +158,13 @@ h3:hover::before {
   animation: colorback 7500ms infinite;
 }
 
+/*Use exclusively for footer links*/
+h5 {
+  font-size: .7em;
+  color: var(--alt-theme3);
+  font-family: papyrus;
+}
+
 @keyframes colorback {
   0% {
     background-color: var(--secondary-theme1);
@@ -191,9 +195,3 @@ h3:hover::before {
   }
 }
 
-/*Use exclusively for footer links*/
-h5 {
-  font-size: .7em;
-  color: var(--alt-theme3);
-  font-family: papyrus;
-}
