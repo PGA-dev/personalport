@@ -62,15 +62,15 @@
 --table-row-clr: rgba(255, 255, 255, .25);
 --table-row-clr-alt: rgba(255, 255, 255, 0.5);
 --table-heading: aqua;
---table-caption: rgb(121, 208, 208);
---table-caption-back: rgba(0,100,222,.1);
+--table-caption: slateblue;
+--table-caption-back: rgba(0,100,222,.3);
 
 
   /*BORDERS*/
 
   /*border clr*/
   --border-clr1: rgb(50, 50, 108);
-  --border-clr2: rgb(25, 25, 125);
+  --border-clr2: rgb(25, 35, 156);
 
   /*Borders Full def*/
   --site-border: 2px solid var(--border-clr1);
@@ -81,7 +81,8 @@
   --container-background: rgb(50, 50, 108);
   --background-blend-radial1: radial-gradient(var(--secondary-theme1), var(--primary-theme1));
   --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--secondary-theme1));
-
+  --background-blend-radial3: radial-gradient(var(--site-white), var(--secondary-theme1));
+  --background-blend-radial4: radial-gradient(var(--border-clr2), var(--site-black));
   /*Site Map*/
   --sm1-clr: slateblue;
   --sm1-hover: #cffbff;
@@ -102,7 +103,7 @@
   --fs-subhead: 1.2em;
   --fs-pagehead: 1.2em;
   --fs-text: 1em;
-  --fs-link: 1.4em;
+  --fs-link: 1.5em;
   --fs-link2: 1.1em;
   --fs-link-hover: 1.5em;
 

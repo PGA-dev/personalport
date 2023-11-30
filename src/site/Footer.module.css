@@ -42,11 +42,11 @@
 .a {
   font-size: var(--fs-link2);
   color: var( --link2-clr);
-  font-family: papyrus;
+  font-family: var(--font-sec);
 }
 
 .a:hover {
-  font-weight: --fw-bright;
+  font-weight: var(--fw-bright);
   color: var( --link2-hover);
 
 }
@@ -54,11 +54,11 @@
 .l {
   font-size: var(--fs-link);
   color: var(--link2-clr);
-  font-family: papyrus;
+  font-family: var(--font-sec);
 }
 
 .l:hover {
-  font-weight: --fw-bright-wow;
+  font-weight: var(--fw-bright);
   color: var( --link2-hover);
 
 }
