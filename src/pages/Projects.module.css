@@ -59,7 +59,7 @@
     text-align: left;
     font-style: italic;
     color: var(--table-caption);
-    background-color: var(--table-caption-back) ;
+    /* background-color: var(--table-caption-back) ; */
     padding: 0.25em 0.5em 0.5em 0.5em;
     /* border: var(--alt-border);
     border-radius: var(--alt-border-rad); */
@@ -192,4 +192,16 @@
     tr {
       page-break-inside: avoid;
     }
+  }
+
+  .a {
+    font-size: var(--fs-link2);
+    color: var( --link2-clr);
+    font-family: var(--font-sec);
+  }
+  
+  .a:hover {
+    font-weight: var(--fw-bright);
+    color: var( --link2-hover);
+  
   }
