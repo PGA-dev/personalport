@@ -12,7 +12,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Projects = lazy(() => import('./pages/Projects'));
 const History = lazy(() => import('./pages/History'));
 const Resume = lazy(() => import('./pages/Resume'));
-const SiteMap = lazy(() => import('./pages/SiteMap'));
+const SiteReference = lazy(() => import('./pages/SiteReference'));
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/history' element={<History />} />
         <Route path='/resume' element={<Resume />} />
-        <Route path='/sitemap' element={<SiteMap />} />
+        <Route path='/sitereference' element={<SiteReference />} />
       </Routes>
     </Suspense>
       <Footer />

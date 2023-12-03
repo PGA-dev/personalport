@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import styles from './SiteMap.module.css';
+import styles from './SiteReference.module.css';
 
 const SiteMap = () => {
 
@@ -22,7 +22,7 @@ const SiteMap = () => {
                 <div className={styles.gridContainer}>
                     <div className={styles.item1}>
                     <animated.div style={animatedStyle}>
-                        <h1 ><i>Site Map</i></h1>
+                        <h1 ><i>Site References</i></h1>
 
                     </animated.div>
                     </div>
