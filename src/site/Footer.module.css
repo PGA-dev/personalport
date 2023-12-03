@@ -40,25 +40,27 @@
 
 
 .a {
+  font-weight: var(--fw-bright);
   font-size: var(--fs-link2);
   color: var( --link1-clr);
   font-family: var(--font-sec);
 }
 
 .a:hover {
-  font-weight: var(--fw-bright);
+  font-weight: var(--fw-bright-wow);
   color: var( --link1-hover);
 
 }
 
 .l {
+  font-weight: var(--fw-bright);
   font-size: var(--fs-link);
   color: var(--link1-clr);
   font-family: var(--font-sec);
 }
 
 .l:hover {
-  font-weight: var(--fw-bright);
+  font-weight: var(--fw-bright-wow);
   color: var( --link1-hover);
 
 }
