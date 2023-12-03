@@ -4,13 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-image: var(--background-blend-linear1);
   }
   
   .flexContainer > div {
-    background-color: var(--alt-theme1);
+    background-color: var(--site-black);
+    color: var(--link1-clr);
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    border: var(--site-border)
   }
 
 .item1 { grid-area: header; }
@@ -23,7 +26,7 @@
     /* grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto; */
     gap: 1px;
-    background-image: radial-gradient(var(--alt-theme1), var(--primary-theme1));
+    background-image: var(--background-blend-linear1);
     padding: 3px;
   }
 

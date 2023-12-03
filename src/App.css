@@ -73,7 +73,7 @@
   --border-clr2: rgba(25, 35, 156,1);
 
   /*Borders Full def*/
-  --site-border: 2px solid var(--border-clr1);
+  --site-border: 5px solid var(--border-clr1);
   --site-border-rad: .3em;
   --alt-border: 2px solid var(--border-clr2);
   --alt-border-rad: .5em;

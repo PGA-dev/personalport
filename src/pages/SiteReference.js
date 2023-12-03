@@ -17,23 +17,23 @@ const SiteMap = () => {
     }, []);
 
     return (
-        <div>
+  
             <div>
                 <div className={styles.gridContainer}>
                     <div className={styles.item1}>
-                    <animated.div style={animatedStyle}>
-                        <h1 ><i>Site References</i></h1>
+                        <animated.div style={animatedStyle}>
+                            <h1 ><i>Site References</i></h1>
 
-                    </animated.div>
+                        </animated.div>
                     </div>
                     <div className={styles.item2}>
-                    <animated.div style={animatedStyle}>
-                        <h1  >Each Link will be in a simple container using a mapped jsx component for the links themselves</h1>
-                    </animated.div>
-                </div>
+                        <animated.div style={animatedStyle}>
+                            <h1  >heading</h1>
+                        </animated.div>
+                    </div>
                 </div>
 
-            </div>
+            
             <div className={styles.flexContainer}>
 
 
@@ -43,8 +43,8 @@ const SiteMap = () => {
                 <div>mapped item</div>
                 <div>mapped item</div>
             </div>
-
-        </div>
+</div>
+  
 
 
     );
