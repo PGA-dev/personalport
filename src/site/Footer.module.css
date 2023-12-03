@@ -41,25 +41,25 @@
 
 .a {
   font-size: var(--fs-link2);
-  color: var( --link2-clr);
+  color: var( --link1-clr);
   font-family: var(--font-sec);
 }
 
 .a:hover {
   font-weight: var(--fw-bright);
-  color: var( --link2-hover);
+  color: var( --link1-hover);
 
 }
 
 .l {
   font-size: var(--fs-link);
-  color: var(--link2-clr);
+  color: var(--link1-clr);
   font-family: var(--font-sec);
 }
 
 .l:hover {
   font-weight: var(--fw-bright);
-  color: var( --link2-hover);
+  color: var( --link1-hover);
 
 }
 

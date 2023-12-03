@@ -10,7 +10,7 @@ const HomePage = () => {
 
     const animatedStyle = useSpring({
         opacity: toggle ? 1 : 0,
-        transform: toggle ? 'scale(1,1)' : 'scale(0,0)',
+        transform: toggle ? 'scale(1,1)' : 'scale(0,1)',
         config: { duration: 1500 }
     });
 
@@ -33,7 +33,7 @@ const HomePage = () => {
 
                     <div className={styles.item2}>
                     <animated.div style={animatedStyle}>
-                    <img src={profile} alt='profile' width={500} className={styles.profile} />
+                    <img src={profile} alt='profile' width={300} className={styles.profile} />
                 </animated.div>
                 </div>
                 </div>

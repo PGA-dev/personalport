@@ -7,12 +7,12 @@
 
   /*primary Theme Colors*/
   --primary-theme1: aqua;
-  --primary-theme2: rgb(121, 208, 208);
+  --primary-theme2: rgba(25, 35, 156,1);
   --primary-theme3: rgba(0,100,222,.7);
 
   /*Secondary Theme Colors*/
   --secondary-theme1: magenta;
-  --secondary-theme2: rgb(146, 19, 146);
+  --secondary-theme2: rgba(146, 19, 146,1);
 
 
   /*Alternative schema -- basically, extra colors*/
@@ -23,10 +23,10 @@
 
 
   /*Link Colors*/
-  --link1-clr: slateblue;
-  --link1-hover: #cffbff;
+  --link1-clr: aqua;
+  --link1-hover: rgba(120, 134, 255,1);
 
-  --link2-clr: #7720b6;
+  --link2-clr: #a424ff;
   --link2-hover: #cffbff;
 
   /*Heading Colors*/
@@ -70,7 +70,7 @@
 
   /*border clr*/
   --border-clr1: rgb(50, 50, 108);
-  --border-clr2: rgb(25, 35, 156);
+  --border-clr2: rgba(25, 35, 156,1);
 
   /*Borders Full def*/
   --site-border: 2px solid var(--border-clr1);
@@ -79,10 +79,14 @@
   --alt-border-rad: .5em;
   /*BACKGROUNDS*/
   --container-background: rgb(50, 50, 108);
-  --background-blend-radial1: radial-gradient(var(--secondary-theme1), var(--primary-theme1));
-  --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--secondary-theme1));
+  --background-blend-radial1: radial-gradient(var(--site-black), var(--primary-theme1));
+  --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--site-black));
   --background-blend-radial3: radial-gradient(var(--site-white), var(--secondary-theme1));
-  --background-blend-radial4: radial-gradient(var(--border-clr2), var(--site-black));
+  --background-blend-radial4: radial-gradient(var(--primary-theme2), var(--site-black));
+  --background-blend-radial5: radial-gradient(var(--site-black), var(--site-black));
+  --background-blend-linear1: linear-gradient(to right, var(--primary-theme2),var(--primary-theme1),var(--primary-theme2),var(--site-black), var(--site-black),var(--primary-theme2));
+  --background-blend-linear2: linear-gradient(to right,var(--primary-theme2), var(--primary-theme1),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
+
   /*Site Map*/
   --sm1-clr: slateblue;
   --sm1-hover: #cffbff;
