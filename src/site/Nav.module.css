@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: radial-gradient(var(--alt-theme4), var(--primary-theme1));
+  background-image: var(--background-blend-radial4);
 }
 
 li {

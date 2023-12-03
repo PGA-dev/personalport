@@ -61,16 +61,7 @@ const Projects = () => {
                         <td>TBA</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
+                        <td>Guitar Information Guide</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -79,7 +70,16 @@ const Projects = () => {
                         <td></td>
                     </tr>
                     <tr>
+                        <td>Grocery App</td>
                         <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Full Stack Guitar Site</td>
                         <td></td>
                         <td></td>
                         <td></td>
