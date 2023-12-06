@@ -6,8 +6,15 @@ const SiteRefCard = ({ references }) => {
 
     return (
         <div className={styles.card}>
-            <a href={link} target="_blank" rel="noreferrer">
-                {id}{name}{message}{linkText}</a>
+            <ul>
+                <li>{id}</li>
+                <li>{name}</li>
+                <li>{message}</li>
+                <li><a href={link} target="_blank" rel="noreferrer">
+                    {linkText}</a>
+                </li>
+            </ul>
+
         </div>
 
     )
