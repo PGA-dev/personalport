@@ -19,28 +19,28 @@ const SiteMap = () => {
     }, []);
 
     return (
-  
-            <div>
-                <div className={styles.gridSite}>
-                    <div className={styles.item1}>
-                        <animated.div style={animatedStyle}>
-                            <h1 ><i>Site References</i></h1>
 
-                        </animated.div>
-                    </div>
+        <div>
+            <div className={styles.gridSite}>
+                <div className={styles.item1}>
+                    <animated.div style={animatedStyle}>
+                        <h1 ><i>Site References</i></h1>
 
+                    </animated.div>
                 </div>
 
-            
-            <div className={styles.flexSite}>
-                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
-                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
-                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
-                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
-                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
             </div>
-</div>
-  
+
+
+            <div className={styles.flexSite}>
+                <div className={styles.siteCard}>
+                   
+                        <SiteRefList className={styles.card}/>
+                    
+                </div>
+            </div>
+        </div>
+
 
 
     );

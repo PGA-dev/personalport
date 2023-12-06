@@ -1,20 +1,13 @@
 
 
-const SiteRefCard = ({ reference }) => {
+const SiteRefCard = ({ references }) => {
 
-    const { name, link, linkText, message } = reference;
+    const { id, name, link, linkText, message } = references;
 
     return (
 
-        <>
-            <p>
-                {name}
-            </p>
-            <p>
-                {message}
-            </p>
-            Source Link<a href={link}  target="_blank" rel="noreferrer">{linkText}</a>
-        </>
+    <a href={link}  target="_blank" rel="noreferrer">{name}{message}{linkText}</a>
+      
     )
 };
 

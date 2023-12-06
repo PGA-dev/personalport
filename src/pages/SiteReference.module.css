@@ -91,7 +91,7 @@
     }
 }
 
-.siteCard h5{
+.siteCard *{
   font: 1em bold var(--font-main) ;
   color: var(--primary-theme1);
   background: var(--background-blend-radial1);

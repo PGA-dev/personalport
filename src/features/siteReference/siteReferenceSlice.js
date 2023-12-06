@@ -1,11 +1,11 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { dbUrl } from "../../utilities/dbUrl";
 
-export const fetchSiteReference = createAsyncThunk(
-    'reference/fetchSiteReference',
+export const fetchSiteReferences = createAsyncThunk(
+    'references/fetchSiteReferences',
     async () => {
         try {
-            const response = await fetch(dbUrl + 'referenc');
+            const response = await fetch(dbUrl + 'references');
             if (!response.ok){
                 throw new Error('Unable to fetch, status: ' + response.status + response.url);
             }
@@ -15,34 +15,34 @@ export const fetchSiteReference = createAsyncThunk(
         }
     }
 );
-
-const referenceSlice = createSlice({
-    name: 'reference',
-    initialState: {
-       referenceArray: [],
-       isLoading: true,
-       errorMsg: '' 
-    },
+const initialState = {
+    referencesArray: [],
+    status: 'idle',
+    error: null 
+ }
+const referencesSlice = createSlice({
+    name: 'references',
+    initialState,
     reducers: {},
     extraReducers(builder) {
         builder
-            .addCase(fetchSiteReference.pending, (state,action) => {
+            .addCase(fetchSiteReferences.pending, (state,action) => {
                 state.status = 'loading'
             })
-            .addCase(fetchSiteReference.fulfilled, (state, action) => {
+            .addCase(fetchSiteReferences.fulfilled, (state, action) => {
                 state.status = 'succeeded'
                 //add references to state
-                state.reference = state.reference.concat(action.payload)
+                state.referencesArray = action.payload
             })
-            .addCase(fetchSiteReference.rejected, (state, action) => {
+            .addCase(fetchSiteReferences.rejected, (state, action) => {
                 state.status = 'failed'
-                state.errorMsg = action.error.message ? action.error.message : 'Data Fetch failed';
+                state.error= action.error.message ? action.error.message : 'Data Fetch failed';
             })
     }
 })
 
-export const referenceReducer = referenceSlice.reducer;
+export const referencesReducer = referencesSlice.reducer;
 
-export const selectAllReference = (state) => {
-    return state.reference.referenceArray;
+export const selectAllReferences = (state) => {
+    return state.references.referencesArray;
 };

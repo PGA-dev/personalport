@@ -5,6 +5,9 @@ import './App.css';
 import Footer from './site/Footer';
 import Header from './site/Header';
 import Nav from './site/Nav';
+import { fetchSiteReferences } from './features/siteReference/siteReferenceSlice';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 
 
 const HomePage = lazy(() => import('./pages/HomePage'));
@@ -16,6 +19,10 @@ const SiteReference = lazy(() => import('./pages/SiteReference'));
 
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchSiteReferences())
+  }, [dispatch]);
   return (
     <div className="App">
       <Nav />
