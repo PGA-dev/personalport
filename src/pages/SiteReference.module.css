@@ -91,11 +91,11 @@
     }
 }
 
-.siteCard *{
+/* .siteCard *{
   font: 1em bold var(--font-main) ;
   color: var(--primary-theme1);
   background: var(--background-blend-radial1);
   padding: 1em;
   margin: 1em;
   border-radius: 1em;
-}
+} */
