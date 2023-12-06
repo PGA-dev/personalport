@@ -34,6 +34,9 @@
   --link2-clr: rgba(0,255,255,1);
   --link2-hover: #cffbff;
 
+  --link3-clr:  rgba(146, 19, 146,1);
+  --link3-hover: #cffbff;
+
   /*Heading Colors*/
   --heading1-clr: rgba(0,200,255,1);
   --heading1-hover: #cffbff;
