@@ -6,14 +6,14 @@ const SiteRefCard = ({ references }) => {
 
     return (
         <div className={styles.card}>
-            <ul>
-                <li>{id}</li>
-                <li>{name}</li>
-                <li>{message}</li>
-                <li><a href={link} target="_blank" rel="noreferrer">
+            <dl>
+                <dt>{id}</dt>
+                <dt>{name}</dt>
+                <dt>{message}</dt>
+                <dt><a href={link} target="_blank" rel="noreferrer">
                     {linkText}</a>
-                </li>
-            </ul>
+                </dt>
+            </dl>
 
         </div>
 
