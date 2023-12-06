@@ -1,16 +1,15 @@
-
+import styles from './SiteCard.module.css';
 
 const SiteRefCard = ({ references }) => {
 
     const { id, name, link, linkText, message } = references;
 
     return (
-<>
-                <a href={link} target="_blank" rel="noreferrer">
-                    {linkText}
-                </a>{name}
-            {message}
-        </>
+        <div className={styles.card}>
+            <a href={link} target="_blank" rel="noreferrer">
+                {id}{name}{message}{linkText}</a>
+        </div>
+
     )
 };
 
