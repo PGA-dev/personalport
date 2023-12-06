@@ -29,12 +29,8 @@ const SiteMap = () => {
                 </div>
 
             </div>
-
-
             <div className={styles.flexSite}>
-
                     <SiteRefList />                    
-
             </div>
         </div>
 
