@@ -1,7 +1,7 @@
 /*Header CSS Module*/
 
   
-  .flexContainer {
+  .flexHeader {
     background-image: url(../app/profile.png), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
     background-size: 15em;
     background-repeat: repeat;
@@ -12,7 +12,7 @@
     z-index: .5;
   }
 
-  .flexContainer > :nth-child(odd) {
+  .flexHeader > :nth-child(odd) {
     background-image: var( --background-blend-radial4); 
     text-align: center;
     padding: 20px 15px;
@@ -20,7 +20,7 @@
     max-width: max-content;
   }
 
-  .flexContainer > :nth-child(even) {
+  .flexHeader > :nth-child(even) {
     background-image: var( --background-blend-radial2);
     text-align: center;
     padding: 20px 0px;
@@ -30,24 +30,99 @@
 
 
 @media (max-width: 75em) {
-    .flexContainer {
+  .flexHeader {
       flex-wrap: wrap;
     }
   }
 
 @media (max-width: 60em) {
-  .flexContainer {
+  .flexHeader {
     flex-wrap: wrap;
     max-width: auto;
 
   
   }
-  .flexContainer>:nth-child(odd){
+  .flexHeader>:nth-child(odd){
     max-width: auto;
   }
-  .flexContainer>:nth-child(even){
+  .flexHeader>:nth-child(even){
     max-width: auto;
   }
 } 
  
+/* For Home link*/
+.flexHeader h1{
+  padding: 2px;
+  font-family: var(--font-sec);
+  color: var(--primary-theme1);
+}
+
+.flexHeader h3 {
+  padding: 2px;
+  font-family: var(--font-sec);
+  font-size: var(--fs-subhead);
+  color: var(--heading3-clr);
+  font-weight: var(--fw-bright)
+}
+.flexHeader h3:hover {
+  color: var(--alt-theme2)
+}
+
+.homeLink{
+  z-index: -1;
+}
+
+.flexHeader .homeLink::before {
+  background: var(--alt-theme3);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 950ms ease-in-out;
+  z-index: -1;
+
+}
+
+.flexHeader .homeLink:hover::before {
+  transform: scaley(1);
+  animation: colorback 7500ms infinite;
+}
+
+/*Use exclusively for footer links*/
+.flexHeader h5 {
+  font-size: .7em;
+  color: var(--alt-theme3);
+  font-family: papyrus;
+}
+
+@keyframes colorback {
+  0% {
+    background-color: var(--secondary-theme1);
+  }
+
+  10% {
+    background-color: var(--alt-theme4);
+  }
+
+  25% {
+    background-color: var(--primary-theme1);
+  }
+
+  50% {
+    background-color: var(--alt-theme3);
+  }
+
+  75% {
+    background-color: var(--primary-theme1);
+  }
+
+  90% {
+    background-color: var(--alt-theme4);
+  }
+
+  100% {
+    background-color: var(--secondary-theme1);
+  }
+}
 

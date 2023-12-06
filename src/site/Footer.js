@@ -20,20 +20,24 @@ const Footer = () => {
 
         <footer className={styles.footer}>
             <div>
-            <animated.div style={animatedStyle}>
-                <h5 ><Link to='/' className={styles.l}><i>Home</i></Link></h5>
-                <h5 ><Link to='/contact' className={styles.l}><i>Contacts</i></Link></h5>
-                <h5><Link to='/projects' className={styles.l}><i>Projects</i></Link></h5>
-                <h5><Link to='/history' className={styles.l}><i>History</i></Link></h5>
-                <h5><Link to='/resume' className={styles.l}><i>Resume</i></Link></h5>
-                <h5><Link to='/sitemap' className={styles.l}><i>SiteMap</i></Link></h5>
+                <animated.div style={animatedStyle}>
+                    <h5 ><Link to='/' className={styles.l}><i>Home</i></Link></h5>
+                    <h5 ><Link to='/contact' className={styles.l}><i>Contacts</i></Link></h5>
+                    <h5><Link to='/projects' className={styles.l}><i>Projects</i></Link></h5>
+                    <h5><Link to='/history' className={styles.l}><i>History</i></Link></h5>
+                    <h5><Link to='/resume' className={styles.l}><i>Resume</i></Link></h5>
+                    <h5><Link to='/sitemap' className={styles.l}><i>SiteMap</i></Link></h5>
                 </animated.div>
             </div>
             <div>
                 <animated.div style={animatedStyle}>
-                    <img src={profile} alt='profile' width="200"
-                        height="auto" className='profile' />
-                </animated.div>
+                    <div className={styles.contactLink}>
+                    
+                        <Link to='contact' >
+                        <img src={profile} alt='profile' width="200"
+                            height="auto" className='profile' /></Link>
+                    </div>
+                    </animated.div>
 
             </div>
             <div>
