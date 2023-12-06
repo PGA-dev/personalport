@@ -20,7 +20,7 @@ const Contact = () => {
     return (
         <div>
             <div>
-                <div className={styles.gridContainer}>
+                <div className={styles.gridContact}>
                     <div className={styles.item1}>
                     <animated.div style={animatedStyle}>
                         <h1 ><i>Contact</i></h1>
@@ -38,7 +38,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <div className={styles.flexContainer}>
+            <div className={styles.flexContact}>
 
                 <div>Favorites links</div>
             </div>

@@ -1,20 +1,21 @@
 /* Contacts CSS */
-.flexContainer  {
+.flexContact  {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
   
-  .flexContainer > div {
+  .flexContact > div {
     background-image: var(--background-blend-linear1);
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    margin: 1em;
+    padding: 2em;
+    font-size: 1em;
+    color: var(--primary-theme1);
   }
 
 .item1 { grid-area: header; }
 .item2 { grid-area: header2; }
-.gridContainer {
+.gridContact {
     display: grid;
     grid-template-areas:
     'header header header header header header'
@@ -27,8 +28,18 @@
   }
 
 
-  .gridContainer > div {
+  .gridContact > div {
     text-align: center;
     padding: 20px 200px;
     font-size: 30px;
   }
+
+  .gridContact h1 {
+    color: var(--heading1-clr);
+    font-size: var(--fs-heading);
+  }
+  
+  .gridContact h2 {
+    color: var(--heading2-clr)
+  }
+  
