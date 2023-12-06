@@ -1,3 +1,4 @@
+
 :root {
   /*New Nomenclature*/
   /*COLORS*/
@@ -21,6 +22,10 @@
   --alt-theme3: slateblue;
   --alt-theme4: #a424ff;
 
+  --card-theme1: rgba(50, 50, 108,1);
+  --card-theme2: black;
+  --card-theme3: slateblue;
+  --card-theme4: rgba(25, 35, 156,1);
 
   /*Link Colors*/
   --link1-clr: rgba(0,255,255,1);

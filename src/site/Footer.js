@@ -26,7 +26,7 @@ const Footer = () => {
                     <h5><Link to='/projects' className={styles.l}><i>Projects</i></Link></h5>
                     <h5><Link to='/history' className={styles.l}><i>History</i></Link></h5>
                     <h5><Link to='/resume' className={styles.l}><i>Resume</i></Link></h5>
-                    <h5><Link to='/sitemap' className={styles.l}><i>SiteMap</i></Link></h5>
+                    <h5><Link to='/sitereference' className={styles.l}><i>SiteReference</i></Link></h5>
                 </animated.div>
             </div>
             <div>

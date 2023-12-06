@@ -52,7 +52,7 @@
  
 /* For Home link*/
 .flexHeader h1{
-  padding: 2px;
+  padding: 1.5em 1em;
   font-family: var(--font-sec);
   color: var(--primary-theme1);
 }

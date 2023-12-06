@@ -19,29 +19,23 @@ const SiteMap = () => {
     return (
   
             <div>
-                <div className={styles.gridContainer}>
+                <div className={styles.gridSite}>
                     <div className={styles.item1}>
                         <animated.div style={animatedStyle}>
                             <h1 ><i>Site References</i></h1>
 
                         </animated.div>
                     </div>
-                    <div className={styles.item2}>
-                        <animated.div style={animatedStyle}>
-                            <h1  >heading</h1>
-                        </animated.div>
-                    </div>
+
                 </div>
 
             
-            <div className={styles.flexContainer}>
-
-
-                <div>example items</div>
-                <div>mapped item</div>
-                <div>mapped item</div>
-                <div>mapped item</div>
-                <div>mapped item</div>
+            <div className={styles.flexSite}>
+                <div className={styles.siteCard}><h5>example items</h5></div>
+                <div className={styles.siteCard}><h5>example items</h5></div>
+                <div className={styles.siteCard}><h5>example items</h5></div>
+                <div className={styles.siteCard}><h5>example items</h5></div>
+                <div className={styles.siteCard}><h5>example items</h5></div>
             </div>
 </div>
   
