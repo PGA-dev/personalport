@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './SiteReference.module.css';
+import SiteRefCard from '../features/siteReference/SiteRefCard';
+import SiteRefList from '../features/siteReference/SiteRefList';
 
 const SiteMap = () => {
 
@@ -31,11 +33,11 @@ const SiteMap = () => {
 
             
             <div className={styles.flexSite}>
-                <div className={styles.siteCard}><h5>example items</h5></div>
-                <div className={styles.siteCard}><h5>example items</h5></div>
-                <div className={styles.siteCard}><h5>example items</h5></div>
-                <div className={styles.siteCard}><h5>example items</h5></div>
-                <div className={styles.siteCard}><h5>example items</h5></div>
+                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
+                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
+                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
+                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
+                <div className={styles.siteCard}><h5><SiteRefList /></h5></div>
             </div>
 </div>
   

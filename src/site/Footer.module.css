@@ -90,7 +90,7 @@
 }
 
 .footer img{
-  padding: .5em;
+  padding: .9em;
 }
 .footer .contactLink::before {
   background: var(--alt-theme3);
