@@ -54,6 +54,7 @@
 
 .card>dl {
     color: var(--primary-theme1);
+    padding: .1em;
 }
 
 .card>dl a {
@@ -66,4 +67,5 @@
 
 .card>dl span {
     color: var(--site-white);
+    padding:.2em;
 }

@@ -9,11 +9,15 @@ const SiteRefCard = ({ references }) => {
     return (
         <div className={styles.card}>
             <dl>
-                <dt><span>Reference Id:</span> {cardNum}</dt>
-                <dt><span>Name: </span>{name}</dt>
-                <dt><span>Reference</span>{message}</dt>
-                <dt><span>Link to Source: 
-                    </span><a href={link} target="_blank" rel="noreferrer">
+                <dt><span>Ref #:</span> {cardNum}</dt>
+                <dt></dt>
+                <dt><span>Name: </span></dt>
+                <dt>{name}</dt>
+                <dt><span>Reference Message: </span></dt>
+                <dt>{message}</dt>
+                <dt><span>
+                    Link to Source: </span></dt>
+                <dt><a href={link} target="_blank" rel="noreferrer">
                      {linkText}</a>
                 </dt>
             </dl>

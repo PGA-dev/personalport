@@ -27,6 +27,7 @@ const referencesSlice = createSlice({
     extraReducers(builder) {
         builder
             .addCase(fetchSiteReferences.pending, (state,action) => {
+                //loading status
                 state.status = 'loading'
             })
             .addCase(fetchSiteReferences.fulfilled, (state, action) => {
@@ -35,6 +36,7 @@ const referencesSlice = createSlice({
                 state.referencesArray = action.payload
             })
             .addCase(fetchSiteReferences.rejected, (state, action) => {
+                //fetch fail
                 state.status = 'failed'
                 state.error= action.error.message ? action.error.message : 'Data Fetch failed';
             })
