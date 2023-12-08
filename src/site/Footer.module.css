@@ -39,27 +39,28 @@
 }
 
 
-.a {
+.footer .a {
   font-weight: var(--fw-bright);
   font-size: var(--fs-link2);
   color: var( --link1-clr);
   font-family: var(--font-sec);
+  padding: 10px 0px;
 }
 
-.a:hover {
+.footer .a:hover {
   font-weight: var(--fw-bright-wow);
   color: var( --link1-hover);
 
 }
 
-.l {
+.footer .l {
   font-weight: var(--fw-bright);
   font-size: var(--fs-link);
   color: var(--link1-clr);
   font-family: var(--font-sec);
 }
 
-.l:hover {
+.footer .l:hover {
   font-weight: var(--fw-bright-wow);
   color: var( --link1-hover);
 
