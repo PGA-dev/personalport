@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
 import profile from '../app/profile.png';
-import { FaDatabase } from "react-icons/fa";
+import { FaDatabase, FaReact } from "react-icons/fa";
 
 
 
@@ -27,17 +27,24 @@ const Footer = () => {
             <div>
                 <animated.div style={animatedStyle}>
                     <div className={styles.contactLink}>
-                    
+
                         <Link to='contact' >
-                        <img src={profile} alt='profile' width="200"
-                            height="auto" className='profile' /></Link>
+                            <img src={profile} alt='profile' width="200"
+                                height="auto" className='profile' /></Link>
                     </div>
-                    </animated.div>
+                </animated.div>
 
             </div>
             <div>
-            <p><i><a className={styles.fav} href='https://github.com/typicode' target="_blank" rel="noreferrer">Data powered by Typicode! <FaDatabase/></a></i></p>
-               
+                <dl>
+                    <dt>
+                        <i><a className={styles.fav1} href='https://github.com/typicode' target="_blank" rel="noreferrer">Data powered by Typicode! <FaDatabase /></a></i>
+                    </dt>
+                    <dt>
+                        <i><a className={styles.fav2} href='https://react.dev/' target="_blank" rel="noreferrer">Code Engineered by PGA using React <FaReact /></a></i>
+                    </dt>
+                </dl>
+
             </div>
 
         </footer>

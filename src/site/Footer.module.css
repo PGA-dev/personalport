@@ -39,18 +39,37 @@
   size: inherit;
 }
 
-.footer .fav{
+.footer .fav1{
   position:relative;
   float: right;
   font-weight: var(--fw-bright);
-  font-size: .8em;
+  font-size: .6em;
   color: var( --link1-clr);
   font-family: var(--font-sec);
-  padding: 2em 2em;
+  padding: 1em 2em;
   text-shadow: .05em .05em var(--secondary-theme2);
 }
 
-.footer .fav:hover {
+.footer .fav1:hover {
+  
+  font-weight: var(--fw-bright-wow);
+  color: var( --link1-hover);
+  text-shadow: .02em .02em var(--primary-theme1);
+
+} 
+
+.footer .fav2{
+  position:relative;
+  float: right;
+  font-weight: var(--fw-bright);
+  font-size: .6em;
+  color: var( --link1-clr);
+  font-family: var(--font-sec);
+  padding: 1em 2em;
+  text-shadow: .05em .05em var(--secondary-theme2);
+}
+
+.footer .fav2:hover {
   
   font-weight: var(--fw-bright-wow);
   color: var( --link1-hover);
