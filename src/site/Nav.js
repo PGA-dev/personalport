@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import styles from './Nav.module.css'
-import profile from '../app/profile.png';
 import { FaLinkedin, FaGithub, FaEnvelopeOpen, FaYoutube, FaGitlab } from "react-icons/fa";
 
 const Nav = () => {

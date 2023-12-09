@@ -38,7 +38,7 @@ const Footer = () => {
             <div>
                 <dl>
                     <dt>
-                        <i><a className={styles.fav1} href='https://github.com/typicode' target="_blank" rel="noreferrer">Data powered by Typicode! <FaDatabase /></a></i>
+                        <i><a className={styles.fav1} href='https://my-json-server.typicode.com/' target="_blank" rel="noreferrer">Data powered by My JSON Server Typicode! <FaDatabase /></a></i>
                     </dt>
                     <dt>
                         <i><a className={styles.fav2} href='https://react.dev/' target="_blank" rel="noreferrer">Code Engineered by PGA using React <FaReact /></a></i>

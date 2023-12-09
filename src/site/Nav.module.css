@@ -57,6 +57,12 @@ li.dropDown {
   text-shadow: .05em .05em var(--secondary-theme2);
 }
 
+.container .a:hover {
+  font-weight: var(--fw-bright-wow);
+  font-size: 1em;
+  color: var( --link1-hover);
+}
+
 .dropBtn {
   font: papyrus;
   color: var(--primary-theme1);
