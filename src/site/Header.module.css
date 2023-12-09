@@ -10,6 +10,8 @@
     flex-flow: row nowrap;
     justify-content: center;
     z-index: .5;
+    border-bottom: ridge;
+    border-bottom-color: var(--border-clr2);
   }
 
   .flexHeader > :nth-child(odd) {
@@ -125,4 +127,3 @@
     background-color: var(--secondary-theme1);
   }
 }
-

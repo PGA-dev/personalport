@@ -7,7 +7,7 @@
   justify-content: space-evenly;
   background-image: var(--background-blend-radial4);
   /* background-image: url(../app/profile.png); */
-  border: 2px solid var(--border-clr2);
+  border-top: 2px solid var(--border-clr2);
   padding: 5px;
   background-repeat:no-repeat;
   background-size: auto;

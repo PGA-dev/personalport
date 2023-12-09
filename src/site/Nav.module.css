@@ -85,3 +85,9 @@ li.dropDown {
   color: var(--primary-theme1);
   font-family: papyrus;
 }
+
+.borderNav{
+  border-bottom: ridge;
+  border-bottom-color: var(--border-clr1);
+
+ } 

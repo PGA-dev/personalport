@@ -15,7 +15,7 @@ const Nav = () => {
                 <li><Link to='/resume' className={styles.n}><i>Resume</i></Link></li>
                 <div className={styles.profile}> <img src={profile} alt='profile' className='profile' height={75} /> </div>
             </ul>
-            
+            <div className={styles.borderNav}></div>
         </div>
     );
 };

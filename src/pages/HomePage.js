@@ -39,10 +39,7 @@ const HomePage = () => {
                 </div>
 
             </div>
-            <div className={styles.flexContainer}>
 
-                <div>Page links Using flexbox</div>
-            </div>
 
         </div>
 
