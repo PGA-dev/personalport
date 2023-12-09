@@ -25,8 +25,9 @@ li {
   float: right;
   font: var(--font-sec);
   color: var(--primary-theme1);
-  margin: 5px;
-  padding: 2px;
+  /* margin: 5px; */
+  padding: 1em;
+  text-align: center;
 }
 
 li .n,
