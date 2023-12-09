@@ -34,6 +34,23 @@
   font-size: 30px;
 }
 
+.gridContainer>div h1{
+  text-align: center;
+  padding: 20px 200px;
+  font-size:65px;
+  color: var(--primary-theme1)
+}
+
+.gridContainer>div img{
+  text-align: center;
+  padding: 100px 200px;
+  color: var(--primary-theme1);
+  width: auto;
+}
+
+
+
+
   
 
 
