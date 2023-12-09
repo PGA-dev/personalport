@@ -3,8 +3,12 @@ import { useSpring, animated } from 'react-spring';
 import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
 import profile from '../app/profile.png';
+import { FaLinkedin, FaGithub, FaGitlab, FaYoutube, FaEnvelopeOpen } from "react-icons/fa";
+
+
 
 const Footer = () => {
+
     const [toggle, setToggle] = useState(false);
 
     const animatedStyle = useSpring({
@@ -45,10 +49,10 @@ const Footer = () => {
                 <animated.div style={animatedStyle}>
                     <dl>
                         <dt >
-                            <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer"><i>Linked In</i></a>
+                            <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
                         </dt>
                         <dt>
-                            <a className={styles.a} href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer"><i>YouTube</i></a>
+                            <a className={styles.a} href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer"><FaYoutube/></a>
                         </dt>
                         <dt>
                             <a
@@ -56,14 +60,14 @@ const Footer = () => {
                                 role='button'
                                 href='mailto:paulgadam@gmail.com'
                             >
-                                <i className='' /> <i>PGA Email</i>
+                            <FaEnvelopeOpen/>
                             </a>
                         </dt>
                         <dt>
-                            <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer"><i>GitHub</i></a>
+                            <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer"><FaGithub/></a>
                         </dt>
                         <dt>
-                            <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer"><i>GitLab</i></a>
+                            <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer"><FaGitlab/></a>
                         </dt>
                         <br></br>
                     </dl>

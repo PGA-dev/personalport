@@ -1,6 +1,7 @@
 
 :root {
   /*New Nomenclature*/
+
   /*COLORS*/
   /*wHITE/BLACK/BASE*/
   --site-black: black;
@@ -77,9 +78,9 @@
   /*BORDERS*/
 
   /*border clr*/
-  --border-clr1: rgb(50, 50, 108);
+  --border-clr1: rgba(50, 50, 108,1);
   --border-clr2: rgba(25, 35, 156,1);
-  --border-clr3: rgba(205, 225, 225,1);
+  --border-clr3: rgba(5, 95, 255,.9);
 
 
   /*Borders Full def*/

@@ -25,7 +25,7 @@ const HomePage = () => {
                 <div className={styles.gridContainer}>
                     <div className={styles.item1}>
                     <animated.div style={animatedStyle}>
-                        <h1 ><i>HomePage</i></h1>
+                        <h1 >HomePage</h1>
 
                     </animated.div>
 

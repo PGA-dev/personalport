@@ -37,8 +37,11 @@
 .gridContainer>div h1{
   text-align: center;
   padding: 20px 200px;
-  font-size:65px;
-  color: var(--primary-theme1)
+  font-size:85px;
+  color: var(--primary-theme1);
+  font-family: var(--font-main);
+  font-style: italic;
+  text-shadow: .03em .03em var(--border-clr3);
 }
 
 .gridContainer>div img{

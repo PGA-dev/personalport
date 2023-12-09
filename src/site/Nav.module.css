@@ -47,6 +47,14 @@ li .n:hover,
 li.dropDown {
   display: inline-block;
 }
+.container .a {
+  font-weight: var(--fw-bright);
+  font-size: 1em;
+  color: var( --link1-clr);
+  font-family: var(--font-sec);
+  padding: 1em 1em;
+  text-shadow: .05em .05em var(--secondary-theme2);
+}
 
 .dropBtn {
   font: papyrus;
@@ -84,6 +92,7 @@ li.dropDown {
   font-size: 1.4em;
   color: var(--primary-theme1);
   font-family: papyrus;
+  text-shadow: .07em .03em var(--border-clr3);
 }
 
 .borderNav{
