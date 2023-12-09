@@ -11,7 +11,7 @@
     justify-content: center;
     z-index: .5;
     border-bottom: ridge;
-    border-bottom-color: var(--border-clr2);
+    border-bottom-color: var(--border-clr1);
   }
 
   .flexHeader > :nth-child(odd) {

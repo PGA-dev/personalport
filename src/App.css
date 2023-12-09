@@ -79,6 +79,8 @@
   /*border clr*/
   --border-clr1: rgb(50, 50, 108);
   --border-clr2: rgba(25, 35, 156,1);
+  --border-clr3: rgba(205, 225, 225,1);
+
 
   /*Borders Full def*/
   --site-border: 5px solid var(--border-clr1);
