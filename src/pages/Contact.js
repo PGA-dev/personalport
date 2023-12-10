@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/profile.png';
 import styles from './Contact.module.css'
+import { FaLinkedin, FaGithub, FaEnvelopeOpen, FaYoutube, FaGitlab } from "react-icons/fa";
+
 
 const Contact = () => {
 
@@ -18,32 +20,34 @@ const Contact = () => {
     }, []);
 //Contact may not need to pull data from a db for feedback...probably will just pull the email/linked in, etc...
     return (
-        <div>
-            <div>
-                <div className={styles.gridContact}>
-                    <div className={styles.item1}>
+
+         
+                <div className={styles.flexContact}>
+
                     <animated.div style={animatedStyle}>
-                        <h1 ><i>Contact</i></h1>
+                    <div className={styles.flex1}>  
+                                           <a
+                    className={styles.a}
+                    role='button'
+                    href='mailto:paulgadam@gmail.com'
+                >
+                    <FaEnvelopeOpen />
+                </a>
+                <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer"><FaGithub /></a>
+                <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                <a className={styles.a} href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer"><FaYoutube /></a>
+                <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer"><FaGitlab/></a>
+                </div>
 
                     </animated.div>
 
-                    </div>
 
-                    <div className={styles.item2}>
-                    <animated.div style={animatedStyle}>
-                    <h4 ><i>Some cool text or picture</i></h4>
-                    <img src={profile} alt='profile' width={200} className={styles.profile} />
-                </animated.div>
-                </div>
                 </div>
 
-            </div>
-            <div className={styles.flexContact}>
 
-                <div>Favorites links</div>
-            </div>
 
-        </div>
+
+
 
 
     );

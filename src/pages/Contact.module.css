@@ -2,44 +2,39 @@
 .flexContact  {
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
     justify-content: space-evenly;
+    background-image: var(--background-blend-linear1);
   }
   
   .flexContact > div {
-    background-image: var(--background-blend-linear1);
-    margin: 1em;
-    padding: 2em;
-    font-size: 1em;
+    text-align: center;
+    padding: 15em 1em;
+    width: auto;
+    height: auto;
     color: var(--primary-theme1);
   }
 
-.item1 { grid-area: header; }
-.item2 { grid-area: header2; }
-.gridContact {
-    display: grid;
-    grid-template-areas:
-    'header header header header header header'
-    'header2 header2 header2 header2 header2 header2';
-    /* grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto; */
-    gap: 1px;
-    background-image: var(--background-blend-linear1);
-    padding: 3px;
-  }
 
-
-  .gridContact > div {
-    text-align: center;
-    padding: 20px 200px;
-    font-size: 30px;
-  }
-
-  .gridContact h1 {
+  .flexContact h1 {
     color: var(--heading1-clr);
     font-size: var(--fs-heading);
   }
   
-  .gridContact h2 {
+  .flexContact h2 {
     color: var(--heading2-clr)
   }
   
+  .flexContact>div .a {
+    font-weight: var(--fw-bright);
+    font-size: 3em;
+    color: var( --link1-clr);
+    font-family: var(--font-sec);
+    padding: 1em 1em;
+    text-shadow: .05em .05em var(--secondary-theme2);
+  }
+  
+  .flexContact>div .a:hover {
+    font-weight: var(--fw-bright-wow);
+    color: var( --link1-hover);
+  }
