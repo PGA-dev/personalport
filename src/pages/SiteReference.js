@@ -27,10 +27,9 @@ const SiteMap = () => {
 
                     </animated.div>
                 </div>
-
             </div>
             <div className={styles.flexSite}>
-                    <SiteRefList />                    
+                <SiteRefList />
             </div>
         </div>
 
