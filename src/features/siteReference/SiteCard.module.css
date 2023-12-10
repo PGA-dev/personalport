@@ -9,11 +9,11 @@
     background-image: var(--background-blend-linear2);
     border-radius: .9em;
     aspect-ratio: 1 / .3;
-    width: 9em;
+    width: auto;
     height: auto;
     padding: .1em;
     position: relative;
-    overflow:visible;
+    overflow: visible;
     z-index: 1;
 }
 

@@ -20,7 +20,7 @@ const SiteMap = () => {
     return (
 
         <div>
-            <div className={styles.gridSite}>
+            <div className={styles.flexSite}>
                 <div className={styles.item1}>
                     <animated.div style={animatedStyle}>
                         <h1 ><i>Site References</i></h1>
