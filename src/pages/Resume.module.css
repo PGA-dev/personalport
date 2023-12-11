@@ -47,13 +47,19 @@
 
   table {
     margin: 1em 0;
+    background: var(--Tableback);
     border-collapse: collapse;
-  /*   width: 100%; */
+    width: 100%;
   }
   
-  caption {
-    text-align: left;
+  caption, th, td {
+     text-align: left;
+  }
+
+
+  caption { 
     font-style: italic;
+    font-weight: var(--fw-bright-wow);
     color: var(--table-caption);
     padding: 0.25em 0.5em 0.5em 0.5em;
   }
@@ -63,7 +69,6 @@
     color:var(--table-clr1);
     padding: 0.25em 0.5em 0.25em 1em;
     vertical-align: text-top;
-    text-align: left;
     text-indent: -0.5em;
   }
   

@@ -65,6 +65,7 @@
   --heading7-hover: aqua;
 
 /*Table*/
+--Tableback: rgba(0,155,255,.7);
 --table-clr1: rgb(146, 19, 146);
 --table-clr2: white;
 --table-back: rgba(0,100,222,.7);
