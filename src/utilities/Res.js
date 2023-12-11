@@ -1,10 +1,12 @@
+// import resume from '../app/resume.docx';
 
 const Res = () => {
 
     return (
-        <p>
-            Resume
-        </p>
+        <>
+        resume
+        </>
+        
     )
 };
 

@@ -11,7 +11,6 @@ import { useDispatch } from 'react-redux';
 
 
 const HomePage = lazy(() => import('./pages/HomePage'));
-const Contact = lazy(() => import('./pages/Contact'));
 const Projects = lazy(() => import('./pages/Projects'));
 const History = lazy(() => import('./pages/History'));
 const Resume = lazy(() => import('./pages/Resume'));
@@ -30,7 +29,6 @@ function App() {
       <Suspense fallback={<div className='fallback' id='fallback'>Please Wait, Loading page...</div>}>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/history' element={<History />} />
         <Route path='/resume' element={<Resume />} />
