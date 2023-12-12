@@ -84,7 +84,15 @@
 } 
 
 .footer .a{
+  font-weight: var(--fw-bright);
+  color: var( --link1-clr);
+  font-family: var(--font-sec);
   padding: 0em .5em;
+}
+
+.footer .a:hover{
+  font-weight: var(--fw-bright-wow);
+  color: var( --link1-hover);
 }
 
 
