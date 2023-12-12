@@ -20,7 +20,7 @@
 
 
 .footer > :nth-child(1) {
-  background-color: var(--container-background);
+  background-color: var(--container-background2);
   margin: .7em;
   padding: 1em;
   font-size: .5em;

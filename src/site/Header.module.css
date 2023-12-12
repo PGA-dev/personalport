@@ -15,7 +15,7 @@
   }
 
   .flexHeader > :nth-child(odd) {
-    background-image: var( --background-blend-radial4); 
+    background-image: var(--container-background-radial4); 
     text-align: center;
     padding: 20px 15px;
     font-size: inherit;
