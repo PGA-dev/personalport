@@ -14,7 +14,7 @@
 
 
   --primary-border-theme1: rgba(0, 0, 0,.9);
-  --primary-border-theme2: rgba(25, 35, 156,.9);
+  --primary-border-theme2: rgba(45, 50, 125,.9);
 
   /*Secondary Theme Colors*/
   --secondary-theme1: magenta;
@@ -95,7 +95,7 @@
   --alt-border-rad: .5em;
   /*BACKGROUNDS*/
   --container-background: rgba(50, 50, 108, 1);
-  --container-background2: rgba(0, 255, 255, .9);
+  --container-background2: rgba(0, 255, 255, .8);
   --container-background-radial4: radial-gradient(var(--primary-border-theme2), var(--primary-border-theme1));
   --background-blend-radial1: radial-gradient(var(--site-black), var(--primary-theme1));
   --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--site-black));
