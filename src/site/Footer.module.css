@@ -19,7 +19,7 @@
 }
 
 
-.footer > :nth-child(odd) {
+.footer > :nth-child(1) {
   background-color: var(--container-background);
   margin: .7em;
   padding: 1em;
@@ -27,7 +27,7 @@
   max-width: fit-content;
 }
 
-.footer > :nth-child(even) {
+.footer > :nth-child(2)  {
   margin: 1em;
   padding: 1em;
   /* font-size: .7em; */
