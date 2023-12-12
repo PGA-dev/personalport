@@ -30,10 +30,16 @@
 .footer > :nth-child(2)  {
   margin: 1em;
   padding: 1em;
-  /* font-size: .7em; */
+  font-size: 1.5em;
   max-width: fit-content;
 }
 
+.footer > :nth-child(3)  {
+  margin: 1em;
+  padding: 1em;
+  /* font-size: .7em; */
+  max-width: fit-content;
+}
 
 .profile {
   size: inherit;
@@ -76,6 +82,11 @@
   text-shadow: .02em .02em var(--primary-theme1);
 
 } 
+
+.footer .a{
+  padding: 0em .5em;
+}
+
 
 @media (max-width: 850px) {
   .footer {
