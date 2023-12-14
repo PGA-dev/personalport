@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className={styles.contactLink}>
 
                         <Link to='contact' >
-                            <img src={profile} alt='profile' width="200"
+                            <img src={profile} alt='profile' width="75"
                                 height="auto" className='profile' /></Link>
                     </div>
                 </animated.div>

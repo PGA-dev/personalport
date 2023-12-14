@@ -67,12 +67,6 @@
     padding: 0.25em 0.5em 0.5em 0.5em;
   }
   
-   /*th {
-    color:var(--table-clr1);
-    padding: 0.25em 0.5em 0.25em 1em; */
-    /* vertical-align: text-top;
-    text-indent: -0.5em;
-  } */
   
   th {
     vertical-align: bottom;
@@ -96,6 +90,7 @@
     td::before{
       content: attr(data-cell) ": ";
       font-weight: var(--fw-bright-wow);
+      text-transform: capitalize;
     }
   }
 
