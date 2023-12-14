@@ -6,13 +6,16 @@ const Nav = () => {
     //possibly make sticky nav without dropdown...too few links to be useful in dropdown form currently
     return (
         <div className={styles.container}>
+            <h7 className={styles.title}>PGA Full Stack Dev</h7>
             <ul>
+            
                 <li><Link to='/' className={styles.n}><i>Home</i></Link></li>
                 <li><Link to='/sitereference' className={styles.n}><i>SiteReference</i></Link></li>
                 <li><Link to='/projects' className={styles.n}><i>Projects</i></Link></li>
                 <li><Link to='/history' className={styles.n}><i>History</i></Link></li>
                 <li><Link to='/resume' className={styles.n}><i>Resume</i></Link></li>
-                <div className={styles.profile}>                             <a
+                <div className={styles.profile}>                             
+                <a
                     className={styles.a}
                     role='button'
                     href='mailto:paulgadam@gmail.com'

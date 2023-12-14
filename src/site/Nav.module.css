@@ -5,6 +5,7 @@
   left:0;
   right:0;
   z-index: 10;
+  background-image: var(--background-blend-radial4);
 
 }
 
@@ -28,6 +29,23 @@ li {
   /* margin: 5px; */
   padding: 1em;
   text-align: center;
+}
+
+.title{
+  display: none;
+}
+
+@media(max-width: 1100px){
+  .title{
+    display: inline-block;
+    background-image: var(--background-blend-radial4);
+    width: 100%;
+    text-align: center;
+    color: var(--primary-theme1) ;
+    padding: .1em;
+    text-shadow: .05em .05em var(--secondary-theme2);
+    font-size: var(--fs-heading-light);
+  }
 }
 
 li .n,

@@ -16,7 +16,9 @@ Taken 2012 by J. Bedient
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    z-index: .5;
+    width: min(1100px, 100%-3rem);
+    margin-inline: auto;
+    /* z-index: .5; */
     border-bottom: ridge;
     border-bottom-color: var(--border-clr1);
   }
@@ -24,9 +26,10 @@ Taken 2012 by J. Bedient
   .flexHeader > :nth-child(odd) {
     background-image: var(--container-background-radial4); 
     text-align: center;
-    padding: 20px 15px;
+    padding: 3em 0em;
+    margin-inline: auto;
     font-size: inherit;
-    max-width: max-content;
+    /* max-width: 100%; */
   }
 
   .flexHeader > :nth-child(even) {
@@ -34,30 +37,40 @@ Taken 2012 by J. Bedient
     text-align: center;
     padding: 20px 0px;
     font-size: inherit;
-    max-width: inherit;
+    max-width: auto;
   }
 
 
-@media (max-width: 75em) {
+@media (max-width: 1100px) {
   .flexHeader {
-      flex-wrap: wrap;
+    display: none;
+      flex-wrap: nowrap;
+      max-width: 100%;
+    }
+
+    .flexHeader>:nth-child(odd){
+      max-width: auto;
+    }
+    .flexHeader>:nth-child(even){
+      max-width: auto;
     }
   }
 
-@media (max-width: 60em) {
+/* @media (max-width: 650px) {
   .flexHeader {
     flex-wrap: wrap;
-    max-width: auto;
+    display: visible;
+    
 
   
   }
   .flexHeader>:nth-child(odd){
-    max-width: auto;
+    display: auto;
   }
   .flexHeader>:nth-child(even){
-    max-width: auto;
+    display: auto;
   }
-} 
+}  */
  
 /* For Home link*/
 .flexHeader h1{
