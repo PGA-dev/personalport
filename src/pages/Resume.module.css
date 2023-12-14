@@ -4,7 +4,11 @@
 .item1 { grid-area: header; }
 .item2 { grid-area: mission;}
 .item3 { grid-area: res; }
-.item4 { grid-area: table1; }
+.item4 { 
+  grid-area: table1;
+  max-width: 100%;
+  overflow-x: scroll;
+}
 
 
 /*Must set up local custom props that pull from root custom props*/
