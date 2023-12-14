@@ -2,12 +2,10 @@
 
 
 .item1 { grid-area: header; }
-.item2 { grid-area: mission;}
+.item2 { grid-area: tableh;}
 .item3 { grid-area: res; }
 .item4 { 
   grid-area: table1;
-  max-width: 100%;
-  overflow-x: scroll;
 }
 
 
@@ -16,7 +14,7 @@
     display: grid;
     grid-template-areas:
     'header header header header header header'
-    'mission mission mission mission mission mission'
+    'res tableh tableh tableh tableh tableh'
     'res table1 table1 table1 table1 table1';
     /* grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto; */
@@ -68,12 +66,12 @@
     padding: 0.25em 0.5em 0.5em 0.5em;
   }
   
-  th {
+   /*th {
     color:var(--table-clr1);
-    padding: 0.25em 0.5em 0.25em 1em;
-    vertical-align: text-top;
+    padding: 0.25em 0.5em 0.25em 1em; */
+    /* vertical-align: text-top;
     text-indent: -0.5em;
-  }
+  } */
   
   th {
     vertical-align: bottom;
@@ -86,6 +84,14 @@
     background: var(--table-clr-3);
   }
 
+  @media(max-width: 650px){
+    th{
+      display: none;
+    }
+    td{
+      display:block;
+    }
+  }
 
   /* td::before {
     display: none;

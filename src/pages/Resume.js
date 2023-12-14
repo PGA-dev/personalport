@@ -18,6 +18,7 @@ const Resume = () => {
         setToggle(true);
     }, []);
 
+
     return (
 
         <div className={styles.gridContainer}>
@@ -27,7 +28,7 @@ const Resume = () => {
                 </animated.div></div>
 
             <div className={styles.item2}>
-                Mission statement
+                Skills Matrix and Certifications
 
             </div>
             <div className={styles.item3}>
@@ -39,7 +40,7 @@ const Resume = () => {
                 </animated.div></div>
 
             <div className={styles.item4}>
-                <h3>Skills</h3>
+                
 
                 <table id='projects'>
                     <caption>
