@@ -16,7 +16,7 @@ Taken 2012 by J. Bedient
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    width: min(1100px, 100%-3rem);
+    width: min(100%);
     margin-inline: auto;
     /* z-index: .5; */
     border-bottom: ridge;
@@ -41,7 +41,7 @@ Taken 2012 by J. Bedient
   }
 
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .flexHeader {
     display: none;
       flex-wrap: nowrap;
@@ -54,7 +54,7 @@ Taken 2012 by J. Bedient
     .flexHeader>:nth-child(even){
       max-width: auto;
     }
-  }
+  } */
 
 /* @media (max-width: 650px) {
   .flexHeader {
