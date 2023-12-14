@@ -69,15 +69,15 @@
   --heading7-hover: aqua;
 
 /*Table*/
---Tableback: rgba(0,155,255,.7);
+--Tableback: rgba(55,200,255,.7);
 --table-clr1: rgb(146, 19, 146);
 --table-clr2: white;
---table-back: rgba(0,100,222,.7);
+--table-clr-3: rgba(0,155,222,.7);
 --table-row-clr: rgba(255, 255, 255, .25);
 --table-row-clr-alt: rgba(255, 255, 255, 0.5);
 --table-heading: aqua;
 --table-caption: slateblue;
---table-caption-back: rgba(0,100,222,.3);
+--table-heading-back: rgba(0,100,222,.9);
 
 
   /*BORDERS*/

@@ -64,8 +64,7 @@
     padding: 0.25em 0.5em 0.5em 0.5em;
   }
   
-  th,
-  td {
+  th {
     color:var(--table-clr1);
     padding: 0.25em 0.5em 0.25em 1em;
     vertical-align: text-top;
@@ -74,12 +73,17 @@
   
   th {
     vertical-align: bottom;
-    background-color: var(--table-caption-back);
+    background-color: var(--table-heading-back);
     color: var(--table-heading);
     font-weight: bold;
   }
   
-  td::before {
+  tr:nth-of-type(2n){
+    background: var(--table-clr-3);
+  }
+
+
+  /* td::before {
     display: none;
   }
   
@@ -104,9 +108,9 @@
   
   div {
     overflow: auto;
-  }
+  } */
   
-  @media screen and (max-width: 37em), print and (max-width: 5in) {
+  /* @media screen and (max-width: 37em), print and (max-width: 5in) {
     table,
     tr,
     td {
@@ -191,4 +195,4 @@
     tr {
       page-break-inside: avoid;
     }
-  }
+  } */
