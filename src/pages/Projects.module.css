@@ -3,7 +3,7 @@
 /* .item1 { grid-area: header; } */
 
 
-.flexContainer  {
+.flexProject {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@
   flex-wrap: wrap;
 }
 
-.flexContainer > div {
+.flexProject > div {
   background-image: radial-gradient(var(--secondary-theme1), var(--alt-theme2));
   margin: 10px;
   padding: 20px;
@@ -32,7 +32,7 @@
   } */
 
 
-  .flexContainer > div {
+  .flexProject > div {
     background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
     text-align: center;
     padding: 20px 20px;
@@ -49,13 +49,13 @@
   }
 
 
-  table {
+  .flexProject table {
     margin: 1em 0;
     border-collapse: collapse;
   /*   width: 100%; */
   }
   
-  caption {
+  .flexProject caption {
     text-align: left;
     font-style: italic;
     color: var(--table-caption);
@@ -65,142 +65,156 @@
     border-radius: var(--alt-border-rad); */
   }
   
-  th,
-  td {
+  .flexProject th,
+  .flexProject td {
     padding: 0.25em 0.5em 0.25em 1em;
     vertical-align: text-top;
     text-align: left;
     text-indent: -0.5em;
   }
   
-  th {
+  .flexProject th {
     vertical-align: bottom;
     background-color: var(--table-back);
     color: var(--table-heading);
     font-weight: bold;
   }
   
-  td::before {
+  .flexProject td::before {
     display: none;
   }
   
-  tr:nth-child(even) {
+  .flexProject tr:nth-child(even) {
     background-color: var(--table-row-clr);
   }
   
-  tr:nth-child(odd) {
+  .flexProject tr:nth-child(odd) {
     background-color: var(--table-row-clr-alt);
   }
   
-  td:nth-of-type(2) {
+  .flexProject  td:nth-of-type(2) {
     font-style: italic;
   }
   
-  th:nth-of-type(4){
+  .flexProject  th:nth-of-type(4){
     text-align: left;
   }
-  td:nth-of-type(4) {
+  .flexProject  td:nth-of-type(4) {
     text-align: center;
   }
   
-  div {
+  .flexProject div {
     overflow: auto;
   }
   
   @media screen and (max-width: 37em), print and (max-width: 5in) {
-    table,
-    tr,
-    td {
-      display: block;
+    .flexProject   table,
+    .flexProject   tr{
+      display: grid;
+      padding: .5rem 1rem;
     }
-    tr {
+
+    .flexProject   td {
+      display: grid;
+      grid-template-columns: auto;
+      padding: .5rem 1rem;
+    }
+    .flexProject tr {
       padding: 0.7em 2vw;
     }
-    th,
-    tr:first-of-type {
+    .flexProject th,
+    .flexProject tr:first-of-type {
       display: none;
     }
-    td::before {
-      display: inline;
-      font-weight: bold;
+    .flexProject  td::before {
+      content: attr(data-cell) ": ";
+      font-weight: var(--fw-bright-wow);
+      text-transform: capitalize;
     }
-    td {
+    .flexProject td:first-child{
+      padding-top: 2.5rem;
+    }
+    .flexProject td:last-child{
+
+      padding-bottom: 2.5rem;
+    }
+    .flexProject td {
       display: grid;
       grid-template-columns: 4em auto;
       grid-gap: 1em 0.5em;
     }
-    caption {
+    .flexProject caption {
       font-style: normal;
       background-color: var(--table-caption-back);
       color: var(--table-caption);
       font-weight: bold;
     }
-    td:nth-of-type(3) {
+    .flexProject td:nth-of-type(3) {
       text-align: left;
     }
-    td:nth-of-type(4), td:nth-of-type(5) {
+    .flexProject td:nth-of-type(4), td:nth-of-type(5) {
       text-align: right;
       width: 12em;
     }
-    td:nth-of-type(4)::before, td:nth-of-type(5)::before {
+    .flexProject td:nth-of-type(4)::before,.flexProject td:nth-of-type(5)::before {
       text-align: left;
     }
-    td:nth-of-type(2)::before {
+    .flexProject td:nth-of-type(2)::before {
       font-style: normal;
     }
   }
   
   @media print {
-    body {
+    .flexProject {
       font-size: 6pt;
       color: var(--table-clr1);
       background-color: var(--table-clr2);
       background-image: none;
     }
-    body,
+    .flexProject,
     main {
       margin: 0;
       padding: 0;
       background-color: var(--table-clr2);
       border: none;
     }
-    table {
+    .flexProject table {
       page-break-inside: avoid;
     }
-    div {
+    .flexProject  div {
       overflow: visible;
     }
-    th {
+    .flexProject th {
       color: var(--table-clr1);
       background-color: var(--table-clr2);
       border-bottom: 1pt solid var(--table-clr1);
     }
-    tr {
+    .flexProject  tr {
       border-top: 1pt solid var(--table-clr1);
     }
   }
   
   @media print and (max-width: 5in) {
-    caption {
+    .flexProject  caption {
       color: var(--table-caption);
       background-color: var(--table-clr2);
       border-bottom: 1pt solid var(--table1);
     }
-    table {
+    .flexProject  table {
       page-break-inside: auto;
     }
-    tr {
+    .flexProject  tr {
       page-break-inside: avoid;
     }
   }
 
-  .a {
+  .flexProject .a {
     font-size: var(--fs-link2);
     color: var( --link2-clr);
     font-family: var(--font-sec);
   }
   
-  .a:hover {
+  .flexProject .a:hover {
     font-weight: var(--fw-bright);
     color: var( --link2-hover);
   

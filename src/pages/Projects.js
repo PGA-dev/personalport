@@ -19,7 +19,7 @@ const Projects = () => {
 
     return (
 
-        <div className={styles.flexContainer}>
+        <div className={styles.flexProject}>
             <div>
                 <animated.div style={animatedStyle}>
                     <h1  >Projects</h1>
@@ -39,15 +39,15 @@ const Projects = () => {
                         <th>URL</th>
                     </tr>
                     <tr>
-                        <td>September 2023</td>
-                        <td>Portfolio</td>
-                        <td>Personal</td>
-                        <td>React,Redux,React Browser,HTML,CSS</td>
-                        <td>
+                        <td data-cell="date">September 2023</td>
+                        <td data-cell="name">Portfolio</td>
+                        <td data-cell="company">Personal</td>
+                        <td data-cell="technology">React,Redux,React Browser,HTML,CSS</td>
+                        <td data-cell="repo">
                         <a className={styles.a} href='https://github.com/PGA-dev/personalport' target="_blank" rel="noreferrer"><i>GH: portfolio</i></a>
                             </td>
-                        <td>Static portfolio site</td>
-                        <td>TBA</td>
+                        <td data-cell="notes">Static portfolio site</td>
+                        <td data-cell="url">TBA</td>
                     </tr>
                     <tr>
                         <td>August/September 2022</td>
