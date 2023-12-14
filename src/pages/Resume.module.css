@@ -1,38 +1,44 @@
 /* Resume CSS */
 
 
-.item1 { grid-area: header; }
-.item2 { grid-area: tableh;}
-.item3 { grid-area: res; }
-.item4 { 
+/* .item1 { grid-area: header; }
+.item2 { grid-area: res; }
+.item3 { 
   grid-area: table1;
 }
 
 
 /*Must set up local custom props that pull from root custom props*/
-.gridContainer {
+/*.gridContainer {
     display: grid;
     grid-template-areas:
-    'header header header header header header'
-    'res tableh tableh tableh tableh tableh'
-    'res table1 table1 table1 table1 table1';
-    /* grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto; */
+    'header '
+    'res'
+    'table1';
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto; 
     gap: 1px;
     background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
     padding: 3px;
     width: min(100%);
+  } */
+
+  .flexResume {
+    display: flex;
+    flex-flow: column wrap;
+    background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
+    /* padding: .2em; */
+    width: min(100%);
   }
 
-
-  .gridContainer> div {
+  .flexResume> div {
     background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
     text-align: center;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     font-size: 30px;
   }
 
-  .gridContainer>div .button{
+  .flexResume>div .button{
     display: inline-block;
     text-decoration: none;
     color: var(--alt-theme3);
@@ -42,25 +48,25 @@
     /* box-shadow: 0em .1em var(--clr-7); */
   }
 
-  .gridContainer>div .button:hover{
+  .flexResume>div .button:hover{
     border: .2em solid var(--alt-theme2);
   }
 
 
 
-  table {
+  .flexResume table {
     margin: 1em 0;
     background: var(--Tableback);
     border-collapse: collapse;
     width: 100%;
   }
   
-  caption, th, td {
+  .flexResume caption, .flexResume th, .flexResume td {
      text-align: left;
   }
 
 
-  caption { 
+  .flexResume caption { 
     font-style: italic;
     font-weight: var(--fw-bright-wow);
     color: var(--table-caption);
@@ -68,142 +74,40 @@
   }
   
   
-  th {
+  .flexResume th {
     vertical-align: bottom;
     background-color: var(--table-heading-back);
     color: var(--table-heading);
     font-weight: bold;
   }
   
-  tr:nth-of-type(2n){
+  .flexResume tr:nth-of-type(2n){
     background: var(--table-clr-3);
   }
 
   @media(max-width: 650px){
-    th{
+    .flexResume th{
       display: none;
     }
-    td{
-      display:block;
+    .flexResume td{
+      display: grid;
+      grid-template-columns: auto; 
+      padding: .5rem 1rem;
     }
 
-    td::before{
+    .flexResume td:first-child{
+      padding-top: 2.5rem;
+    }
+    .flexResume td:last-child{
+
+      padding-bottom: 2.5rem;
+    }
+
+    .flexResume td::before{
       content: attr(data-cell) ": ";
       font-weight: var(--fw-bright-wow);
       text-transform: capitalize;
     }
   }
 
-  /* td::before {
-    display: none;
-  }
   
-  tr:nth-child(even) {
-    background-color: var(--table-row-clr);
-  }
-  
-  tr:nth-child(odd) {
-    background-color: var(--table-row-clr-alt);
-  }
-  
-  td:nth-of-type(2) {
-    font-style: italic;
-  }
-  
-  th:nth-of-type(4){
-    text-align: left;
-  }
-  td:nth-of-type(4) {
-    text-align: center;
-  }
-  
-  div {
-    overflow: auto;
-  } */
-  
-  /* @media screen and (max-width: 37em), print and (max-width: 5in) {
-    table,
-    tr,
-    td {
-      display: block;
-    }
-    tr {
-      padding: 0.7em 2vw;
-    }
-    th,
-    tr:first-of-type {
-      display: none;
-    }
-    td::before {
-      display: inline;
-      font-weight: bold;
-    }
-    td {
-      display: grid;
-      grid-template-columns: 4em auto;
-      grid-gap: 1em 0.5em;
-    }
-    caption {
-      font-style: normal;
-      background-color: var(--table-caption-back);
-      color: var(--table-caption);
-      font-weight: bold;
-    }
-    td:nth-of-type(3) {
-      text-align: left;
-    }
-    td:nth-of-type(4), td:nth-of-type(5) {
-      text-align: right;
-      width: 12em;
-    }
-    td:nth-of-type(4)::before, td:nth-of-type(5)::before {
-      text-align: left;
-    }
-    td:nth-of-type(2)::before {
-      font-style: normal;
-    }
-  }
-  
-  @media print {
-    body {
-      font-size: 6pt;
-      color: var(--table-clr1);
-      background-color: var(--table-clr2);
-      background-image: none;
-    }
-    body,
-    main {
-      margin: 0;
-      padding: 0;
-      background-color: var(--table-clr2);
-      border: none;
-    }
-    table {
-      page-break-inside: avoid;
-    }
-    div {
-      overflow: visible;
-    }
-    th {
-      color: var(--table-clr1);
-      background-color: var(--table-clr2);
-      border-bottom: 1pt solid var(--table-clr1);
-    }
-    tr {
-      border-top: 1pt solid var(--table-clr1);
-    }
-  }
-  
-  @media print and (max-width: 5in) {
-    caption {
-      color: var(--table-caption);
-      background-color: var(--table-clr2);
-      border-bottom: 1pt solid var(--table1);
-    }
-    table {
-      page-break-inside: auto;
-    }
-    tr {
-      page-break-inside: avoid;
-    }
-  } */

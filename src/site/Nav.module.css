@@ -1,6 +1,8 @@
 /* Nav CSS Module */
 .container {
   position:fixed;
+  display: flex;
+  flex-flow: row wrap;
   top:0;
   left:0;
   right:0;

@@ -5,16 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  align-content: stretch;
+  overflow: scroll;
   background-image: url(../app/profile.png), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
   background-size: 15em;
   background-repeat: repeat;
   background-blend-mode: color-burn;
   /* background-image: url(../app/profile.png); */
   border-top: .2em solid var(--border-clr1);
-  padding: 5px;
+  /* padding: 5px; */
   width: min(100%);
   flex-flow: row wrap;
-  columns: 3;
 
 }
 
@@ -28,16 +29,16 @@
 }
 
 .footer > :nth-child(2)  {
-  margin: 1em;
-  padding: 1em;
+  margin: 1em; 
+   padding: 1em;
   font-size: 1.5em;
   max-width: fit-content;
 }
 
 .footer > :nth-child(3)  {
-  margin: 1em;
-  padding: 1em;
-  /* font-size: .7em; */
+  margin: 1em; 
+ padding: 1em; 
+ font-size: .7em;
   max-width: fit-content;
 }
 
@@ -46,8 +47,8 @@
 }
 
 .footer .fav1{
-  position:relative;
-  float: right;
+  /* position:relative; */
+  /* float: right; */
   font-weight: var(--fw-bright);
   font-size: .6em;
   color: var( --link1-clr);
@@ -65,8 +66,8 @@
 } 
 
 .footer .fav2{
-  position:relative;
-  float: right;
+  /* position:relative;
+  float: right; */
   font-weight: var(--fw-bright);
   font-size: .6em;
   color: var( --link1-clr);

@@ -14,10 +14,10 @@ Taken 2012 by J. Bedient
     background-repeat: repeat;
     background-blend-mode: color-burn;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     width: min(100%);
-    margin-inline: auto;
+    /* margin-inline: auto; */
     /* z-index: .5; */
     border-bottom: ridge;
     border-bottom-color: var(--border-clr1);
@@ -27,7 +27,7 @@ Taken 2012 by J. Bedient
     background-image: var(--container-background-radial4); 
     text-align: center;
     padding: 3em 0em;
-    margin-inline: auto;
+    /* margin-inline: auto; */
     font-size: inherit;
     /* max-width: 100%; */
   }
@@ -35,7 +35,7 @@ Taken 2012 by J. Bedient
   .flexHeader > :nth-child(even) {
     background-image: var( --background-blend-radial2);
     text-align: center;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     font-size: inherit;
     max-width: auto;
   }

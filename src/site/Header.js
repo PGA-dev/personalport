@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <div className={styles.flexHeader}>
 
-            <div >
+
                 
                 <animated.div style={animatedStyle}>
                     <div className={styles.homeLink}>
@@ -34,7 +34,7 @@ const Header = () => {
                     <h3 className='text-center'><i>Full Stack Developer</i></h3></div>
                 </animated.div>
                 
-            </div>
+          
 
         </div>
     );
