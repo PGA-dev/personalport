@@ -6,7 +6,7 @@ const Nav = () => {
     //possibly make sticky nav without dropdown...too few links to be useful in dropdown form currently
     return (
         <div className={styles.container}>
-            
+
             <ul>
             
                 <li><Link to='/' className={styles.n}><i>Home</i></Link></li>
@@ -28,7 +28,7 @@ const Nav = () => {
                 <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer"><FaGitlab/></a>
                 </div>
             </ul>
-            <div className={styles.borderNav}></div>
+           
         </div>
     );
 };

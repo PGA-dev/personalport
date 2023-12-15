@@ -22,13 +22,13 @@ const Resume = () => {
     return (
 
         <div className={styles.flexResume}>
-            <div className={styles.item1}>
+            <div >
                 <animated.div style={animatedStyle}>
                     <h1  >Resume and Skills Matrix</h1>
                 </animated.div></div>
 
 
-            <div className={styles.item2}>
+            <div >
                 <animated.div style={animatedStyle}>
                     <h4 ><i>Click Button to view Resume</i></h4>
                     <button className={styles.button}
@@ -36,10 +36,9 @@ const Resume = () => {
                     <Suspense fallback={<>Loading...</>}>{isResume ? <Res /> : <></>}</Suspense>
                 </animated.div></div>
 
-            <div className={styles.item3}>
-                
-
-                <table id='projects'>
+            <div >
+            
+                <table id='resume'>
                     <caption>
                         Skills Proficiency Table
                     </caption>

@@ -1,14 +1,13 @@
 /* Nav CSS Module */
 .container {
   position:fixed;
-  display: flex;
-  flex-flow: row wrap;
   top:0;
   left:0;
   right:0;
   z-index: 10;
   background-image: var(--background-blend-radial4);
-  width: min(100%);
+  width: auto;
+
 }
 
 

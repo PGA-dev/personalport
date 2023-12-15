@@ -129,11 +129,8 @@
   --fs-link2: 1.1em;
   --fs-link-hover: 1.5em;
 
-  --width: 85em;
 }
-* {
-  box-sizing: border-box;
-}
+
 .App {
   text-align: auto;
 }
