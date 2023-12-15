@@ -1,26 +1,28 @@
 /* Projects CSS */
 
 /* .item1 { grid-area: header; } */
-
+* {
+  box-sizing: border-box;
+}
 
 .flexProject {
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: radial-gradient(var(--primary-theme1), var(--alt-theme4));
-  background-size: auto;
-  max-width: var(--width);
+  /* background-size: auto; */
+  /* width: max(100%-3rem); */
   flex-wrap: wrap;
 }
 
-.flexProject > div {
+/* .flexProject > div {
   background-image: radial-gradient(var(--secondary-theme1), var(--alt-theme2));
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  width: calc(85*var(--width));
+  width: min(100%);
   justify-content: center;
-}
+} */
 
 /* .gridContainer {
     display: grid;
@@ -35,24 +37,24 @@
   .flexProject > div {
     background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
     text-align: center;
-    padding: 20px 20px;
+    padding: 1px;
     font-size: 30px;
 
   }
 
-  .gridContainer:nth-child(1) {
+  /* .gridContainer:nth-child(1) {
     background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
     text-align: center;
     padding: 20px 20px;
     font-size: 30px;
 
-  }
+  } */
 
   .flexProject table {
     margin: 1em 0;
     background: var(--Tableback);
     border-collapse: collapse;
-    width: 100%;
+    /* width: calc(90%-3rem); */
   }
   
   .flexProject caption, .flexProject th, .flexProject td {
@@ -70,16 +72,22 @@
   
   .flexProject th {
     vertical-align: bottom;
+    padding: .5em;
     background-color: var(--table-heading-back);
     color: var(--table-heading);
     font-weight: bold;
   }
   
+
   .flexProject tr:nth-of-type(2n){
     background: var(--table-clr-3);
+
   }
 
-  @media(max-width: 650px){
+  @media(max-width: 930px){
+    .flexProject table{
+      flex:100%
+    }
     .flexProject th{
       display: none;
     }

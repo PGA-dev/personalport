@@ -131,7 +131,9 @@
 
   --width: 85em;
 }
-
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: auto;
 }

@@ -7,20 +7,23 @@ https://unsplash.com/photos/white-clouds-during-daytime-RnPuMyvPtss
 PGA profile picture
 Taken 2012 by J. Bedient
 */
-  
+* {
+  box-sizing: border-box;
+}
   .flexHeader {
     background-image: url(../app/profile.png), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
     background-size: 15em;
     background-repeat: repeat;
     background-blend-mode: color-burn;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     width: min(100%);
     /* margin-inline: auto; */
     /* z-index: .5; */
     border-bottom: ridge;
     border-bottom-color: var(--border-clr1);
+    flex:100%;
   }
 
   .flexHeader > :nth-child(odd) {
@@ -112,7 +115,7 @@ Taken 2012 by J. Bedient
   animation: colorback 7500ms infinite;
 }
 
-/*Use exclusively for footer links*/
+
 .flexHeader h5 {
   font-size: .7em;
   color: var(--alt-theme3);

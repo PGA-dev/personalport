@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import profile from '../app/profile.png';
+// import profile from '../app/profile.png';
 import styles from './Contact.module.css'
 import { FaLinkedin, FaGithub, FaEnvelopeOpen, FaYoutube, FaGitlab } from "react-icons/fa";
 
