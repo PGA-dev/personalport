@@ -1,6 +1,7 @@
 import { useRef, useState, useLayoutEffect } from "react";
 
 
+
 export default function width({projects}) {
 const ref = useRef(null);
 const [width, setwidth] = useState(0);

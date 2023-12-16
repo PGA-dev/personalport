@@ -18,13 +18,7 @@ const browserWidth = () => {
     };
   }, []);
 
-  return (
-    <div>
-      <h2>Width: {windowSize[0]}</h2>
-
-      <h2>Height: {windowSize[1]}</h2>
-    </div>
-  );
+  return windowSize[0];
 }
 
 export default browserWidth;

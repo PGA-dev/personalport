@@ -132,7 +132,7 @@
   --fs-link-hover: 1.5em;
 
 /*sizing*/
---screen-width: 100%;
+--screen-width: min(100%);
 
 
 }
