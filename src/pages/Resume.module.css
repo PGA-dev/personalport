@@ -5,7 +5,7 @@
     flex-flow: column wrap;
     background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
     /* padding: .2em; */
-    /* width: min(100%); */
+    width: var(--screen-width);
   }
 
   .flexResume> div {

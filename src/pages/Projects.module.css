@@ -9,6 +9,7 @@
   background-size: auto;
   flex-wrap: wrap;
   align-content: space-between;
+  width: var(--screen-width);
 }
 
 

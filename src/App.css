@@ -1,4 +1,6 @@
-
+@media screen {
+  
+}
 :root {
   /*New Nomenclature*/
 
@@ -128,6 +130,10 @@
   --fs-link: 1.5em;
   --fs-link2: 1.1em;
   --fs-link-hover: 1.5em;
+
+/*sizing*/
+--screen-width: 100%;
+
 
 }
 

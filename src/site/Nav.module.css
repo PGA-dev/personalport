@@ -6,7 +6,7 @@
   right:0;
   z-index: 10;
   background-image: var(--background-blend-radial4);
-  width: auto;
+  width: var(--screen-width);
 
 }
 

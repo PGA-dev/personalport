@@ -16,7 +16,7 @@ Taken 2012 by J. Bedient
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    /* width: min(100%); */
+    width: var(--screen-width);
     /* margin-inline: auto; */
     /* z-index: .5; */
     border-bottom: ridge;
