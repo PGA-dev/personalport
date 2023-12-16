@@ -3,12 +3,12 @@
 
 .flexProject {
   display: flex;
-  flex-flow: column wrap;
-  /* align-items: center; */
+  flex-flow: row wrap;
+  align-items: center;
   background-image: radial-gradient(var(--primary-theme1), var(--alt-theme4));
-  /* background-size: auto; */
-  /* width: max(100%-3rem); */
-  /* flex-wrap: wrap; */
+  background-size: auto;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 
@@ -17,14 +17,15 @@
     background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
     text-align: center;
     font-size: 30px;
-
+    
   }
 
   .flexProject table {
-    margin: 1em 3em 1em 0em;
+    /* margin: 1em 3em 1em 0em; */
     background: var(--Tableback);
-    border-collapse: collapse;
-     
+    border-collapse:collapse;
+    overflow-x: clip;
+    overflow-y: visible;
   }
   
   .flexProject caption, .flexProject th, .flexProject td {
