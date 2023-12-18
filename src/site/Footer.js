@@ -28,7 +28,7 @@ const Footer = () => {
                 <animated.div style={animatedStyle}>
                     <div className={styles.contactLink}>
 
-                        <Link to='contact' >
+                        <Link to='/' >
                             <img src={profile} alt='profile' width="75"
                                 height="auto" className='profile' /></Link>
                     </div>

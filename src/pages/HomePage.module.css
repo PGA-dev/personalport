@@ -44,11 +44,14 @@
   text-shadow: .03em .03em var(--border-clr3);
 }
 
-.gridContainer>div img{
+.gridContainer>div .profile{
   text-align: center;
-  padding: 100px 200px;
+  border: .5em ridge var(--border-clr3) ;
+  margin: 1em;
+  padding: 1em;
   color: var(--primary-theme1);
-  width: auto;
+  background: var(--container-background2);
+  inset: 0;
 }
 
 
