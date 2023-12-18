@@ -53,6 +53,7 @@
     vertical-align: bottom;
     background-color: var(--table-heading-back);
     color: var(--table-heading);
+    padding: .5em 1em;
     font-weight: bold;
   }
   
