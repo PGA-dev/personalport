@@ -67,6 +67,14 @@ const Resume = () => {
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
+                        <td data-cell="Skill">Typescript</td>
+                        <td data-cell="Proficiency"></td>
+                        <td data-cell="years"></td>
+                        <td data-cell="certificates"></td>
+                        <td data-cell="company"></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+                    <tr>
                         <td data-cell="Skill">SQL</td>
                         <td data-cell="Proficiency"></td>
                         <td data-cell="years"></td>
@@ -114,6 +122,7 @@ const Resume = () => {
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
+
                     <tr>
                         <td data-cell="Skill">C++</td>
                         <td data-cell="Proficiency"></td>
