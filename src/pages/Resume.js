@@ -76,16 +76,16 @@ const Resume = () => {
                     </tr>
                     <tr>
                         <td data-cell="Skill">SQL</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
+                        <td data-cell="Proficiency">Intermediate</td>
+                        <td data-cell="years">10</td>
                         <td data-cell="certificates"></td>
-                        <td data-cell="company"></td>
+                        <td data-cell="company">RDI, NuCamp</td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
                         <td data-cell="Skill">CSS</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
+                        <td data-cell="Proficiency">Intermediate</td>
+                        <td data-cell="years">20+</td>
                         <td data-cell="certificates"></td>
                         <td data-cell="company"></td> 
                         <td data-cell="notes"></td>
