@@ -62,7 +62,7 @@ const Resume = () => {
                         <td data-cell="Skill">Javascript</td>
                         <td data-cell="Proficiency">Beginner-Intermediate</td>
                         <td data-cell="years">4-5</td>
-                        <td data-cell="certificates">NuCamp React, React Native, Bootstrap</td>
+                        <td data-cell="certificates">NuCamp React, React Native, Bootstrap, NuCamp Honors Front End, NuCamp Honors Full Stack, NuCamp Node.js</td>
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
@@ -86,15 +86,15 @@ const Resume = () => {
                         <td data-cell="Skill">CSS</td>
                         <td data-cell="Proficiency">Intermediate</td>
                         <td data-cell="years">20+</td>
-                        <td data-cell="certificates"></td>
+                        <td data-cell="certificates">NuCamp WebDev Fundamentals</td>
                         <td data-cell="company"></td> 
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
                         <td data-cell="Skill">Python</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
-                        <td data-cell="certificates"></td>
+                        <td data-cell="Proficiency">Beginner-Intermediate</td>
+                        <td data-cell="years">2</td>
+                        <td data-cell="certificates">Nucamp Python fundamentals, NuCamp SQL with Python, NuCamp DevOps, NuCamp Backend development, NuCamp Backend Honors development</td>
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
@@ -125,11 +125,11 @@ const Resume = () => {
 
                     <tr>
                         <td data-cell="Skill">C++</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
-                        <td data-cell="certificates"></td>
+                        <td data-cell="Proficiency">Novice-Beginner</td>
+                        <td data-cell="years">1</td>
+                        <td data-cell="certificates">None</td>
                         <td data-cell="company"></td>
-                        <td data-cell="notes"></td>
+                        <td data-cell="notes">Took a C++ game dev Pre course 8 years ago</td>
                     </tr>
 
                 </table>
