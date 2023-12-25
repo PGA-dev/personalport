@@ -1,6 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Resume.module.css';
+
 const Resume = () => {
 
     const [isResume, setIsResume] = useState(false);
@@ -90,6 +91,7 @@ const Resume = () => {
                         <td data-cell="company"></td> 
                         <td data-cell="notes"></td>
                     </tr>
+                    <dialog></dialog>
                     <tr>
                         <td data-cell="Skill">Python</td>
                         <td data-cell="Proficiency">Beginner-Intermediate</td>
@@ -114,6 +116,7 @@ const Resume = () => {
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
+                    
                     <tr>
                         <td data-cell="Skill">C#</td>
                         <td data-cell="Proficiency"></td>
