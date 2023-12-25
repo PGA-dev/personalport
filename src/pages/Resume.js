@@ -33,12 +33,12 @@ const Resume = () => {
                     <h4 ><i>Click Button to view Resume</i></h4>
                     <button className={styles.button}
                         onClick={() => setIsResume(prev => !prev)}>Resume</button>
-                    <Suspense fallback={<>Loading...</>}>{isResume ? <Res /> : <></>}</Suspense>
+                    <Suspense fallback={<> Loading... </>}>{isResume ? <Res /> : <></>}</Suspense>
                 </animated.div></div>
 
             <div >
             
-                <table id='resume'>
+                <table id='skills'>
                     <caption>
                         Skills Proficiency Table
                     </caption>
@@ -68,8 +68,8 @@ const Resume = () => {
                     </tr>
                     <tr>
                         <td data-cell="Skill">Typescript</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
+                        <td data-cell="Proficiency">Beginner</td>
+                        <td data-cell="years">.5 (6 months)</td>
                         <td data-cell="certificates"></td>
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
@@ -100,9 +100,9 @@ const Resume = () => {
                     </tr>
                     <tr>
                         <td data-cell="Skill">React</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
-                        <td data-cell="certificates"></td>
+                        <td data-cell="Proficiency">Intermediate</td>
+                        <td data-cell="years">2</td>
+                        <td data-cell="certificates">Nucamp Front End Honors, NuCamp Front End Developer, NuCamp React, NuCamp React Native, NuCamp Node.js</td>
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
