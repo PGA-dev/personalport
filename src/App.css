@@ -20,7 +20,7 @@
 
   /*Secondary Theme Colors*/
   --secondary-theme1: magenta;
-  --secondary-theme2: rgba(146, 19, 146,1);
+  --secondary-theme2: rgba(155, 34, 115,1);
 
 
   /*Alternative schema -- basically, extra colors*/
@@ -106,6 +106,9 @@
   --background-blend-radial5: radial-gradient(var(--site-black), var(--site-black));
   --background-blend-linear1: linear-gradient(to right, var(--primary-theme2),var(--primary-theme1),var(--primary-theme2),var(--site-black), var(--site-black),var(--primary-theme2));
   --background-blend-linear2: linear-gradient(to right,var(--primary-theme2), var(--primary-theme1),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
+  --background-blend-linear3: linear-gradient(to right,var(--primary-theme2), var(--primary-theme2), var(--site-black), var(--secondary-theme2),var(--site-black),var(--primary-theme2), var(--primary-theme1), var(--site-black),var(--primary-theme2));
+  --background-blend-linear4: linear-gradient(to right,var(--primary-theme2),  var(--primary-theme1),var(--secondary-theme1),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
+
 
   /*Site Map*/
   --sm1-clr: slateblue;

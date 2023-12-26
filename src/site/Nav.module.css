@@ -5,7 +5,7 @@
   left:0;
   right:0;
   z-index: 10;
-  background-image: var(--background-blend-radial4);
+  /* background-image: var(--background-blend-radial4); */
   width: var(--screen-width);
 
 }
@@ -16,7 +16,10 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: var(--background-blend-radial4);
+  background-image: url(../app/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
+  background-size: 22em;
+  background-repeat: repeat;
+  background-blend-mode: color-burn; 
 }
 
 li {

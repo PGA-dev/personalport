@@ -11,7 +11,7 @@ Taken 2012 by J. Bedient
   .flexHeader {
 
     /* background-color: var(--primary-theme2); */
-    background-image: var(--background-blend-radial4);
+    background-image: var(--background-blend-linear3);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -25,7 +25,7 @@ Taken 2012 by J. Bedient
 
 
    .flexHeader > div {
-    background-image: url(../app/profile.png), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
+    background-image: url(../app/profile.png), url(../app/peter-olexa-01mFm_giy38-unsplash.jpg);
     background-size: 15em;
     background-repeat: repeat;
     background-blend-mode: color-burn; 
