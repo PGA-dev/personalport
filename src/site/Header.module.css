@@ -9,10 +9,9 @@ Taken 2012 by J. Bedient
 */
 
   .flexHeader {
-    background-image: url(../app/profile.png), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
-    background-size: 15em;
-    background-repeat: repeat;
-    background-blend-mode: color-burn;
+
+    /* background-color: var(--primary-theme2); */
+    background-image: var(--background-blend-radial4);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -26,7 +25,10 @@ Taken 2012 by J. Bedient
 
 
    .flexHeader > div {
-    background-image: var(--container-background-radial4); 
+    background-image: url(../app/profile.png), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
+    background-size: 15em;
+    background-repeat: repeat;
+    background-blend-mode: color-burn; 
     text-align: center;
     /* padding: 3em 0em; */
     margin-inline: auto; 
