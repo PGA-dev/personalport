@@ -33,12 +33,14 @@ const Resume = () => {
                 <animated.div style={animatedStyle}>
                     <h4 ><i>Click Button to view Resume</i></h4>
                     <button className={styles.button}
-                        onClick={() => setIsResume(prev => !prev)}>Resume</button>
+                        onClick={() => setIsResume(prev => !prev)}>
+                        Resume
+                    </button>
                     <Suspense fallback={<> Loading... </>}>{isResume ? <Res /> : <></>}</Suspense>
                 </animated.div></div>
 
             <div >
-            
+
                 <table id='skills'>
                     <caption>
                         Skills Proficiency Table
@@ -88,7 +90,7 @@ const Resume = () => {
                         <td data-cell="Proficiency">Intermediate</td>
                         <td data-cell="years">20+</td>
                         <td data-cell="certificates">NuCamp WebDev Fundamentals</td>
-                        <td data-cell="company"></td> 
+                        <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <dialog></dialog>
@@ -116,7 +118,7 @@ const Resume = () => {
                         <td data-cell="company"></td>
                         <td data-cell="notes"></td>
                     </tr>
-                    
+
                     <tr>
                         <td data-cell="Skill">C#</td>
                         <td data-cell="Proficiency"></td>
