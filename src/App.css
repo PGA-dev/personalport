@@ -107,7 +107,9 @@
   --background-blend-linear1: linear-gradient(to right, var(--primary-theme2),var(--primary-theme1),var(--primary-theme2),var(--site-black), var(--site-black),var(--primary-theme2));
   --background-blend-linear2: linear-gradient(to right,var(--primary-theme2), var(--primary-theme1),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
   --background-blend-linear3: linear-gradient(to right,var(--primary-theme2), var(--primary-theme2), var(--site-black), var(--secondary-theme2),var(--site-black),var(--primary-theme2), var(--primary-theme1), var(--site-black),var(--primary-theme2));
-  --background-blend-linear4: linear-gradient(to right,var(--primary-theme2),  var(--primary-theme1),var(--secondary-theme1),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
+  --background-blend-linear4: linear-gradient(to right,var(--primary-theme1), var(--site-black), var(--primary-theme2),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
+  --background-blend-linear5: linear-gradient(to right,var(--secondary-theme1), var(--site-black), var(--primary-theme2),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
+  --background-blend-linear6: linear-gradient(to right,var(--secondary-theme2), var(--site-black), var(--primary-theme2),var(--site-black),var(--primary-theme2), var(--site-black),var(--primary-theme2));
 
 
   /*Site Map*/
