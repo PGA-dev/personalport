@@ -24,7 +24,7 @@
   .flexProject table {
     margin:  3em;
     background: var(--Tableback);
-    border-collapse:collapse;
+    border-collapse: collapse;
     overflow-x: clip;
     overflow-clip-margin: 2em;
   }
