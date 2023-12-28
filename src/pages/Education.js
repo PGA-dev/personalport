@@ -94,16 +94,16 @@ const Education = () => {
                         <th>Notes</th>
                     </tr>
                     <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
+                        <td data-cell="name">Web Dev Fundamentals</td>
+                        <td data-cell="institution">Nucamp</td>
+                        <td data-cell="date">May 2022</td>
                         <td data-cell="link"></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
+                        <td data-cell="name">Python Fundamentals/Data Structures and Algorithms </td>
+                        <td data-cell="institution">Nucamp</td>
+                        <td data-cell="date">June 2022</td>
                         <td data-cell="link"></td>
                         <td data-cell="notes"></td>
                     </tr>
