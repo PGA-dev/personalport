@@ -7,7 +7,8 @@
   justify-content: space-evenly;
   align-content: stretch;
   overflow: scroll;
-  background-image: url(../app/k-k-RnPuMyvPtss-unsplash.jpg), url(../app/peter-olexa-01mFm_giy38-unsplash.jpg);
+  background-image: url(../app/profile.png), url(../app/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
+    
   background-size: 26em;
   background-repeat: repeat;
   background-blend-mode: color-burn;
