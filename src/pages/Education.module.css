@@ -36,7 +36,7 @@
     /* width: max(100% - 1rem); */
   }
   
-  .flexEducation caption, .flexResume th, .flexResume td {
+  .flexEducation caption,  .flexEducation th,  .flexEducationtd {
      text-align: left;
   }
 

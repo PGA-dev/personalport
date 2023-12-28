@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/resources/profile.png';
-import styles from './HomePage.module.css';
+import styles from './Education.module.css';
 
 const Education = () => {
 
@@ -20,9 +20,9 @@ const Education = () => {
 
     return (
 
-        <div>
-            <div>
-                <div className={styles.gridContainer}>
+        <div className={styles.flexEducation}>
+  
+                <div >
                     <div className={styles.item1}>
                     <animated.div style={animatedStyle}>
                         <h1 >My Education and Certifications</h1>
@@ -31,7 +31,6 @@ const Education = () => {
                     </div>
 
 
-                </div>
 
             </div>
             <div >
