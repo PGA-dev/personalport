@@ -10,9 +10,10 @@ const Nav = () => {
             <ul>
             
                 <li><Link to='/' className={styles.n}><i>Home</i></Link></li>
-                <li><Link to='/sitereference' className={styles.n}><i>SiteReference</i></Link></li>
+                <li><Link to='/education' className={styles.n}><i>Education</i></Link></li>
                 <li><Link to='/projects' className={styles.n}><i>Projects</i></Link></li>
                 <li><Link to='/resume' className={styles.n}><i>Resume</i></Link></li>
+                <li><Link to='/sitereference' className={styles.n}><i>SiteReference</i></Link></li>
                 <div className={styles.profile}>                             
                 <a
                     className={styles.a}
