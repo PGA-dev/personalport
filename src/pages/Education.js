@@ -33,6 +33,10 @@ const Education = () => {
 
 
             </div>
+            <div>
+
+                
+            </div>
             <div >
             
                 <table id='education'>

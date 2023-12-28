@@ -79,7 +79,10 @@ li .n,
 
 li .n:hover,
 .dropDown:hover .dropBtn {
-  background-color: var(--alt-theme3);
+  color: var(--alt-theme3);
+  font-weight: var(--fw-bright-wow);
+  text-shadow: 0em var(--primary-theme1);
+  /* background-color: var(--alt-theme3); */
 }
 
 li.dropDown {
@@ -98,6 +101,7 @@ li.dropDown {
   font-weight: var(--fw-bright-wow);
   font-size: 1em;
   color: var( --link1-hover);
+  text-shadow: 0em var(--primary-theme1);
 }
 
 .dropBtn {
