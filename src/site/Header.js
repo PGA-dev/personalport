@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import  {Link}  from 'react-router-dom';
 import styles from './Header.module.css'
-import profile from '../app/profile.png';
+import profile from '../app/resources/profile.png';
 //import cloud from '../../public/k-k-RnPuMyvPtss-unsplash.jpg';
 
 

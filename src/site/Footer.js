@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
-import profile from '../app/profile.png';
+import profile from '../app/resources/profile.png';
 import { FaDatabase, FaReact } from "react-icons/fa";
 import { FaLinkedin, FaGithub, FaEnvelopeOpen, FaYoutube, FaGitlab } from "react-icons/fa";
 

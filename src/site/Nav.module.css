@@ -30,7 +30,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: url(../app/profile.png), url(../app/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/k-k-RnPuMyvPtss-unsplash.jpg);
+  background-image: url(../app/resources/profile.png), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg);
   background-size: 22em;
   background-repeat: repeat;
   background-blend-mode: color-burn; 

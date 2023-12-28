@@ -12,7 +12,7 @@ import { useDispatch } from 'react-redux';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const Projects = lazy(() => import('./pages/Projects'));
-const History = lazy(() => import('./pages/History'));
+//const History = lazy(() => import('./pages/History'));
 const Resume = lazy(() => import('./pages/Resume'));
 const SiteReference = lazy(() => import('./pages/SiteReference'));
 
@@ -30,7 +30,6 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/history' element={<History />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/sitereference' element={<SiteReference />} />
       </Routes>
