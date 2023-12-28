@@ -25,7 +25,7 @@ Taken 2012 by J. Bedient
 }
 
 
-ul {
+.container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,12 +36,12 @@ ul {
   background-blend-mode: color-burn; 
 }
 
-li {
+.container li {
   float: left;
   font: var(--font-sec)
 }
 
-.profile {
+.container .profile {
   float: right;
   font: var(--font-sec);
   color: var(--primary-theme1);
@@ -50,7 +50,7 @@ li {
   text-align: center;
 }
 
-.title{
+.container .title{
   display: none;
 }
 
@@ -67,8 +67,8 @@ li {
   }
 } */
 
-li .n,
-.dropBtn {
+.container li .n,
+.container .dropBtn {
   display: inline-block;
   color: var(--primary-theme1);
   text-align: center;
@@ -77,15 +77,15 @@ li .n,
   text-decoration: none;
 }
 
-li .n:hover,
+.container li .n:hover,
 .dropDown:hover .dropBtn {
   color: var(--alt-theme3);
   font-weight: var(--fw-bright-wow);
-  text-shadow: 0em var(--primary-theme1);
+  text-shadow: .05em var(--primary-theme1);
   /* background-color: var(--alt-theme3); */
 }
 
-li.dropDown {
+.container li.dropDown {
   display: inline-block;
 }
 .container .a {
@@ -104,12 +104,12 @@ li.dropDown {
   text-shadow: 0em var(--primary-theme1);
 }
 
-.dropBtn {
+.container .dropBtn {
   font: papyrus;
   color: var(--primary-theme1);
 }
 
-.dropDownContent {
+.container .dropDownContent {
   display: none;
   position: absolute;
   background-image: radial-gradient(var(--alt-theme1), var(--primary-theme1));
@@ -118,7 +118,7 @@ li.dropDown {
   z-index: 10;
 }
 
-.dropDownContent .n {
+.container .dropDownContent .n {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -126,24 +126,24 @@ li.dropDown {
   text-align: left;
 }
 
-.dropDownContent a:hover {
+.container .dropDownContent a:hover {
   color: var(--primary-theme1);
   background-color: var(--alt-theme1);
 }
 
-.dropDown:hover .dropDownContent {
+.container .dropDown:hover .dropDownContent {
   display: block;
 
 }
 
-.n {
+.container .n {
   font-size: 1.4em;
   color: var(--primary-theme1);
   font-family: papyrus;
   text-shadow: .07em .03em var(--border-clr3);
 }
 
-.borderNav{
+.container .borderNav{
   border-bottom: ridge;
   border-bottom-color: var(--border-clr1);
 

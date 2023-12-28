@@ -1,94 +1,110 @@
 /* Resume CSS */
 
-  .flexEducation {
-    display: flex;
-    flex-flow: column wrap;
-    background-image: var(--background-blend-linear4);
-    /* padding: .2em; */
-    width: var(--screen-width);
-  }
+.flexEducation {
+  display: flex;
+  flex-flow: column wrap;
+  background-image: var(--background-blend-linear4);
+  /* padding: .2em; */
+  width: var(--screen-width);
+}
 
-  .flexEducation> div {
-    color: var(--primary-theme1);
-    background-image: var(--background-blend-linear4);
-    text-align: center;
-    /* padding: 20px 20px; */
-    font-size: 30px;
-  }
+.flexEducation dl, dt, ul, li{
+ color:var(--primary-theme1);
+}
+.flexEducation h3 {
+  color: var(--alt-theme3);
+}
 
-  .flexEducation>div .button{
-    display: inline-block;
-    text-decoration: none;
-    color: var(--alt-theme3);
-    background-color: var(--primary-theme1);
-    border: .1em solid var(--alt-theme3);
-    border-radius: .2em;
-    /* box-shadow: 0em .1em var(--clr-7); */
-  }
+.flexEducation h6{
+  color: var(--alt-theme2);
+}
+.flexEducation h5{
+  color: var(--secondary-theme2);
+}
 
-  .flexEducation>div .button:hover{
-    border: .2em solid var(--alt-theme2);
-  }
+.flexEducation>div {
+  color: var(--primary-theme1);
+  text-align: center;
+  /* padding: 20px 20px; */
+  font-size: 30px;
+}
 
+.flexEducation>div .button {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--alt-theme3);
+  background-color: var(--primary-theme1);
+  border: .1em solid var(--alt-theme3);
+  border-radius: .2em;
+  /* box-shadow: 0em .1em var(--clr-7); */
+}
+
+.flexEducation>div .button:hover {
+  border: .2em solid var(--alt-theme2);
+}
+
+.flexEducation table {
+  margin: 1em 0;
+  background: var(--Tableback);
+  border-collapse: collapse;
+  /* width: max(100% - 1rem); */
+}
+
+.flexEducation caption,
+.flexEducation th,
+.flexEducationtd {
+  text-align: left;
+}
+
+
+.flexEducation caption {
+  font-style: italic;
+  font-weight: var(--fw-bright-wow);
+  color: var(--table-caption);
+  padding: 0.25em 0.5em 0.5em 0.5em;
+}
+
+
+.flexEducation th {
+  vertical-align: bottom;
+  background-color: var(--table-heading-back);
+  color: var(--table-heading);
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+.flexEducation tr:nth-of-type(2n) {
+  background: var(--table-clr-3);
+}
+
+@media(max-width: 930px) {
   .flexEducation table {
-    margin: 1em 0;
-    background: var(--Tableback);
-    border-collapse: collapse;
-    /* width: max(100% - 1rem); */
-  }
-  
-  .flexEducation caption,  .flexEducation th,  .flexEducationtd {
-     text-align: left;
+    flex: 100%;
+    width: 100%;
   }
 
-
-  .flexEducation caption { 
-    font-style: italic;
-    font-weight: var(--fw-bright-wow);
-    color: var(--table-caption);
-    padding: 0.25em 0.5em 0.5em 0.5em;
-  }
-  
-  
   .flexEducation th {
-    vertical-align: bottom;
-    background-color: var(--table-heading-back);
-    color: var(--table-heading);
-    padding: .5em 1em;
-    font-weight: bold;
-  }
-  
-  .flexEducation tr:nth-of-type(2n){
-    background: var(--table-clr-3);
+    display: none;
   }
 
-  @media(max-width: 930px){
-    .flexEducation table{
-      flex:100%;
-      width: 100%;
-    }
-    .flexEducation th{
-      display: none;
-    }
-    .flexEducation td{
-      display: grid;
-      grid-template-columns: auto; 
-      padding: .5rem 1rem;
-    }
-
-    .flexEducation td:first-child{
-      padding-top: 2.5rem;
-    }
-    .flexEducation td:last-child{
-
-      padding-bottom: 2.5rem;
-    }
-
-    .flexEducation td::before{
-      content: attr(data-cell) ": ";
-      font-weight: var(--fw-bright-wow);
-      text-transform: capitalize;
-    }
+  .flexEducation td {
+    display: grid;
+    grid-template-columns: auto;
+    padding: .5rem 1rem;
   }
 
-  
+  .flexEducation td:first-child {
+    padding-top: 2.5rem;
+  }
+
+  .flexEducation td:last-child {
+
+    padding-bottom: 2.5rem;
+  }
+
+  .flexEducation td::before {
+    content: attr(data-cell) ": ";
+    font-weight: var(--fw-bright-wow);
+    text-transform: capitalize;
+  }
+}
