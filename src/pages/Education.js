@@ -37,44 +37,44 @@ const Education = () => {
         <dl>
             <dt> 
                 <h3>NuCamp</h3>
-                <ul> 
+                <dl> 
                     <h5>Full Stack Web Development (Honors Back end, Honors Full Stack, Honors Front end) Graduated 2023 </h5>
-                    <li>
-                        <h6>•	React, React Native, Node JS, Python, docker, MVC, Django using MVT, PostgreSQL, Flask </h6>
-                    </li>
-                    <li>
-                        <h6>•	Triple honors graduate including being the featured honors project from Back end Honors graduation ceremony </h6>
-                    </li>
-                </ul>
+                    <dt>
+                        <h6>React, React Native, Node JS, Python, docker, MVC, Django using MVT, PostgreSQL, Flask </h6>
+                    </dt>
+                    <dt>
+                        <h6>Triple honors graduate including being the featured honors project from Back end Honors graduation ceremony </h6>
+                    </dt>
+                </dl>
             </dt>
             </dl>
             <dl>
             <dt><h3>University of Edinboro</h3>
-            <ul>
+            <dl>
                 <h5>MA in Social Science Sociology (GPA 3.92, Minors in History and Anthropology), Graduated 2009 </h5>
-                    <li>
-                        <h6>•	Dialogue Across Disciplines Conference First Place Winner</h6>
-                    </li>
-                    <li>
-                        <h6>•	Strong focus in Methodology, Research and Methodological Analysis tools</h6>
-                    </li>
+                    <dt>
+                        <h6>Dialogue Across Disciplines Conference First Place Winner</h6>
+                    </dt>
+                    <dt>
+                        <h6>Strong focus in Methodology, Research and Methodological Analysis tools</h6>
+                    </dt>
 
-                </ul>
+                </dl>
 
             </dt>
             <dt>
-                <ul>
+                <dl>
                     <h5>BA in Philosophy (Summa Cum Laude, GPA 3.89, Minor in Anthropology and Music), Graduated 2005</h5>
-                    <li>
-                        <h6>•	Dean's List All semesters</h6>
-                    </li>
-                    <li>
-                        <h6>•	Philosophy Club President</h6>
-                    </li>
-                    <li>
-                        <h6>•	Focus in Scientific and Logical Philosophy</h6>
-                    </li>
-                </ul>
+                    <dt>
+                        <h6>Dean's List All semesters</h6>
+                    </dt>
+                    <dt>
+                        <h6>Philosophy Club President</h6>
+                    </dt>
+                    <dt>
+                        <h6>Focus in Scientific and Logical Philosophy</h6>
+                    </dt>
+                </dl>
 
             </dt>
         </dl>

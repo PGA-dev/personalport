@@ -4,7 +4,7 @@
   display: flex;
   flex-flow: column wrap;
   background-image: var(--background-blend-linear4);
-  /* padding: .2em; */
+  padding: .2em 1em;
   width: var(--screen-width);
 }
 
@@ -33,7 +33,7 @@
   color: var(--primary-theme1);
   text-align: center;
   /* padding: 20px 20px; */
-  font-size: 30px;
+  font-size: var(--fs-heading);
 }
 
 .flexEducation>div .button {
@@ -51,11 +51,12 @@
 }
 
 .flexEducation table {
-  margin: 1em 0;
+  margin: 1em 2em 1em 1em;
   background-image: url(../app/resources/marek-piwnicki-w4sxddUJ5-0-unsplash.jpg), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg);
   background-size: 22em;
   background-repeat: repeat;
   background-blend-mode: color-burn; 
+  /* border: ridge .02em var(--border-clr3); */
   border-collapse: collapse;
   /* width: max(100% - 1rem); */
 }
