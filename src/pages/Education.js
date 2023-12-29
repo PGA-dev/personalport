@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import profile from '../app/resources/profile.png';
 import styles from './Education.module.css';
+import { FaCertificate, FaMedal} from "react-icons/fa";
 
 const Education = () => {
 
@@ -97,14 +97,14 @@ const Education = () => {
                         <td data-cell="name">Web Dev Fundamentals</td>
                         <td data-cell="institution">Nucamp</td>
                         <td data-cell="date">May 2022</td>
-                        <td data-cell="link"></td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/HTML%2C_CSS_and_JavaScript-HTML%2C_CSS_and_JavaScript_Course_Certificate_13820.pdf' target="_blank" rel="noreferrer"><FaCertificate/></a></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
                         <td data-cell="name">Python Fundamentals/Data Structures and Algorithms </td>
                         <td data-cell="institution">Nucamp</td>
                         <td data-cell="date">June 2022</td>
-                        <td data-cell="link"></td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Back/SQL_with_python.pdf' target="_blank" rel="noreferrer"><FaCertificate/></a></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
