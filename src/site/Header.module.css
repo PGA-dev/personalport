@@ -14,15 +14,20 @@ Taken 2012 by J. Bedient
 */
 
   .flexHeader {
-    background-image: var(--background-blend-linear3);
+    /* background-image: var(--background-blend-linear3); */
+    background-image:  url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg);
+    background-size: 105em;
+    background-repeat: repeat;
+    background-blend-mode:hard-light; 
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     width: var(--screen-width);
     /* margin-inline: auto; */
     /* z-index: .5; */
-    border-bottom: ridge;
-    border-bottom-color: var(--border-clr1);
+    /* border-bottom: ridge .5em var(--alt-theme3);
+    border-top: ridge .5em var(--alt-theme3); */
+    /* border-bottom-color: var(--border-clr1); */
   }
 
 

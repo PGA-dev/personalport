@@ -104,14 +104,14 @@ const Education = () => {
                         <td data-cell="name">Python Fundamentals/Data Structures and Algorithms </td>
                         <td data-cell="institution">Nucamp</td>
                         <td data-cell="date">June 2022</td>
-                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Back/SQL_with_python.pdf' target="_blank" rel="noreferrer"><FaCertificate/></a></td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Back/python_fundamentals.pdf' target="_blank" rel="noreferrer"><FaCertificate/></a></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
+                        <td data-cell="name">SQL With Python</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">August 2022</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Back/SQL_with_python.pdf' target="_blank" rel="noreferrer"><FaCertificate/></a></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
