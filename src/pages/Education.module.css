@@ -52,10 +52,13 @@
 
 .flexEducation caption,
 .flexEducation th,
-.flexEducationtd {
+.flexEducation td {
   text-align: left;
 }
 
+.flexEducation td{
+  color:var(--table-clr1);
+}
 
 .flexEducation caption {
   font-style: italic;
@@ -91,6 +94,7 @@
     display: grid;
     grid-template-columns: auto;
     padding: .5rem 1rem;
+    color:var(--table-clr1);
   }
 
   .flexEducation td:first-child {

@@ -14,8 +14,6 @@ Taken 2012 by J. Bedient
 */
 
   .flexHeader {
-
-    /* background-color: var(--primary-theme2); */
     background-image: var(--background-blend-linear3);
     display: flex;
     flex-flow: column wrap;
