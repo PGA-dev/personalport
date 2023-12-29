@@ -60,7 +60,7 @@
   --heading4-hover: #a424ff;
 
 
-  --heading5-clr: #a424ff;
+  --heading5-clr: hsl(275, 96%, 56%);
   --heading5-hover: aqua;
 
 
@@ -72,14 +72,14 @@
 
 /*Table*/
 --Tableback: rgba(55,200,255,.7);
---table-clr1: rgb(146, 19, 146);
---table-clr2: white;
---table-clr-3: rgba(0,155,222,.7);
+--table-clr1: rgba(255,25,255,1);
+--table-clr2: rgba(255, 0, 255,.9);
+--table-clr-3: rgba(0,155,222,.6);
 --table-row-clr: rgba(255, 255, 255, .25);
---table-row-clr-alt: rgba(255, 255, 255, 0.5);
---table-heading: aqua;
+--table-row-clr-alt: rgba(255, 255, 255, 0.2);
+--table-heading: rgba(0,255,255,1);
 --table-caption: slateblue;
---table-heading-back: rgba(0,100,222,.9);
+--table-heading-back: rgba(0,100,222,.7);
 
 
   /*BORDERS*/
