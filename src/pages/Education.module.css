@@ -12,9 +12,14 @@
  color:var(--primary-theme1);
 }
 
+.flexEducation h1 {
+  color: var(--primary-theme1);
+  text-shadow: .03em .03em var(--secondary-theme2);
+}
 
 .flexEducation h3 {
   color: var(--alt-theme3);
+  text-shadow: .02em .02em var(--table-heading);
 }
 
 .flexEducation h6{
@@ -47,7 +52,6 @@
 
 .flexEducation table {
   margin: 1em 0;
-  /* background: var(--Tableback); */
   background-image: url(../app/resources/marek-piwnicki-w4sxddUJ5-0-unsplash.jpg), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg);
   background-size: 22em;
   background-repeat: repeat;
@@ -113,6 +117,7 @@
   .flexEducation table {
     flex: 100%;
     width: 100%;
+
   }
 
   .flexEducation th {
@@ -124,6 +129,11 @@
     grid-template-columns: auto;
     padding: .5rem 1rem;
     color:var(--table-clr1);
+    background-image: url(../app/resources/marek-piwnicki-w4sxddUJ5-0-unsplash.jpg), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg);
+    background-size: 22em;
+    background-repeat: repeat;
+    background-blend-mode: color-burn;
+    border: solid .02em var(--primary-theme1);
   }
 
   .flexEducation td:first-child {
