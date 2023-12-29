@@ -18,6 +18,7 @@
   }
 
   .flexSite h1 {
+    padding: 1em;
     color: var(--primary-theme1);
   }
 

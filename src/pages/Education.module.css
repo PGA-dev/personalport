@@ -13,6 +13,7 @@
 }
 
 .flexEducation h1 {
+  padding: 1em;
   color: var(--primary-theme1);
   text-shadow: .03em .03em var(--secondary-theme2);
 }

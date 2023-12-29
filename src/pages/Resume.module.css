@@ -4,15 +4,26 @@
     display: flex;
     flex-flow: column wrap;
     background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
-    /* padding: .2em; */
+    padding: 1em;
     width: var(--screen-width);
   }
 
   .flexResume> div {
-    background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
+    background-image: var(--background-blend-linear4);
     text-align: center;
     /* padding: 20px 20px; */
     font-size: 30px;
+  }
+
+  .flexResume h1 {
+    padding: 1em;
+    color: var(--primary-theme1);
+    text-shadow: .03em .03em var(--secondary-theme2);
+  }
+
+  .flexResume h4{
+    color: var(--alt-theme3);
+    text-shadow: .02em .02em var(--table-heading);
   }
 
   .flexResume>div .button{
@@ -30,7 +41,7 @@
   }
 
   .flexResume table {
-    margin: 1em 0;
+    margin: 1em;
     background: var(--Tableback);
     border-collapse: collapse;
     /* width: max(100% - 1rem); */

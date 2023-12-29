@@ -3,14 +3,13 @@ import { Routes, Route } from 'react-router-dom';
 // import { Counter } from './features/counter/Counter';
 import './App.css';
 import Footer from './site/Footer';
-import Header from './site/Header';
 import Nav from './site/Nav';
 import { fetchSiteReferences } from './features/siteReference/siteReferenceSlice';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 
 
-const HomePage = lazy(() => import('./pages/HomePage'));
+const Hero = lazy(() => import('./pages/Hero'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Education = lazy(() => import('./pages/Education'));
 const Resume = lazy(() => import('./pages/Resume'));
@@ -25,10 +24,9 @@ function App() {
   return (
     <div className="App">
       <Nav />
-    <Header /> 
       <Suspense fallback={<div className='fallback' id='fallback'>Please Wait, Loading page...</div>}>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<Hero />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/education' element={<Education />} />

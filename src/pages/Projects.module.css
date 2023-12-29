@@ -2,6 +2,7 @@
 
 
 .flexProject {
+
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -15,10 +16,17 @@
 
 
   .flexProject > div {
-    background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
+    padding: 1em;
+    background-image: var(--background-blend-linear1);
     text-align: center;
     font-size: 30px;
     
+  }
+
+  .flexProject h1 {
+    padding: 1em;
+    color: var(--primary-theme1);
+    text-shadow: .03em .03em var(--secondary-theme2);
   }
 
   .flexProject table {
