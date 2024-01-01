@@ -23,8 +23,9 @@ padding: 0em 0em 0em 1.7em;
 
 .flexHistory h1 {
   padding: 1.5em 0em;
+  font-family: var(--font-sec);
   font-size: 2.5em;
   color: var(--primary-theme1);
-  text-shadow: .03em .03em var(--secondary-theme1);
+  text-shadow: .03em .03em var(--alt-theme4);
 }
 
