@@ -126,6 +126,6 @@ Taken 2012 by J. Bedient
   }
   .flexHero h1{
     text-align: left;
-    padding: .2em;
+    padding: 1.5em .2em .2em .2em;
   }
 }
