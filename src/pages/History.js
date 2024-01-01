@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import profile from '../app/resources/profile.png';
+import HistoryList from '../features/history/HistoryList'
 import styles from './History.module.css';
+import { Link } from 'react-router-dom';
 
 const History = () => {
 
@@ -19,25 +21,22 @@ const History = () => {
 
     return (
 
-        <div className={styles.gridContainer}>
-            <div className={styles.item1}>
-                <animated.div style={animatedStyle}>
-                    <h1  >History</h1>
-                </animated.div></div>
+        <div>
+            <div className={styles.flexHistory}>
+                <div>
+                    <animated.div style={animatedStyle}>
+                        <h1 ><i>History</i></h1>
 
-                <div className={styles.item2}>
-                <img src={profile} alt='profile' className='profile' />
+                    </animated.div>
+
+                    <Link to='/' >
+                        <img src={profile} alt='profile' width="250"
+                            height="auto" className='profile' /></Link>
+                </div>
             </div>
-            <div className={styles.item3}>
-                <animated.div style={animatedStyle}>
-                    <h3 ><i>For Now</i></h3>
-                </animated.div></div>
-
-
-            <div className={styles.item4}>
-                <h5>Table</h5>
+            <div className={styles.flexHistory}>
+                <HistoryList />
             </div>
-
         </div>
 
     );

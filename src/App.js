@@ -5,13 +5,13 @@ import './App.css';
 import Footer from './site/Footer';
 import Nav from './site/Nav';
 import { fetchSiteReferences } from './features/siteReference/siteReferenceSlice';
-import {fetchHistory} from './features/history/historySlice';
+import { fetchHistory } from './features/history/historySlice';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Hero from './pages/Hero';
 
 
-// const Hero = lazy(() => import('./pages/Hero'));
+const History = lazy(() => import('./pages/History'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Education = lazy(() => import('./pages/Education'));
 const Resume = lazy(() => import('./pages/Resume'));
@@ -21,8 +21,8 @@ const SiteReference = lazy(() => import('./pages/SiteReference'));
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchSiteReferences())
-    dispatch(fetchHistory())
+    dispatch(fetchSiteReferences());
+    dispatch(fetchHistory());
   }, [dispatch]);
   return (
     <div className="App">
@@ -30,6 +30,7 @@ function App() {
       <Suspense fallback={<div className='fallback' id='fallback'>Please Wait, Loading page...</div>}>
       <Routes>
         <Route path='/' element={<Hero />} />
+        <Route path='/history' element={<History />}/>
         <Route path='/projects' element={<Projects />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/education' element={<Education />} />

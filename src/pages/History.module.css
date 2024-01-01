@@ -1,43 +1,24 @@
 /* History CSS */
 
-.item1 { grid-area: header; }
-.item2 { grid-area: subheader;}
-.item3 { grid-area: menu; }
-.item4 { grid-area: main; }
+
+.flexHistory {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: .5em;
+  background-image: var(--background-blend-linear1);
+flex-flow: row wrap;
+}
 
 
+.flexHistory > div {
+  text-align: left;
+  padding: 1em 1em;
+  font-size: 1em;
+}
 
-.gridContainer {
-    display: grid;
-    grid-template-areas:
-    'header header header header header header'
-    'subheader subheader subheader subheader subheader subheader'
-    'menu main main main main main';
-    /* grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto; */
-    gap: 25px;
-    background-image: radial-gradient(var(--primary-theme1), var(--alt-theme3));
-    padding: 10px;
-  }
-
-
-  .gridContainer > div {
-    background-image: var(--background-blend-linear1);
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 30px;
-  }
-
-  .gridContainer  h1{
-    font-size: 4em;
-  }
-
-  .gridContainer  h3{
-    font-size: 2.5em;
-  }
-
-  .gridContainer  h5{
-    font-size: 1.5em;
-  }
-
+.flexHistory h1 {
+  padding: 1em;
+  color: var(--primary-theme1);
+}
 

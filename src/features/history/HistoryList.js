@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectAllHistory } from "./HistorySlice";
+import { selectAllHistory } from "./historySlice";
 import HistoryCard from './HistoryCard';
 
 const HistoryList = () => {
