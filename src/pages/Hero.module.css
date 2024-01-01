@@ -117,3 +117,15 @@ Taken 2012 by J. Bedient
     background-color: var(--secondary-theme1);
   }
 }
+
+@media (max-width: 1250px){
+  .flexHero>div{
+    text-align: left;
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+  .flexHero h1{
+    text-align: left;
+    padding: .2em;
+  }
+}

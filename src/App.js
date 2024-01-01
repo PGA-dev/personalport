@@ -7,9 +7,9 @@ import Nav from './site/Nav';
 import { fetchSiteReferences } from './features/siteReference/siteReferenceSlice';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import Hero from './pages/Hero';
 
 
-const Hero = lazy(() => import('./pages/Hero'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Education = lazy(() => import('./pages/Education'));
 const Resume = lazy(() => import('./pages/Resume'));
