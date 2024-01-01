@@ -113,13 +113,9 @@
       text-wrap: wrap;
     }
   
-    .flexResume>div{
-      margin: auto;
-      padding: auto;
-      text-align: left;
-      text-wrap: wrap;
+    .flexResume h1{
+      padding: 3em 1em;
     }
-  
     .flexResume table {
       flex: 100%;
       width: 100%;

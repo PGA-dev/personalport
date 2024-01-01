@@ -96,12 +96,8 @@
       text-align: left;
       text-wrap: wrap;
     }
-  
-    .flexProject>div{
-      margin: auto;
-      padding: auto;
-      text-align: left;
-      text-wrap: wrap;
+    .flexProject h1{
+      padding: 3em 1em;
     }
   
     .flexProject table {
