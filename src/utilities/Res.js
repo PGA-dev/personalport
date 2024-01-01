@@ -1,10 +1,11 @@
 // import resume from '../app/resume.docx';
+import styles from "./Res.module.css"
 
 const Res = () => {
 
     return (
         <>
-        Future resume download Here...
+        <h4 className={styles.res}>Future resume download Here...</h4>
         </>
         
     )

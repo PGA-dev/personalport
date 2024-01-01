@@ -16,7 +16,7 @@ const History = () => {
     useEffect(() => {
         setToggle(true);
     }, []);
-    //must re-write css in module that doesn't use bs or reactstrap inline
+
     return (
 
         <div className={styles.gridContainer}>

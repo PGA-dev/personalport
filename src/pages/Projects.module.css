@@ -2,25 +2,21 @@
 
 
 .flexProject {
-
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  background-image: radial-gradient(var(--primary-theme1), var(--alt-theme4));
-  background-size: auto;
-  flex-wrap: wrap;
-  align-content: space-between;
-  width: var(--screen-width);
+  flex-flow: column wrap;
+  background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
+  /* align-content: space-between; */
+  width: var(--screen-width); 
 }
 
 
 
-  .flexProject > div {
-    padding: 1em;
+  .flexProject> div {
+    /* padding: 2em 0em; */
     background-image: var(--background-blend-linear1);
     text-align: center;
     font-size: 30px;
-    
+    /* width: 100%; */
   }
 
   .flexProject h1 {
@@ -30,11 +26,12 @@
   }
 
   .flexProject table {
-    margin:  .5em;
+    margin: 1em 2.5em 1em 1em;
     background: var(--Tableback);
     border-collapse: collapse;
     overflow-x: clip;
     overflow-clip-margin: .3em;
+    width: 95%;
   }
   
   .flexProject caption, .flexProject th, .flexProject td {
@@ -52,7 +49,7 @@
   
   .flexProject th {
     vertical-align: bottom;
-    padding: .5em;
+    padding: .5em 1em;
     background-color: var(--table-heading-back);
     color: var(--table-heading);
     font-weight: bold;
@@ -64,10 +61,10 @@
 
   }
 
-  @media(max-width: 930px){
+  @media(max-width: 1250px){
     .flexProject table{
       flex:100%;
-      width: 100%;
+      width: 90%;
     }
     .flexProject th{
       display: none;
