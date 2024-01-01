@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './site/Footer';
 import Nav from './site/Nav';
 import { fetchSiteReferences } from './features/siteReference/siteReferenceSlice';
+import {fetchHistory} from './features/history/historySlice';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Hero from './pages/Hero';
@@ -21,6 +22,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchSiteReferences())
+    dispatch(fetchHistory())
   }, [dispatch]);
   return (
     <div className="App">

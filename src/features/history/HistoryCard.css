@@ -1,0 +1,72 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  /*blur effect*/
+  .cardHistory {
+    background-image: var(--background-blend-linear2);
+    border-radius: .9em;
+    aspect-ratio: 1 / .3;
+    width: auto;
+    height: auto;
+    padding: .1em;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+.cardHistory::before,
+.cardHistory::after {
+    content: "";
+    position: absolute;
+    inset: -.7em;
+    z-index: -1;
+    background: conic-gradient(from var(--gradient-angle),
+            var(--card-theme1),
+            var(--card-theme2),
+            var(--card-theme3),
+            var(--card-theme2),
+            var(--card-theme4),
+            var(--card-theme1),
+            var(--card-theme2),
+            var(--card-theme3),
+            var(--card-theme2),
+            var(--card-theme1)
+            );
+    border-radius: inherit;
+    animation: rotation 20000ms linear infinite;
+}
+
+.cardHistory::after {
+    filter: blur(3.5em);
+}
+
+@keyframes rotation {
+    0% {
+        --gradient-angle: 0deg;
+    }
+
+    100% {
+        --gradient-angle: 360deg;
+    }
+}
+
+.cardHistory>dl {
+    color: var(--primary-theme1);
+    padding: .1em;
+}
+
+.cardHistory>dl a {
+    color: var(--link3-clr);
+}
+
+.cardHistory>dl a:hover {
+    color: var(--link3-hover);
+}
+
+.cardHistory>dl span {
+    color: var(--site-white);
+    padding:.2em;
+}
