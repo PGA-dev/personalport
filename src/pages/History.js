@@ -25,7 +25,7 @@ const History = () => {
             <div className={styles.flexHistory}>
                 <div>
                     <animated.div style={animatedStyle}>
-                        <h1 ><i>History</i></h1>
+                        <h1 ><i>PGA History</i></h1>
 
                     </animated.div>
 
