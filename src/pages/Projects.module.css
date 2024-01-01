@@ -4,8 +4,7 @@
 .flexProject {
   display: flex;
   flex-flow: column wrap;
-  background-image: radial-gradient(var(--alt-theme3), var(--primary-theme1));
-  /* align-content: space-between; */
+  background-image: var(--background-blend-linear1);
   width: var(--screen-width); 
 }
 
@@ -20,74 +19,126 @@
   }
 
   .flexProject h1 {
-    padding: 1em;
-    color: var(--primary-theme1);
-    text-shadow: .03em .03em var(--secondary-theme2);
+  padding: 1.5em 0em;
+  color: var(--primary-theme1);
+  text-shadow: .03em .03em var(--secondary-theme2);
   }
 
   .flexProject table {
     margin: 1em 2.5em 1em 1em;
-    background: var(--Tableback);
+    background-image: url(../app/resources/marek-piwnicki-w4sxddUJ5-0-unsplash.jpg), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg);
+    background-size: 22em;
+    background-repeat: repeat;
+    background-blend-mode: color-burn;
     border-collapse: collapse;
     overflow-x: clip;
     overflow-clip-margin: .3em;
     width: 95%;
   }
   
-  .flexProject caption, .flexProject th, .flexProject td {
+  .flexProject th, .flexProject td {
      text-align: left;
   }
 
 
   .flexProject caption { 
+    font-family: var(--font-sec);
+    font-size: var(--fs-heading-light);
     font-style: italic;
     font-weight: var(--fw-bright-wow);
     color: var(--table-caption);
-    padding: 0.25em 0.5em 0.5em 0.5em;
+    padding: 0em 0em 0em 0.5em;
+    text-shadow: .02em .02em var(--table-heading);
   }
   
+  .flexProject.a {
+    font-weight: var(--fw-bright);
+    color: var(--table-clr1);
+    font-family: var(--font-sec);
+    padding: .5em;
+    font-size: 1.1em;
+  }
   
+  .flexProject .a:hover {
+    font-weight: var(--fw-bright-wow);
+    color: var(--site-white);
+  }
+  .flexProject th,
+  .flexProject td {
+    text-align: left;
+  }
+
   .flexProject th {
     vertical-align: bottom;
-    padding: .5em 1em;
     background-color: var(--table-heading-back);
     color: var(--table-heading);
+    padding: .5em .2em .5em .3em;
     font-weight: bold;
+    text-shadow: .02em .02em var(--table-clr1);
   }
   
+  .flexProject td{
+    color:var(--table-clr2);
+    padding: .2em;
+    text-align: left;
+    text-shadow: .02em .02em var(--table-heading);
+  }
 
   .flexProject tr:nth-of-type(2n){
-    background: var(--table-clr-3);
+    background: var(--Tableback);
 
   }
 
-  @media(max-width: 1250px){
-    .flexProject table{
-      flex:100%;
-      width: 90%;
+  @media(max-width: 1250px) {
+    .flexProject{
+      margin: auto;
+      padding: auto;
+      text-align: left;
+      text-wrap: wrap;
     }
-    .flexProject th{
+  
+    .flexProject>div{
+      margin: auto;
+      padding: auto;
+      text-align: left;
+      text-wrap: wrap;
+    }
+  
+    .flexProject table {
+      flex: 100%;
+      width: 100%;
+      margin: .01em 2em .01em .01em;
+  
+    }
+  
+    .flexProject th {
       display: none;
     }
-    .flexProject td{
+  
+    .flexProject td {
       display: grid;
-      grid-template-columns: auto; 
+      grid-template-columns: auto;
       padding: .5rem 1rem;
+      color:var(--table-clr1);
+      background-image: url(../app/resources/marek-piwnicki-w4sxddUJ5-0-unsplash.jpg), url(../app/resources/peter-olexa-01mFm_giy38-unsplash.jpg), url(../app/resources/k-k-RnPuMyvPtss-unsplash.jpg);
+      background-size: 22em;
+      background-repeat: repeat;
+      background-blend-mode: color-burn;
+      border: solid .02em var(--primary-theme1);
     }
-
-    .flexProject td:first-child{
+  
+    .flexProject td:first-child {
       padding-top: 2.5rem;
     }
-    .flexProject td:last-child{
-
+  
+    .flexProject td:last-child {
+  
       padding-bottom: 2.5rem;
     }
-
-    .flexProject td::before{
+  
+    .flexProject td::before {
       content: attr(data-cell) ": ";
       font-weight: var(--fw-bright-wow);
       text-transform: capitalize;
     }
   }
-
-

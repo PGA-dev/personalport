@@ -41,7 +41,7 @@ const Projects = () => {
                             <th>Techologies Used</th>
                             <th>Repository</th>
                             <th>Notes</th>
-                            <th>URL</th>
+
                         </tr>
                         <tr>
                             <td data-cell="date">September 2023</td>
@@ -52,7 +52,6 @@ const Projects = () => {
                                 <a className={styles.a} href='https://github.com/PGA-dev/personalport' target="_blank" rel="noreferrer"><i>GH: portfolio</i></a>
                             </td>
                             <td data-cell="notes">Static portfolio site</td>
-                            <td data-cell="url">TBA</td>
                         </tr>
                         <tr>
                             <td data-cell="date">August/September 2022</td>
@@ -63,7 +62,6 @@ const Projects = () => {
                                 <a className={styles.a} href='https://github.com/PGA-dev/match_game' target="_blank" rel="noreferrer"><i>GH: match game</i></a>
                             </td>
                             <td data-cell="notes">Final Project for Web Dev Fundamentals class, enhanced by PGA</td>
-                            <td data-cell="url">TBA</td>
                         </tr>
                         <tr>
                             <td data-cell="date">August/September 2022</td>
@@ -74,7 +72,6 @@ const Projects = () => {
                                 <a className={styles.a} href='https://github.com/PGA-dev/match_game' target="_blank" rel="noreferrer"><i>GH: match game</i></a>
                             </td>
                             <td data-cell="notes">Final Project for Web Dev Fundamentals class, enhanced by PGA</td>
-                            <td data-cell="url">TBA</td>
                         </tr>
                         <tr>
                             <td data-cell="date">August/September 2022</td>
@@ -85,7 +82,6 @@ const Projects = () => {
                                 <a className={styles.a} href='https://github.com/PGA-dev/match_game' target="_blank" rel="noreferrer"><i>GH: match game</i></a>
                             </td>
                             <td data-cell="notes">Final Project for Web Dev Fundamentals class, enhanced by PGA</td>
-                            <td data-cell="url">TBA</td>
                         </tr>
                         <tr>
                             <td data-cell="date">August/September 2022</td>
@@ -96,7 +92,6 @@ const Projects = () => {
                                 <a className={styles.a} href='https://github.com/PGA-dev/match_game' target="_blank" rel="noreferrer"><i>GH: match game</i></a>
                             </td>
                             <td data-cell="notes">Final Project for Web Dev Fundamentals class, enhanced by PGA</td>
-                            <td data-cell="url">TBA</td>
                         </tr>
                     </table>
                 </div>

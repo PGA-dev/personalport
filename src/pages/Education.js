@@ -43,7 +43,7 @@ const Education = () => {
                         <h6>React, React Native, Node JS, Python, docker, MVC, Django using MVT, PostgreSQL, Flask </h6>
                     </dt>
                     <dt>
-                        <h6>Triple honors graduate including being the featured honors project from Back end Honors graduation ceremony </h6>
+                        <h6>Triple honors graduate, including being the featured honors project from Back end Honors graduation ceremony </h6>
                     </dt>
                 </dl>
             </dt>
