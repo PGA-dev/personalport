@@ -33,7 +33,7 @@ Taken 2012 by J. Bedient
     background-blend-mode: color-burn; 
     text-align: center;
     padding: 5em 7em;
-    margin: 7em;
+    margin: 5em;
     margin-inline: auto; 
     font-size: inherit;
   }
@@ -42,7 +42,7 @@ Taken 2012 by J. Bedient
 /* For Home link*/
 .flexHero h1{
   padding: 1em 1em;
-  font-size: 2.7em;
+  font-size: 3.5em;
   font-family: var(--font-sec);
   color: var(--primary-theme1);
   text-shadow: .04em .04em var(--border-clr3);

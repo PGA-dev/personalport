@@ -21,7 +21,7 @@ Taken 2012 by J. Bedient
   z-index: 10;
   /* background-image: var(--background-blend-radial4); */
   width: var(--screen-width);
-
+  border-bottom: .2em solid var(--border-clr1);
 }
 
 
@@ -54,18 +54,6 @@ Taken 2012 by J. Bedient
   display: none;
 }
 
-/* @media(max-width: 1100px){
-  .title{
-    display: inline-block;
-    background-image: var(--background-blend-radial4);
-    width: 100%;
-    text-align: center;
-    color: var(--primary-theme1) ;
-    padding: .1em;
-    text-shadow: .05em .05em var(--secondary-theme2);
-    font-size: var(--fs-heading-light);
-  }
-} */
 
 .container li .n,
 .container .dropBtn {
@@ -82,7 +70,6 @@ Taken 2012 by J. Bedient
   color: var(--alt-theme3);
   font-weight: var(--fw-bright-wow);
   text-shadow: .05em var(--primary-theme1);
-  /* background-color: var(--alt-theme3); */
 }
 
 .container li.dropDown {

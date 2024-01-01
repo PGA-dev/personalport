@@ -4,8 +4,8 @@
   display: flex;
   flex-flow: column wrap;
   background-image: var(--background-blend-linear4);
-  padding: .2em 1em;
-  width: var(--screen-width);
+  padding: 0em;
+  /* width: var(--screen-width); */
 }
 
 .flexEducation dl, dt, ul, li{
@@ -13,7 +13,7 @@
 }
 
 .flexEducation h1 {
-  padding: 1em;
+  padding: 1.5em 0em;
   color: var(--primary-theme1);
   text-shadow: .03em .03em var(--secondary-theme2);
 }
@@ -33,7 +33,7 @@
 .flexEducation>div {
   color: var(--primary-theme1);
   text-align: center;
-  /* padding: 20px 20px; */
+  padding: 0em;
   font-size: var(--fs-heading);
 }
 
@@ -59,6 +59,8 @@
   background-blend-mode: color-burn; 
   /* border: ridge .02em var(--border-clr3); */
   border-collapse: collapse;
+  overflow-x: clip;
+  overflow-clip-margin: .3em;
   /* width: max(100% - 1rem); */
 }
 .flexEducation .a {
@@ -115,10 +117,25 @@
   color: var(--table-clr1);
 }
 
-@media(max-width: 930px) {
+@media(max-width: 950px) {
+  .flexEducation{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    text-wrap: wrap;
+  }
+
+  .flexEducation>div{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    text-wrap: wrap;
+  }
+
   .flexEducation table {
     flex: 100%;
     width: 100%;
+    margin: .01em 2em .01em .01em;
 
   }
 

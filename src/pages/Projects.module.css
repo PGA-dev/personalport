@@ -30,11 +30,11 @@
   }
 
   .flexProject table {
-    margin:  3em;
+    margin:  .5em;
     background: var(--Tableback);
     border-collapse: collapse;
     overflow-x: clip;
-    overflow-clip-margin: 2em;
+    overflow-clip-margin: .3em;
   }
   
   .flexProject caption, .flexProject th, .flexProject td {
