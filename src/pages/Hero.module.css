@@ -53,7 +53,7 @@ Taken 2012 by J. Bedient
   padding: 2px;
   font-family: var(--font-sec);
   font-size: var(--fs-subhead);
-  color: var(--heading3-clr);
+  color: var(--secondary-theme1);
   font-weight: var(--fw-bright)
 }
 .flexHero h3:hover {

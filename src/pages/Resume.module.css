@@ -15,6 +15,7 @@
   }
 
   .flexResume h1 {
+    margin: 3em 0em 1em;
     padding: 1em;
     color: var(--primary-theme1);
     text-shadow: .03em .03em var(--secondary-theme2);

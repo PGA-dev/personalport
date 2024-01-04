@@ -44,31 +44,6 @@
   --link3-clr:  rgba(146, 19, 146,1);
   --link3-hover: #cffbff;
 
-  /*Heading Colors*/
-  --heading1-clr: rgba(0,200,255,1);
-  --heading1-hover: #cffbff;
-
-  --heading2-clr: rgba(0,255,255,1);
-  --heading2-hover: #cffbff;
-
-
-  --heading3-clr: #cffbff;
-  --heading3-hover: #a424ff;
-
-
-  --heading4-clr: #cffbff;
-  --heading4-hover: #a424ff;
-
-
-  --heading5-clr: hsl(275, 96%, 56%);
-  --heading5-hover: aqua;
-
-
-  --heading6-clr: slateblue;
-  --heading6-hover: aqua;
-
-  --heading7-clr: slateblue;
-  --heading7-hover: aqua;
 
 /*Table*/
 --Tableback: rgba(55,200,255,.7);
