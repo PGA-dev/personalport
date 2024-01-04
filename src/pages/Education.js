@@ -92,10 +92,55 @@ const Education = () => {
                         <th>Notes</th>
                     </tr>
                     <tr>
+                        <td data-cell="name">Full Stack Honors</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">April 17, 2023</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/honors/Backend_with_NodeJS-Full_Stack_Web_and_Mobile_Development_Certificate___Honor_Student_20017.pdf'><FaMedal /></a></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+                    <tr>
+                        <td data-cell="name">Front End Web Development</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">March 13, 2023</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Front_End_Web_and_Mobile_Development_Certificate___Honor_Student_19470.pdf'><FaCertificate /></a></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+                    <dialog></dialog>
+                    <tr>
+                        <td data-cell="name">Front End Web Developement Honors</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">March 13, 2023</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Front_End_Web_and_Mobile_Development_Certificate___Honor_Student_19470.pdf'><FaMedal /></a></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+
+                    <tr>
+                        <td data-cell="name">Front End Bootstrap</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">December 28, 2022</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Bootstrap_Course_Certificate_17957.pdf'><FaCertificate /></a></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+                    <tr>
                         <td data-cell="name">Web Dev Fundamentals</td>
                         <td data-cell="institution">Nucamp</td>
                         <td data-cell="date">May 2022</td>
                         <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/HTML%2C_CSS_and_JavaScript-HTML%2C_CSS_and_JavaScript_Course_Certificate_13820.pdf' target="_blank" rel="noreferrer"><FaCertificate /></a></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td data-cell="name">Front End: React</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">February 6, 2023</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/Dynamic_with_React-React_Course_Certificate_18611.pdf'><FaCertificate /></a></td>
+                        <td data-cell="notes"></td>
+                    </tr>
+                    <tr>
+                        <td data-cell="name">Front End: React Native</td>
+                        <td data-cell="institution">NuCamp</td>
+                        <td data-cell="date">March, 13, 2023</td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Front/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-React_Native_Course_Certificate_19469.pdf'><FaCertificate /></a></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
@@ -120,76 +165,13 @@ const Education = () => {
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
-                        <td data-cell="name">Dev Ops with Python Honors</td>
+                        <td data-cell="name">Back End Honors: Dev Ops with SQL and Python</td>
                         <td data-cell="institution">NuCamp</td>
                         <td data-cell="date">September 2022</td>
                         <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/Back/Modern_Software_Engineering_with_DevOps-Backend%2C_SQL%2C_and_DevOps_with_Python_Certificate___Honor_Student_16611.pdf'><FaMedal /></a></td>
                         <td data-cell="notes"></td>
                     </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <dialog></dialog>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
-                    <tr>
-                        <td data-cell="name"></td>
-                        <td data-cell="institution"></td>
-                        <td data-cell="date"></td>
-                        <td data-cell="link"></td>
-                        <td data-cell="notes"></td>
-                    </tr>
+
 
                 </table>
             </div>
