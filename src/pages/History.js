@@ -26,7 +26,8 @@ const History = () => {
                 <div>
                     <animated.div style={animatedStyle}>
                         <h1 ><i>PGA History</i></h1>
-
+                        <h4 ><i>And</i></h4>
+                        <h3 ><i>Extra Curricular</i></h3>
                     </animated.div>
 
                     <Link to='/' >

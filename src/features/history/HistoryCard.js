@@ -4,7 +4,6 @@ const HistoryCard = ({ history }) => {
 
     const { name1, name2, first, second, third, close } = history;
 
-    // const cardNum = id +1;
 
     return (
         <div className={styles.cardHistory}>
