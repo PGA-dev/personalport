@@ -141,3 +141,26 @@ Taken 2012 by J. Bedient
     display: none;
   }
  }
+
+ @media(max-width: 650px){
+  .container .ul, .container .a, .container .n {
+    float: none;
+  }
+
+  .container .a, .container .n {
+    margin: 0em 5em;
+    text-align: center;
+  }
+ }
+
+ @media(max-width: 400px){
+  .container .ul, .container .a, .container .n {
+    float: none;
+  }
+
+  .container .a, .container .n {
+    margin: 0em 2.7em;
+    padding: 0em;
+    text-align: center;
+  }
+ }
