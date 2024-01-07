@@ -117,7 +117,15 @@
 /*sizing*/
 --screen-width: min(100%);
 
+}
 
+
+html{
+  color-scheme: dark light;
+}
+
+img{
+  max-width: 100%;
 }
 
 .App {
