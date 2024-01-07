@@ -120,19 +120,6 @@ Taken 2012 by J. Bedient
 }
 
 
-/* @media (max-width: 1100px) {
-  .footer {
-    flex-flow: column wrap;
-     display: none; 
-  }
-  .footer > :nth-child(odd)  {
-    display: none;
-  }
-  .footer > :nth-child(even)  {
-    display: none;
-  }
-} */
-
 /* Used in SubHead */
 .footer h3 {
   padding: 2px;

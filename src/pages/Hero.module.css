@@ -42,7 +42,7 @@ Taken 2012 by J. Bedient
  
 /* For Home link*/
 .flexHero h1{
-  padding: 1em 1em;
+  padding: 1em 1em .2em 1em;
   font-size: 3.5em;
   font-family: var(--font-sec);
   color: var(--primary-theme1);
@@ -68,6 +68,7 @@ Taken 2012 by J. Bedient
 .flexHero .homeLink{
   z-index: -1;
 }
+
 
 .flexHero .homeLink::before {
   background: var(--alt-theme3);
