@@ -1,6 +1,4 @@
-@media screen {
-  
-}
+
 :root {
   /*New Nomenclature*/
 
@@ -73,7 +71,12 @@
   /*BACKGROUNDS*/
   --container-background: rgba(50, 50, 108, 1);
   --container-background2: rgba(0, 255, 255, .8);
-  --container-background-radial4: radial-gradient(var(--primary-border-theme2), var(--primary-border-theme1));
+  --color-hero-h3: rgba(255, 255, 255, .2);
+  --hero-blend-h3: linear-gradient(to right, var(--primary-theme1), var(--secondary-theme1));
+  --hover-color-hero-h3: rgba(255, 0, 0, .2);
+  --hero-blend-h3-hover: linear-gradient(to right, var(--secondary-theme1), var(--alt-theme1));
+  
+  --container-background-radial4: linear-gradient(var(--primary-border-theme2), var(--primary-border-theme1));
   --background-blend-radial1: radial-gradient(var(--site-black), var(--primary-theme1));
   --background-blend-radial2: radial-gradient(var(--primary-theme1), var(--site-black));
   --background-blend-radial3: radial-gradient(var(--site-white), var(--secondary-theme1));
@@ -125,6 +128,8 @@
 #fallback {
   color: var(--alt-theme4);
 }
+
+
 
 
 

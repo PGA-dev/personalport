@@ -24,18 +24,15 @@ const Hero = () => {
     return (
         <div className={styles.flexHero}>
 
-
-                
                 <animated.div style={animatedStyle}>
                     <div className={styles.homeLink}>
                     <h1>PGA</h1>
                     <Link to='/history'><img src={profile} alt='profile' width="300"
                         height="auto" className='profile' /></Link>
-                    <h3 className='text-center'><i>Full Stack Developer</i></h3></div>
+                    <h3 className='text-center'><i>Full Stack Developer</i></h3>
+                    </div>
                 </animated.div>
                 
-          
-
         </div>
     );
 };

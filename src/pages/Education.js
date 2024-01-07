@@ -95,7 +95,7 @@ const Education = () => {
                         <td data-cell="name">Full Stack Honors</td>
                         <td data-cell="institution">NuCamp</td>
                         <td data-cell="date">April 17, 2023</td>
-                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/honors/Backend_with_NodeJS-Full_Stack_Web_and_Mobile_Development_Certificate___Honor_Student_20017.pdf'><FaMedal /></a></td>
+                        <td data-cell="link"><a className={styles.a} href='https://github.com/PGA-dev/Cert/blob/main/honors/Backend_with_NodeJS-Full_Stack_Web_and_Mobile_Development_Certificate___Honor_Student_20017.pdf'  target="_blank" rel="noreferrer"><FaMedal /></a></td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
