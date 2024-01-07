@@ -49,17 +49,6 @@ Taken 2012 by J. Bedient
   text-shadow: .04em .04em var(--border-clr3);
 }
 
-/* .flexHero h3 {
-  padding: 2px;
-  font-family: var(--font-sec);
-  font-size: var(--fs-subhead);
-  color: var(--secondary-theme1);
-  font-weight: var(--fw-bright)
-}
-
-.flexHero h3:hover {
-  color: var(--alt-theme2)
-} */
 
 
 .flexHero h3 {
