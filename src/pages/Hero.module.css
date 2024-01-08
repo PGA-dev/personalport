@@ -55,16 +55,26 @@ Taken 2012 by J. Bedient
   padding: 2px;
   font-family: var(--font-sec);
   font-size: var(--fs-subhead);
-  color: var(--color-hero-h3, rgba(255, 255, 255, .2)); 
+  color: var(--color-hero-h3, rgba(255, 255, 255, .0)); 
   background-clip: text;
   background-image: var(--hero-blend-h3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
 }
+
+
 
 .flexHero h3:hover {
   color: var(--hover-color-hero-h3, rgba(255, 255, 255, .2)); 
   background-clip: text;
   background-image: var(--hero-blend-h3-hover);
+  background-size: 100% 100%;
+
 }
+
+
+
 .flexHero .homeLink{
   z-index: -1;
 }
@@ -96,63 +106,38 @@ Taken 2012 by J. Bedient
 
 @keyframes colorback {
   0% {
-    background-color: var(--site-black);
+    background-color: var(--hero-blue);
   }
 
-  10% {
-    background-color: var(--site-black2);
+  5% {
+    background-color: var(--hero-blue2);
   }
 
-  25% {
-    background-color: var(--site-black);
-  }
-
-  50% {
-    background-color: var(--site-white2);
-  }
-
-  75% {
-    background-color: var(--site-black);
-  }
-
-  90% {
-    background-color: var(--site-black2);
-  }
-
-  100% {
-    background-color: var(--site-black);
-  }
-}
-
-@keyframes backback {
-  0% {
-    background-image: var(---background-blend-linear1);
-  }
-
-  10% {
-    background-image: var(---background-blend-linear2);
+  15% {
+    background-color: var(--hero-blue3);
   }
 
   25% {
-    background-image: var(---background-blend-linear3);
+    background-color: var(--hero-blue4);
   }
 
-  50% {
-    background-image: var(---background-blend-linear4);
+  65% {
+    background-color: var(--site-black);
   }
 
-  75% {
-    background-image: var(---background-blend-linear3);
+  85% {
+    background-color: var(--hero-blue3);
   }
 
   90% {
-    background-image: var(---background-blend-linear2);
+    background-color: var(--hero-blue2);
   }
 
   100% {
-    background-image: var(---background-blend-linear1);
+    background-color: var(--hero-blue);
   }
 }
+
 
 @media (max-width: 1250px){
   .flexHero>div{

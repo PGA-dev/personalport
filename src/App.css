@@ -5,10 +5,12 @@
   /*COLORS*/
   /*wHITE/BLACK/BASE*/
   --site-black: black;
-  --site-black2: rgba(0, 0, 0, .5);
-  --site-black3: rgba(0, 0, 0, .01);
+  --site-black2: rgba(0,0,0,.0);
   --site-white: white;
-  --site-white2: rgba(255, 255, 255, .0);
+  --hero-blue: rgba(0, 0, 255, .01);
+  --hero-blue2: rgba(50, 0, 255, .03);
+  --hero-blue3: rgba(100, 0, 255, .05);
+  --hero-blue4: rgba(155, 0, 255, .1);
 
   /*primary Theme Colors*/
   --primary-theme1: rgba(0,255,255,1);
@@ -74,7 +76,7 @@
   /*BACKGROUNDS*/
   --container-background: rgba(50, 50, 108, 1);
   --container-background2: rgba(0, 255, 255, .8);
-  --color-hero-h3: rgba(255, 255, 255, .2);
+  --color-hero-h3: rgba(255, 255, 255, .0);
   --hero-blend-h3: linear-gradient(to right, var(--primary-theme1), var(--secondary-theme1));
   --hover-color-hero-h3: rgba(255, 0, 0, .2);
   --hero-blend-h3-hover: linear-gradient(to right, var(--secondary-theme1), var(--alt-theme1));
