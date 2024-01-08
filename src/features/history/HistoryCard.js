@@ -10,12 +10,12 @@ const HistoryCard = ({ history }) => {
             <dl>
                 <dt>{name1}</dt>
                 <dt>{name2}</dt>
-                <dt><span>First paragraph: </span></dt>
+                <dt><span></span></dt>
                 <dt>{first}</dt>
-                <dt><span>Second paragraph: </span></dt>
-                <dt>{second}</dt><dt><span>Third paragraph: </span></dt>
+                <dt><span></span></dt>
+                <dt>{second}</dt><dt><span></span></dt>
                 <dt>{third}</dt>
-                <dt><span>Final paragraph: </span></dt>
+                <dt><span></span></dt>
                 <dt>{close}</dt>
             </dl>
 

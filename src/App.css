@@ -5,7 +5,10 @@
   /*COLORS*/
   /*wHITE/BLACK/BASE*/
   --site-black: black;
+  --site-black2: rgba(0, 0, 0, .5);
+  --site-black3: rgba(0, 0, 0, .01);
   --site-white: white;
+  --site-white2: rgba(255, 255, 255, .0);
 
   /*primary Theme Colors*/
   --primary-theme1: rgba(0,255,255,1);

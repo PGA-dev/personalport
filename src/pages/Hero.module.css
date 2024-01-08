@@ -71,7 +71,7 @@ Taken 2012 by J. Bedient
 
 
 .flexHero .homeLink::before {
-  background: var(--alt-theme3);
+  background: var(--color-hero-h3);
   content: "";
   inset: 0;
   position: absolute;
@@ -84,7 +84,7 @@ Taken 2012 by J. Bedient
 
 .flexHero .homeLink:hover::before {
   transform: scaley(1);
-  animation: colorback 7500ms infinite;
+  animation: colorback 5000ms infinite;
 }
 
 
@@ -96,31 +96,61 @@ Taken 2012 by J. Bedient
 
 @keyframes colorback {
   0% {
-    background-color: var(--secondary-theme1);
+    background-color: var(--site-black);
   }
 
   10% {
-    background-color: var(--alt-theme4);
+    background-color: var(--site-black2);
   }
 
   25% {
-    background-color: var(--primary-theme1);
+    background-color: var(--site-black);
   }
 
   50% {
-    background-color: var(--alt-theme3);
+    background-color: var(--site-white2);
   }
 
   75% {
-    background-color: var(--primary-theme1);
+    background-color: var(--site-black);
   }
 
   90% {
-    background-color: var(--alt-theme4);
+    background-color: var(--site-black2);
   }
 
   100% {
-    background-color: var(--secondary-theme1);
+    background-color: var(--site-black);
+  }
+}
+
+@keyframes backback {
+  0% {
+    background-image: var(---background-blend-linear1);
+  }
+
+  10% {
+    background-image: var(---background-blend-linear2);
+  }
+
+  25% {
+    background-image: var(---background-blend-linear3);
+  }
+
+  50% {
+    background-image: var(---background-blend-linear4);
+  }
+
+  75% {
+    background-image: var(---background-blend-linear3);
+  }
+
+  90% {
+    background-image: var(---background-blend-linear2);
+  }
+
+  100% {
+    background-image: var(---background-blend-linear1);
   }
 }
 
