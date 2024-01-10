@@ -27,7 +27,7 @@ const Education = () => {
                     <animated.div style={animatedStyle}>
                         <h1 >My Education and Certifications</h1>
                     </animated.div>
-
+                    <p>This is for our scrolling experiment, it will probably kill us before it makes us stronger!!! Wee need a few more lines...</p>
                 </div>
             </div>
 

@@ -8,6 +8,23 @@
   /* width: var(--screen-width); */
 }
 
+.flexEducation p{
+  visibility: hidden;
+  color: var(--color-hero-h3);
+  background-clip: text;
+  background-repeat: no-repeat;
+  background-size: 100% 0%;
+  background-image: var(--hero-blend-h3);
+  animation: flexp linear;
+  animation-timeline: view();
+}
+
+@keyframes flexp {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
 .flexEducation dl, dt, ul, li{
  color:var(--primary-theme1);
 }
