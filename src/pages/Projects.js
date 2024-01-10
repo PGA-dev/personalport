@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Projects.module.css';
-import { FaLink } from "react-icons/fa";
+import { FaLink, FaDatabase } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -50,7 +50,7 @@ const Projects = () => {
                         <td data-cell="company">Personal</td>
                         <td data-cell="technology">React,Redux,React Browser,HTML,CSS</td>
                         <td data-cell="repo">
-                            <a className={styles.a} href='https://github.com/PGA-dev/personalport' target="_blank" rel="noreferrer"><FaLink/></a>
+                            <a className={styles.a} href='https://github.com/PGA-dev/personalport' target="_blank" rel="noreferrer"><FaDatabase/></a>
                         </td>
                         <td data-cell="notes">Static portfolio site</td>
                     </tr>
@@ -60,7 +60,7 @@ const Projects = () => {
                         <td data-cell="company">NuCamp</td>
                         <td data-cell="technology">HTML, CSS, Javascript</td>
                         <td data-cell="repo">
-                            <a className={styles.a} href='https://github.com/PGA-dev/match_game' target="_blank" rel="noreferrer"><FaLink/></a>
+                            <a className={styles.a} href='https://github.com/PGA-dev/match_game' target="_blank" rel="noreferrer"><FaDatabase/></a>
                         </td>
                         <td data-cell="notes">Final Project for Web Dev Fundamentals class, enhanced by PGA</td>
                     </tr>
@@ -70,7 +70,7 @@ const Projects = () => {
                         <td data-cell="company">NuCamp</td>
                         <td data-cell="technology">HTML, CSS, Javascript</td>
                         <td data-cell="repo">
-                            <a className={styles.a} href='https://github.com/PGA-dev/pgaguitar_pp' target="_blank" rel="noreferrer"><FaLink/></a>
+                            <a className={styles.a} href='https://github.com/PGA-dev/pgaguitar_pp' target="_blank" rel="noreferrer"><FaDatabase/></a>
                         </td>
                         <td data-cell="notes">Final Project for React.js, and Front end honors graduation</td>
                     </tr>
@@ -80,7 +80,7 @@ const Projects = () => {
                         <td data-cell="company">NuCamp</td>
                         <td data-cell="technology">HTML, CSS, Javascript</td>
                         <td data-cell="repo">
-                            <a className={styles.a} href='https://github.com/PGA-dev/grocery' target="_blank" rel="noreferrer"><FaLink/></a>
+                            <a className={styles.a} href='https://github.com/PGA-dev/grocery' target="_blank" rel="noreferrer"><FaDatabase/></a>
                         </td>
                         <td data-cell="notes">Final Project for Python/Dev Ops/SQL classes, and Back End honors graduation</td>
                     </tr>
@@ -90,7 +90,7 @@ const Projects = () => {
                         <td data-cell="company">NuCamp</td>
                         <td data-cell="technology">HTML, CSS, Javascript, Node.Js, React, Redux</td>
                         <td data-cell="repo">
-                            <a className={styles.a} href='https://github.com/PGA-dev/pgaguitarexp' target="_blank" rel="noreferrer"><FaLink/></a>
+                            <a className={styles.a} href='https://github.com/PGA-dev/pgaguitarexp' target="_blank" rel="noreferrer"><FaDatabase/></a>
                         </td>
                         <td data-cell="notes">Final Project for Node JS class, and honors graduation project</td>
                     </tr>

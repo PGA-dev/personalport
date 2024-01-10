@@ -52,11 +52,11 @@
     text-shadow: .02em .02em var(--table-heading);
   }
   
-  .flexProject.a {
+  .flexProject .a {
     font-weight: var(--fw-bright);
     color: var(--table-clr1);
     font-family: var(--font-sec);
-    padding: .5em;
+    padding: .5em 0em .5em 1em;
     font-size: 1.1em;
   }
   
