@@ -94,7 +94,7 @@ Taken 2012 by J. Bedient
 
 .flexHero .homeLink:hover::before {
   transform: scaley(1);
-  animation: colorback 5000ms infinite;
+  animation: colorback 3500ms infinite;
 }
 
 

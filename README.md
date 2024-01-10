@@ -1,10 +1,13 @@
 # PGA Personal Portfolio
 
+## Home/Hero
+
 ## History
 
 ## Education
 
-## Experience Grid
+## Experience/Projects
 
-## Resume and links
+## Resume and Certifications
 
+## Site References 
