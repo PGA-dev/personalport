@@ -13,7 +13,7 @@
   color: var(--color-hero-h3);
   background-clip: text;
   background-repeat: no-repeat;
-  background-size: 100% 0%;
+  background-size: 0% 0%;
   background-image: var(--hero-blend-h3);
   animation: flexp linear;
   animation-timeline: view();
