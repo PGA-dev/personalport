@@ -4,7 +4,7 @@
     inherits: false;
   }
 
-  /*blur effect*/
+  /*blur effect Cards*/
   .card {
     background-image: var(--background-blend-linear2);
     border-radius: .9em;
