@@ -1,7 +1,11 @@
 
-
+html{
+    color-scheme: dark light;
+  }
+  
 .res {
     background-color: inherit;
+    color-scheme: dark light;
     height: 1000px;
 }
 

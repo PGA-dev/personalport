@@ -1,5 +1,7 @@
 /* Resume CSS */
 
+
+
   .flexResume {
     display: flex;
     flex-flow: column wrap;
@@ -7,6 +9,11 @@
     width: var(--screen-width);
   }
 
+.flexResume .res{
+color-scheme: dark light;
+margin: 5em 0em 5em;
+height: 1000px;
+}
   .flexResume> div {
     background-image: var(--background-blend-linear1);
     text-align: center;
