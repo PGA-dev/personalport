@@ -9,11 +9,11 @@
     width: var(--screen-width);
   }
 
-.flexResume .res{
-color-scheme: dark light;
-margin: 5em 0em 5em;
-height: 1000px;
-}
+  .flexResume .res{
+  color-scheme: dark light;
+  margin: 5em 0em 5em;
+  height: 1000px;
+  }
   .flexResume> div {
     background-image: var(--background-blend-linear1);
     text-align: center;
@@ -29,6 +29,13 @@ height: 1000px;
   }
 
   .flexResume h4{
+    color: var(--alt-theme3);
+    text-shadow: .02em .02em var(--table-heading);
+  }
+
+  .flexResume h6{
+    font-size: .7em;
+    padding: .5em;
     color: var(--alt-theme3);
     text-shadow: .02em .02em var(--table-heading);
   }

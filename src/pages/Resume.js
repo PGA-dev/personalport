@@ -32,6 +32,7 @@ const Resume = () => {
             <div >
                 <animated.div style={animatedStyle}>
                     <h4 ><i>Click Button to view Resume</i></h4>
+                    <h6>Download or print resume controls found on bottom right of document!</h6>
                     <button className={styles.button}
                         onClick={() => setIsResume(prev => !prev)}>
                         Resume
