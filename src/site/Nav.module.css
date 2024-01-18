@@ -143,6 +143,10 @@ Taken 2012 by J. Bedient
  }
 
  @media(max-width: 650px){
+
+  .container {
+    position:relative;
+  }
   .container .ul, .container .a, .container .n {
     float: none;
   }
