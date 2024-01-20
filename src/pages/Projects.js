@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styles from './Projects.module.css';
-import { FaLink, FaDatabase } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
 
 const Projects = () => {
 

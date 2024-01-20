@@ -114,19 +114,19 @@ const Resume = () => {
                     <tr>
                         <td data-cell="Skill">React Native</td>
                         <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
-                        <td data-cell="certificates"></td>
-                        <td data-cell="company"></td>
+                        <td data-cell="years">1</td>
+                        <td data-cell="certificates">NuCamp ReactNative</td>
+                        <td data-cell="company">NuCamp</td>
                         <td data-cell="notes"></td>
                     </tr>
 
                     <tr>
                         <td data-cell="Skill">C#</td>
-                        <td data-cell="Proficiency"></td>
-                        <td data-cell="years"></td>
+                        <td data-cell="Proficiency">Novice-Beginner</td>
+                        <td data-cell="years">2</td>
                         <td data-cell="certificates"></td>
-                        <td data-cell="company"></td>
-                        <td data-cell="notes"></td>
+                        <td data-cell="company">RDI</td>
+                        <td data-cell="notes">Out of practice, not currently using C#...used during my time at RDI</td>
                     </tr>
 
                     <tr>
@@ -136,6 +136,14 @@ const Resume = () => {
                         <td data-cell="certificates">None</td>
                         <td data-cell="company"></td>
                         <td data-cell="notes">Took a C++ game dev Pre course 8 years ago</td>
+                    </tr>
+                    <tr>
+                    <td data-cell="Skill">Git</td>
+                        <td data-cell="Proficiency">Intermediate</td>
+                        <td data-cell="years">3-5</td>
+                        <td data-cell="certificates">None</td>
+                        <td data-cell="company">RDI, NuCamp</td>
+                        <td data-cell="notes">Have used Git fairly regularly for most of my development and testing career.</td>
                     </tr>
 
                 </table>
