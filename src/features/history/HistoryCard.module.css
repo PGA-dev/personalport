@@ -2,10 +2,10 @@
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
-  }
+}
 
-  /*blur effect*/
-  .cardHistory {
+/*blur effect*/
+.cardHistory {
     background-image: var(--background-blend-linear2);
     border-radius: .9em;
     aspect-ratio: 1 / .3;
@@ -33,8 +33,7 @@
             var(--card-theme2),
             var(--card-theme3),
             var(--card-theme2),
-            var(--card-theme1)
-            );
+            var(--card-theme1));
     border-radius: inherit;
     animation: rotation 20000ms linear infinite;
 }
@@ -68,10 +67,11 @@
 
 .cardHistory>dl span {
     color: var(--site-white);
-    padding:.2em;
+    padding: .2em;
 }
 
 .cardHistory dt {
+    font-family: var(--font-sec);
     color: var(--primary-theme1);
-  text-shadow: .03em .03em var(--secondary-theme1);
+    text-shadow: .03em .03em var(--secondary-theme1);
 }
