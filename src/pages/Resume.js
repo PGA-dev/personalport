@@ -51,11 +51,11 @@ const Resume = () => {
                         <th>Current Proficiency</th>
                         <th>Years Used</th>
                         <th>Certificates</th>
-                        <th>Projects/Companies Used</th>
+                        <th>School/Companies Used</th>
                         <th>Notes</th>
                     </tr>
                     <tr>
-                        <td data-cell="skill">Html</td>
+                        <td data-cell="skill">HTML</td>
                         <td data-cell="proficiency">Intermediate-Advanced</td>
                         <td data-cell="years">25</td>
                         <td data-cell="certificates">NuCamp Web Fund</td>
@@ -107,7 +107,7 @@ const Resume = () => {
                         <td data-cell="Proficiency">Beginner-Intermediate</td>
                         <td data-cell="years">2</td>
                         <td data-cell="certificates">Nucamp Python fundamentals, NuCamp SQL with Python, NuCamp DevOps, NuCamp Backend development, NuCamp Backend Honors development</td>
-                        <td data-cell="company"></td>
+                        <td data-cell="company">NuCamp</td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
@@ -115,7 +115,7 @@ const Resume = () => {
                         <td data-cell="Proficiency">Intermediate</td>
                         <td data-cell="years">2</td>
                         <td data-cell="certificates">Nucamp Front End Honors, NuCamp Front End Developer, NuCamp React, NuCamp React Native, NuCamp Node.js</td>
-                        <td data-cell="company"></td>
+                        <td data-cell="company">NuCamp</td>
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
