@@ -113,7 +113,7 @@
   font-style: italic;
   font-weight: var(--fw-bright-wow);
   color: var(--table-caption);
-  padding: 0em 0em 0em 0.5em;
+  padding: 0em 0em 1em 0.5em;
   text-shadow: .02em .02em var(--table-heading);
 }
 
