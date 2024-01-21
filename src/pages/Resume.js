@@ -59,16 +59,16 @@ const Resume = () => {
                         <td data-cell="proficiency">Intermediate-Advanced</td>
                         <td data-cell="years">25</td>
                         <td data-cell="certificates">NuCamp Web Fund</td>
-                        <td data-cell="company">Ebay, RDI, Nucamp</td>
-                        <td data-cell="notes">No notes</td>
+                        <td data-cell="company">Ebay Store, RDI, NuCamp</td>
+                        <td data-cell="notes"></td>
                     </tr>
                     <tr>
                         <td data-cell="Skill">Javascript</td>
                         <td data-cell="Proficiency">Beginner-Intermediate</td>
                         <td data-cell="years">4-5</td>
                         <td data-cell="certificates">NuCamp React, React Native, Bootstrap, NuCamp Honors Front End, NuCamp Honors Full Stack, NuCamp Node.js</td>
-                        <td data-cell="company"></td>
-                        <td data-cell="notes"></td>
+                        <td data-cell="company">NuCamp, RDI</td>
+                        <td data-cell="notes">Most of my experience in JS during my RDI years were using JQuerry, vanilla JS experience was mostly during my studies at NuCamp and when I programmed my own Ebay sites.</td>
                     </tr>
                     <tr>
                         <td data-cell="Skill">Typescript</td>
@@ -79,22 +79,29 @@ const Resume = () => {
                         <td data-cell="notes"></td>
                     </tr>
                     <tr>
+                        <td data-cell="Skill">JQuery</td>
+                        <td data-cell="Proficiency">Beginner</td>
+                        <td data-cell="years">2 years</td>
+                        <td data-cell="certificates">NuCamp Bootstrap Front End</td>
+                        <td data-cell="company">RDI, NuCamp</td>
+                        <td data-cell="notes">This was a skill that I was up on until it became deprecated in almost every project application. If necessary I can revitalize my knowledge of JQuery fairly quickly.</td>
+                    </tr>
+                    <tr>
                         <td data-cell="Skill">SQL</td>
                         <td data-cell="Proficiency">Intermediate</td>
                         <td data-cell="years">10</td>
-                        <td data-cell="certificates"></td>
+                        <td data-cell="certificates">NuCamp SQL with Python</td>
                         <td data-cell="company">RDI, NuCamp</td>
-                        <td data-cell="notes"></td>
+                        <td data-cell="notes">NuCamp was a review of most of my SQL query skills, but during my time at RDI I worked with MSSQL to build SProcedures, Views, triggers and functions.</td>
                     </tr>
                     <tr>
                         <td data-cell="Skill">CSS</td>
                         <td data-cell="Proficiency">Intermediate</td>
                         <td data-cell="years">20+</td>
                         <td data-cell="certificates">NuCamp WebDev Fundamentals</td>
-                        <td data-cell="company"></td>
+                        <td data-cell="company">RDI, NuCamp</td>
                         <td data-cell="notes"></td>
                     </tr>
-                    <dialog></dialog>
                     <tr>
                         <td data-cell="Skill">Python</td>
                         <td data-cell="Proficiency">Beginner-Intermediate</td>

@@ -70,3 +70,8 @@
     color: var(--site-white);
     padding:.2em;
 }
+
+.cardHistory dt {
+    color: var(--primary-theme1);
+  text-shadow: .03em .03em var(--secondary-theme1);
+}
