@@ -4,14 +4,13 @@ html{
   }
   
 .res {
-    background-color: inherit;
     color-scheme: dark light;
-    height: 1000px;
+    height: 1250px;
 }
 
-.res h1{
+/* .res h1{
     color: inherit;
 }
 .res h4{
     color: inherit;
-}
+} */

@@ -40,7 +40,7 @@
     text-shadow: .02em .02em var(--table-heading);
   }
 
-  .flexResume>div .button{
+  .flexResume button, .flexResume .button{
     margin: .05em .05em 2em;
     display: inline-block;
     text-decoration: none;
@@ -52,8 +52,17 @@
   }
 
 
-  .flexResume>div .button:hover{
+  .flexResume button:hover, .flexResume .button:hover{
+    cursor: pointer;
     border: .2em solid var(--alt-theme2);
+  }
+
+  .flexResume button:active, .flexResume .button:active{
+    cursor: grab;
+    background-color: var(--alt-theme2);
+    border: .2em solid var(--alt-theme1);
+    box-shadow: 0em .05em var(--alt-theme3);
+
   }
 
   .flexResume table {
@@ -100,7 +109,7 @@
     font-style: italic;
     font-weight: var(--fw-bright-wow);
     color: var(--table-caption);
-    padding: 0em 0em 0em 0.5em;
+    padding: 0em 0em 1em 0.5em;
     text-shadow: .02em .02em var(--table-heading);
   }
   
