@@ -76,7 +76,7 @@ const Resume = () => {
                         <td data-cell="years">.5 (6 months)</td>
                         <td data-cell="certificates"></td>
                         <td data-cell="company"></td>
-                        <td data-cell="notes"></td>
+                        <td data-cell="notes">Currently working on Typescript</td>
                     </tr>
                     <tr>
                         <td data-cell="Skill">JQuery</td>

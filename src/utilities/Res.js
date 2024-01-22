@@ -1,5 +1,5 @@
 // import resume from '../app/resume.docx';
-import styles from "./Res.module.css"
+// import styles from "./Res.module.css"
 import DocViewer, {DocViewerRenderers} from "@cyntler/react-doc-viewer";
 //uri: require("../app/resources/FullStackDev.docx") -- current version of docx renderers don't work well with localhost uri
 //
