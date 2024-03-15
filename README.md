@@ -1,13 +1,12 @@
 # PGA Personal Portfolio
 
-## Home/Hero
 
-## History
+## Layout
+- #### Home/Hero
+- #### History
+- #### Education
+- #### Experience/Projects
+- #### Resume and Certifications
+- #### Site References 
 
-## Education
-
-## Experience/Projects
-
-## Resume and Certifications
-
-## Site References 
+[PortfolioPage](https://pgaportfolio.netlify.app/)
