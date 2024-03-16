@@ -8,7 +8,7 @@ const Res = () => {
     const resdocs = [
         {uri: "https://github.com/PGA-dev/document/raw/main/word/fsEngineer.docx",
         fileType: "docx",
-        fileName: "FullStackDev.docx"
+        fileName: "fsEngineer.docx"
         },
     ]
 
