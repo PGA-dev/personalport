@@ -25,7 +25,7 @@ const Nav = () => {
                 </a>
                     <a className={styles.a} href='https://github.com/PGA-dev' target="_blank" rel="noreferrer"><FaGithub /></a>
                     <a className={styles.a} href="https://www.linkedin.com/in/paul-adam-86ba423b/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-                <a className={styles.a} href='https://www.youtube.com/channel/UCdSa6weDVHCPFJzjE9M4foA' target="_blank" rel="noreferrer"><FaYoutube /></a>
+                <a className={styles.a} href='https://www.youtube.com/@pauladam8765' target="_blank" rel="noreferrer"><FaYoutube /></a>
                 <a className={styles.a} href='https://gitlab.com/pga_dev/Portfolio' target="_blank" rel="noreferrer"><FaGitlab/></a>
                 </div>
             </ul>
