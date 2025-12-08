@@ -10,7 +10,8 @@ import { FaLinkedin, FaGithub, FaEnvelopeOpen, FaYoutube, FaGitlab } from "react
 const Footer = () => {
 
     const [toggle, setToggle] = useState(false);
-
+    //const [light, setlight] = useState(false);
+    
     const animatedStyle = useSpring({
         opacity: toggle ? 1 : 0,
         transform: toggle ? 'scale(1,1)' : 'scale(0,0)',
