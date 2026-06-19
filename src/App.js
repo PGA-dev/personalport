@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Hero from './pages/Hero';
 
-
+//clean and remove lazy on main site
 const History = lazy(() => import('./pages/History'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Education = lazy(() => import('./pages/Education'));
